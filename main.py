@@ -12,4 +12,4 @@ if __name__ == '__main__':
     df_pd = df_pd.dropna(subset=['tweet_text'])
     df_pd = df_pd.dropna(subset=['is_there_an_emotion_directed_at_a_brand_or_product'])
     df_pd['hashtag'] = df_pd['tweet_text'].apply(lambda x: re.findall(r"#(\w+)", x))
-    print(df_pd.head(10))
+    print(df_pd.head(20))
