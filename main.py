@@ -7,12 +7,18 @@ nltk.download
 nltk.download('wordnet')
 nltk.download('stopwords')
 from nltk.tokenize import TweetTokenizer
+from ekphrasis.classes.segmenter import Segmenter
 import preprocessor as p
 
 
 def readfile(filepath):
     return pd.read_csv(filepath)
 
+def splitUpTweets(data, corpus):
+    a = []
+    if (data != a):
+        listToStr1 = ' '.join([str(elem) for elem in data])
+        return corpus.segment(listToStr1)
 
 def remove_punctuation(words):
     new_words = []
@@ -27,12 +33,14 @@ def remove_punctuation(words):
 if __name__ == '__main__':
     df_pd = readfile("crowdflower-brands-and-product-emotions/data/judge_1377884607_tweet_product_company.csv")
 
-    # remove nulls
-    df_pd = df_pd.dropna(subset=['tweet_text'])
-    df_pd = df_pd.dropna(subset=['is_there_an_emotion_directed_at_a_brand_or_product'])
+    # remove nulls and reset index
+    df_pd = df_pd.dropna(subset=['tweet_text', 'is_there_an_emotion_directed_at_a_brand_or_product'])
+    df_pd.reset_index(drop=True, inplace=True)
 
-    # extract hashtag
+    # extract and decompound hashtag
+    seg_tw = Segmenter(corpus="twitter")
     df_pd['hashtag'] = df_pd['tweet_text'].apply(lambda x: re.findall(r"#(\w+)", x))
+    df_pd['seghash'] = df_pd['hashtag'].apply(lambda x: splitUpTweets(x,seg_tw))
 
     # TODO: extract emojis and smileys
 
@@ -49,8 +57,11 @@ if __name__ == '__main__':
     # TODO: extract ?? and !! (can have more than 2)
 
     # lemamatization and tokenization
+    lematizer = nltk.stem.WordNetLemmatizer()
+    tokenizer = TweetTokenizer()
+
     words = lower_case.apply(
-        lambda x: [(nltk.stem.WordNetLemmatizer().lemmatize(w)) for w in TweetTokenizer().tokenize(x)])
+        lambda x: [(lematizer.lemmatize(w)) for w in tokenizer.tokenize(x)])
 
     # remove punctation
     words = words.apply(remove_punctuation)
@@ -59,6 +70,6 @@ if __name__ == '__main__':
     stop_words = set(stopwords.words('english'))
     no_stop_words = words.apply(lambda x: [item for item in x if item not in stop_words])
 
-    df_pd['text'] = no_stop_words
-
-    print(df_pd.head(20))
+    # display
+    pd.set_option('display.max_columns', None)
+    print (df_pd.head(20))
