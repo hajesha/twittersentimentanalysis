@@ -1,3 +1,6 @@
+import preprocessor as p
+from ekphrasis.classes.segmenter import Segmenter
+from nltk.tokenize import TweetTokenizer
 import nltk
 import re
 from nltk.corpus import stopwords
@@ -6,19 +9,18 @@ import pandas as pd
 nltk.download
 nltk.download('wordnet')
 nltk.download('stopwords')
-from nltk.tokenize import TweetTokenizer
-from ekphrasis.classes.segmenter import Segmenter
-import preprocessor as p
 
 
 def readfile(filepath):
     return pd.read_csv(filepath)
+
 
 def splitUpTweets(data, corpus):
     a = []
     if (data != a):
         listToStr1 = ' '.join([str(elem) for elem in data])
         return corpus.segment(listToStr1)
+
 
 def remove_punctuation(words):
     new_words = []
@@ -31,16 +33,20 @@ def remove_punctuation(words):
 
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
-    df_pd = readfile("crowdflower-brands-and-product-emotions/data/judge_1377884607_tweet_product_company.csv")
+    df_pd = readfile(
+        "crowdflower-brands-and-product-emotions/data/judge_1377884607_tweet_product_company.csv")
 
     # remove nulls and reset index
-    df_pd = df_pd.dropna(subset=['tweet_text', 'is_there_an_emotion_directed_at_a_brand_or_product'])
+    df_pd = df_pd.dropna(
+        subset=['tweet_text', 'is_there_an_emotion_directed_at_a_brand_or_product'])
     df_pd.reset_index(drop=True, inplace=True)
 
     # extract and decompound hashtag
     seg_tw = Segmenter(corpus="twitter")
-    df_pd['hashtag'] = df_pd['tweet_text'].apply(lambda x: re.findall(r"#(\w+)", x))
-    df_pd['seghash'] = df_pd['hashtag'].apply(lambda x: splitUpTweets(x,seg_tw))
+    df_pd['hashtag'] = df_pd['tweet_text'].apply(
+        lambda x: re.findall(r"#(\w+)", x))
+    df_pd['seghash'] = df_pd['hashtag'].apply(
+        lambda x: splitUpTweets(x, seg_tw))
 
     # TODO: extract emojis and smileys
 
@@ -68,8 +74,10 @@ if __name__ == '__main__':
 
     # remove stop words
     stop_words = set(stopwords.words('english'))
-    no_stop_words = words.apply(lambda x: [item for item in x if item not in stop_words])
+    no_stop_words = words.apply(
+        lambda x: [item for item in x if item not in stop_words])
 
     # display
     pd.set_option('display.max_columns', None)
-    print (df_pd.head(20))
+    print(df_pd.head(20))
+    print("Red sus")
