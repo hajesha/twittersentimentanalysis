@@ -12,13 +12,13 @@ nltk.download('stopwords')
 
 
 def readfile(filepath):
-    return pd.read_csv(filepath)
+    return pd.read_csv(filepath, encoding='utf-8', memory_map=True)
 
 
 def splitUpTweets(data, corpus):
     a = []
     if (data != a):
-        listToStr1 = ' '.join([str(elem) for elem in data])
+        listToStr1 = ' '.join([str(elem.lower()) for elem in data])
         return corpus.segment(listToStr1)
 
 
@@ -31,6 +31,7 @@ def remove_punctuation(words):
     return new_words
 
 
+# df = data drame
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
     df_pd = readfile(
@@ -53,9 +54,12 @@ if __name__ == '__main__':
     # remove url, hashtags, mentions, RT and FV words, emojis, smileys
     for v, i in enumerate(df_pd['tweet_text']):
         df_pd.loc[v, "text"] = p.clean(i)
+        df_pd.loc[v, "text"] = p.clean(i.partition("RT")[0])
+        # df_pd.loc[v, "text"] = p.clean(i.partition("FV")[0])
 
     # remove numbers
     data = df_pd['text'].astype(str).str.replace('\d+', '')
+    # data = re.sub('[^0-9a-zA-Z]+', ' ', (str)df_pd['text'])
 
     # lowercase
     lower_case = data.str.lower()
@@ -79,5 +83,5 @@ if __name__ == '__main__':
 
     # display
     pd.set_option('display.max_columns', None)
-    print(df_pd.head(20))
-    print("Red sus")
+    print(df_pd.head(50))
+    #print("Red sus")
