@@ -5,6 +5,8 @@ import nltk
 import re
 from nltk.corpus import stopwords
 import pandas as pd
+import csv
+
 
 nltk.download
 nltk.download('wordnet')
@@ -83,5 +85,6 @@ if __name__ == '__main__':
 
     # display
     pd.set_option('display.max_columns', None)
-    print(df_pd.head(50))
+    # print(df_pd.head(50))
     #print("Red sus")
+data.to_csv('results.csv', encoding='utf-8', header=False)
