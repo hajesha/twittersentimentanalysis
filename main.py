@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 import preprocessor as p
 from ekphrasis.classes.segmenter import Segmenter
 from nltk.tokenize import TweetTokenizer
@@ -100,3 +101,5 @@ if __name__ == '__main__':
 
     # output the files
     output_df.to_csv('results.csv', encoding='utf-8', header=False)
+=======
+>>>>>>> Stashed changes
