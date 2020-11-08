@@ -1,10 +1,10 @@
-import preprocessor as p
-from ekphrasis.classes.segmenter import Segmenter
-from nltk.tokenize import TweetTokenizer
-import nltk
-import re
-from nltk.corpus import stopwords
 import pandas as pd
+from nltk.corpus import stopwords
+import re
+import nltk
+from nltk.tokenize import TweetTokenizer
+from ekphrasis.classes.segmenter import Segmenter
+import preprocessor as p
 
 nltk.download
 nltk.download('wordnet')
@@ -20,6 +20,14 @@ def splitUpTweets(data, corpus):
     if (data != a):
         listToStr1 = ' '.join([str(elem.lower()) for elem in data])
         return corpus.segment(listToStr1).split()
+
+
+def remove_links(words):
+    new_words = []
+    for word in words:
+        new_word = re.sub(' ', '-----', word)
+        new_words.append(new_word)
+    return new_words
 
 
 def remove_punctuation(words):
@@ -49,24 +57,27 @@ if __name__ == '__main__':
 
     # extract and decompound hashtag
     seg_tw = Segmenter(corpus="twitter")
-    df_pd['hashtag'] = df_pd['tweet_text'].apply(lambda x: re.findall(r"#(\w+)", x))
+    df_pd['hashtag'] = df_pd['tweet_text'].apply(
+        lambda x: re.findall(r"#(\w+)", x))
 
-
-    output_df['emotion'] = df_pd['is_there_an_emotion_directed_at_a_brand_or_product'].replace({"Positive emotion" : 1, "Negative emotion" : -1, "No emotion toward brand or product" : 0})
-
+    output_df['emotion'] = df_pd['is_there_an_emotion_directed_at_a_brand_or_product'].replace(
+        {"Positive emotion": 1, "Negative emotion": -1, "No emotion toward brand or product": 0})
 
     seghash = df_pd['hashtag'].apply(lambda x: splitUpTweets(x, seg_tw))
 
     for i in range(len(seghash)):
         if seghash[i] is not None:
-            seghash[i] = list(filter(lambda a: ((a not in stop_words) & (a != "_")), seghash[i]))
+            seghash[i] = list(
+                filter(lambda a: ((a not in stop_words) & (a != "_")), seghash[i]))
 
     output_df['hashtags'] = seghash
 
     # extract emojis and smileys
-    output_df['emojis'] = df_pd['tweet_text'].apply(lambda x: re.findall(r"((?::|;|=)(?:')?(?:-)?(?:\)|D|P|O))", x))
+    output_df['emojis'] = df_pd['tweet_text'].apply(
+        lambda x: re.findall(r"((?::|;|=)(?:')?(?:-)?(?:\)|D|P|O))", x))
 
-    output_df['exaggerate_punctuation'] = df_pd['tweet_text'].apply(lambda x: re.search("[?!.]{2,}", x) is not None)
+    output_df['exaggerate_punctuation'] = df_pd['tweet_text'].apply(
+        lambda x: re.search("[?!.]{2,}", x) is not None)
 
     # remove url, hashtags, mentions, RT and FV words, emojis, smileys
     for v, i in enumerate(df_pd['tweet_text']):
@@ -83,18 +94,21 @@ if __name__ == '__main__':
 
     words = lower_case.apply(
         lambda x: [(lematizer.lemmatize(w)) for w in tokenizer.tokenize(x)])
+    words = lower_case.apply(
+        lambda x: [(lematizer.lemmatize(w)) for w in tokenizer.tokenize(x)])
 
     # remove punctation
     words = words.apply(remove_punctuation)
+    words = words.apply(remove_links)
 
     # remove stop words
-    no_stop_words = words.apply(lambda x: [item for item in x if item not in stop_words])
+    no_stop_words = words.apply(
+        lambda x: [item for item in x if item not in stop_words])
 
     # display
     pd.set_option('display.max_columns', None)
-    # print(df_pd.head(50))
 
     output_df['text'] = list(no_stop_words)
-
+    print(df_pd.head(50))
     # output the files
     output_df.to_csv('results.csv', encoding='utf-8')
