@@ -77,8 +77,6 @@ if __name__ == '__main__':
     # lowercase
     lower_case = df_pd['text'].str.lower()
 
-    # TODO: extract ?? and !! (can have more than 2)
-
     # lemamatization and tokenization
     lematizer = nltk.stem.WordNetLemmatizer()
     tokenizer = TweetTokenizer()
@@ -99,4 +97,4 @@ if __name__ == '__main__':
     output_df['text'] = list(no_stop_words)
 
     # output the files
-    output_df.to_csv('results.csv', encoding='utf-8', header=False)
+    output_df.to_csv('results.csv', encoding='utf-8')
