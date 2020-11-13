@@ -1,3 +1,4 @@
+,original_text,emotion,hashtags,emojis,exaggerate_punctuation,text
 0,".@wesley83 I have a 3G iPhone. After 3 hrs tweeting at #RISE_Austin, it was dead!  I need to upgrade. Plugin stations at #SXSW.",-1,"['rise_austin', 'sxsw']",[],False,"['g', 'iphone', 'hr', 'tweeting', 'wa', 'dead', 'need', 'upgrade', 'plugin', 'station']"
 1,"@jessedee Know about @fludapp ? Awesome iPad/iPhone app that you'll likely appreciate for its design. Also, they're giving free Ts at #SXSW",1,['sxsw'],[],False,"['know', 'awesome', 'ipad', 'iphone', 'app', 'youll', 'likely', 'appreciate', 'design', 'also', 'theyre', 'giving', 'free']"
 2,@swonderlin Can not wait for #iPad 2 also. They should sale them down at #SXSW.,1,"['ipad', 'sxsw']",[],False,"['wait', 'also', 'sale']"

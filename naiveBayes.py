@@ -9,9 +9,10 @@ if __name__ == '__main__':
     data = pd.read_csv('./results.csv')
     # features = data.drop(['original_text','emotion', 'exaggerate_punctuation'], axis=1)
     features = data[['hashtags', 'text', 'emojis']]
-    features = features.apply(lambda col: LabelEncoder().fit_transform(col.astype(str)), axis=0, result_type='expand')
+    features = features.apply(lambda col: LabelEncoder().fit_transform(
+        col.astype(str)), axis=0, result_type='expand')
     # TODO fix this
-    label = data['emotion'].values..apply(LabelEncoder().fit_transform)
+    label = data['emotion']
     # label = label.apply(lambda col: LabelEncoder().fit_transform(col.astype(str)), axis=0, result_type='expand')
 
     # split the data into 75% training and 25% testing
@@ -30,4 +31,5 @@ if __name__ == '__main__':
     pred = classifier.predict(testdata_x)
 
     print("Accuracy:", metrics.accuracy_score(testdata_y, pred))
-    print("\nClassification Report:", metrics.classification_report(testdata_y, pred))
+    print("\nClassification Report:",
+          metrics.classification_report(testdata_y, pred))
