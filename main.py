@@ -5,7 +5,8 @@ import nltk
 from nltk.tokenize import TweetTokenizer
 from ekphrasis.classes.segmenter import Segmenter
 import preprocessor as p
-
+nltk.download('averaged_perceptron_tagger')
+nltk.download('punkt')
 nltk.download
 nltk.download('wordnet')
 nltk.download('stopwords')
@@ -37,6 +38,18 @@ def remove_punctuation(words):
         if new_word != '':
             new_words.append(new_word)
     return new_words
+
+
+def get_pos(words):
+    new_words = []
+    for word in words:
+        new_word = nltk.pos_tag(word)
+
+        new_words.append(new_word)
+    return new_words
+
+
+def get_words(message): return [i for item in message for i in item.split()]
 
 
 # Press the green button in the gutter to run the script.
@@ -94,10 +107,19 @@ if __name__ == '__main__':
 
     words = lower_case.apply(
         lambda x: [(lematizer.lemmatize(w)) for w in tokenizer.tokenize(x)])
-    words = lower_case.apply(
-        lambda x: [(lematizer.lemmatize(w)) for w in tokenizer.tokenize(x)])
 
+    # pos = df_pd['tweet_text'].apply(get_pos)
+    # pos = lower_case.apply(get_pos)
     # remove punctation
+    # df_pd['pos_tag'] = df_pd['tweet_text'].apply(
+    # lambda x: [i for item in x for i in item.split()])
+
+    # s = df_pd['text']
+    # for v, i in enumerate(df_pd['pos_tag']):
+    # df_pd.loc[v, "pos_tag"] = get_words(i)
+
+    # print(df_pd['pos_tag'])
+
     words = words.apply(remove_punctuation)
     words = words.apply(remove_links)
 
@@ -105,10 +127,20 @@ if __name__ == '__main__':
     no_stop_words = words.apply(
         lambda x: [item for item in x if item not in stop_words])
 
+    pos = words.apply(
+        lambda x: [i for item in x for i in item.split()])
+
+    output_df['pos_tag'] = pos
+
+    for value in output_df['pos_tag'].index:
+        output_df['pos_tag'].loc[value] = nltk.pos_tag(
+            output_df['pos_tag'].loc[value])
+
+    # print(output_df['pos_tag'])
     # display
     pd.set_option('display.max_columns', None)
 
     output_df['text'] = list(no_stop_words)
-    print(df_pd.head(50))
+    # print(df_pd.head(50))
     # output the files
     output_df.to_csv('results.csv', encoding='utf-8')

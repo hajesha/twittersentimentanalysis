@@ -16,7 +16,8 @@ import numpy as np
 if __name__ == '__main__':
 
     # Create a svm Classifier
-    clf = svm.SVC(kernel='linear')  # Linear Kernel
+    clf = svm.SVC(kernel='rbf', C=0.7, gamma=0.9,
+                  decision_function_shape='ovo')
 
     # read the data
     data = pd.read_csv('./results.csv')
@@ -36,11 +37,12 @@ if __name__ == '__main__':
     # print the cancer labels (0:malignant, 1:benign)
     # print(data.target)
     label = data['emotion']
-    features = data[['hashtags', 'text', 'emojis', 'exaggerate_punctuation']]
+    features = data[['text', 'hashtags', 'emojis',
+                     'exaggerate_punctuation', 'pos_tag']]
     features = features.apply(lambda col: LabelEncoder().fit_transform(
         col.astype(str)), axis=0, result_type='expand')
 
-    msk = np.random.rand(len(features)) < 0.7
+    msk = np.random.rand(len(features)) < 0.5
     traindata_x = features[msk]
     traindata_y = label[msk].values.tolist()
     testdata_x = features[~msk]
