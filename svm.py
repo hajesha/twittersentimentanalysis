@@ -16,7 +16,7 @@ import numpy as np
 if __name__ == '__main__':
 
     # Create a svm Classifier
-    clf = svm.SVC(kernel='rbf', C=0.7, gamma=0.9,
+    clf = svm.SVC(kernel='linear', C=0.5, gamma=0.3,
                   decision_function_shape='ovo')
 
     # read the data
@@ -42,7 +42,7 @@ if __name__ == '__main__':
     features = features.apply(lambda col: LabelEncoder().fit_transform(
         col.astype(str)), axis=0, result_type='expand')
 
-    msk = np.random.rand(len(features)) < 0.5
+    msk = np.random.rand(len(features)) < 0.7
     traindata_x = features[msk]
     traindata_y = label[msk].values.tolist()
     testdata_x = features[~msk]

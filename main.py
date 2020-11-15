@@ -119,14 +119,6 @@ if __name__ == '__main__':
     # df_pd.loc[v, "pos_tag"] = get_words(i)
 
     # print(df_pd['pos_tag'])
-
-    words = words.apply(remove_punctuation)
-    words = words.apply(remove_links)
-
-    # remove stop words
-    no_stop_words = words.apply(
-        lambda x: [item for item in x if item not in stop_words])
-
     pos = words.apply(
         lambda x: [i for item in x for i in item.split()])
 
@@ -135,6 +127,13 @@ if __name__ == '__main__':
     for value in output_df['pos_tag'].index:
         output_df['pos_tag'].loc[value] = nltk.pos_tag(
             output_df['pos_tag'].loc[value])
+
+    words = words.apply(remove_punctuation)
+    words = words.apply(remove_links)
+
+    # remove stop words
+    no_stop_words = words.apply(
+        lambda x: [item for item in x if item not in stop_words])
 
     # print(output_df['pos_tag'])
     # display

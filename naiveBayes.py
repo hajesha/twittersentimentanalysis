@@ -8,7 +8,8 @@ if __name__ == '__main__':
     # read the data
     data = pd.read_csv('./results.csv')
     # features = data.drop(['original_text','emotion', 'exaggerate_punctuation'], axis=1)
-    features = data[['hashtags', 'text', 'emojis']]
+    features = data[['text', 'hashtags', 'emojis',
+                     'exaggerate_punctuation', 'pos_tag']]
     features = features.apply(lambda col: LabelEncoder().fit_transform(
         col.astype(str)), axis=0, result_type='expand')
     # TODO fix this
