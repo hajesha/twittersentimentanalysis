@@ -56,27 +56,80 @@ def get_words(message): return [i for item in message for i in item.split()]
 if __name__ == '__main__':
     df_pd = readfile(
         "crowdflower-brands-and-product-emotions/data/judge_1377884607_tweet_product_company.csv")
-
+    #
+    # df_pd2 = pd.read_csv(
+    #     "dataset/processedNegative.csv", index_col=None)
+    #
+    # df_pd3 = pd.read_csv(
+    #     "dataset/processedPositive.csv",  index_col=None)
     stop_words = set(stopwords.words('english'))
+    filelist = ['dataset/train_text.txt', 'dataset/train_labels.txt']
+    newpanda1 = pd.read_csv('dataset/train_text.txt' , delimiter='\n', names=['original_text'])
+    newpanda3 = pd.read_csv('dataset/train_labels.txt' , delimiter='\n', names=['emotion'])
 
-    # remove nulls and reset index
-    df_pd = df_pd.dropna(
-        subset=['tweet_text', 'is_there_an_emotion_directed_at_a_brand_or_product'])
+    newpanda = pd.concat(
+        [
+            newpanda1.reset_index(drop=True),
+            newpanda3.reset_index(drop=True),
+        ],
+        axis=1,
+        ignore_index=True,
+
+    )
+
+    newpanda.columns = ['original_text', 'emotion']
+    #
+    # df_pd2 = df_pd2.T
+    # df_pd3 = df_pd3.T
+    # df_pd2 = df_pd2.set_index()
+    # df_pd3 = df_pd3.set_index()
+    # # remove nulls and reset index
+    # # df_pd = df_pd.dropna(
+    # #     subset=['tweet_text', 'is_there_an_emotion_directed_at_a_brand_or_product'])
+    #
+    # # df_pd2 = df_pd2.dropna()
+    # # df_pd3 = df_pd3.dropna()
+    #
+    # df_pd2[1] = "-1"
+    # df_pd3[1] = "1"
+    #
+    # df_pd2.columns = ['original_text', 'emotion']
+    # df_pd3.columns = ['original_text', 'emotion']
+    # # df_pd2.reset_index(drop=True, inplace=True)
+    # df_pd3.reset_index(drop=True, inplace=True)
+
     df_pd = df_pd[df_pd.is_there_an_emotion_directed_at_a_brand_or_product != "I can't tell"]
-    df_pd.reset_index(drop=True, inplace=True)
+    df_pd = df_pd[df_pd.is_there_an_emotion_directed_at_a_brand_or_product != "No emotion toward brand or product"]
+    # df_pd.reset_index(drop=True, inplace=True)
 
+    newpanda = newpanda[newpanda.emotion != '1']
+    newpanda['emotion'] = newpanda['emotion'].replace(
+        {2: 1, 0: -1})
     output_df = pd.DataFrame()
     output_df['original_text'] = df_pd['tweet_text']
 
+    output_df['emotion'] = df_pd['is_there_an_emotion_directed_at_a_brand_or_product'].replace(
+        {"Positive emotion": 1, "Negative emotion": -1})
+
+    output_df = output_df.append(newpanda)
+
+
+
+    output_df = output_df.dropna(subset=['original_text'])
+    output_df.reset_index(drop=True, inplace=True)
+
     # extract and decompound hashtag
     seg_tw = Segmenter(corpus="twitter")
-    df_pd['hashtag'] = df_pd['tweet_text'].apply(
+    output_df['hashtags'] = output_df['original_text'].apply(
         lambda x: re.findall(r"#(\w+)", x))
 
-    output_df['emotion'] = df_pd['is_there_an_emotion_directed_at_a_brand_or_product'].replace(
-        {"Positive emotion": 1, "Negative emotion": -1, "No emotion toward brand or product": 0})
+    # output_df['emotion'] = df_pd['is_there_an_emotion_directed_at_a_brand_or_product'].replace(
+    #     {"Positive emotion": 1, "Negative emotion": -1, "No emotion toward brand or product": 0})
 
-    seghash = df_pd['hashtag'].apply(lambda x: splitUpTweets(x, seg_tw))
+
+
+
+    seghash = output_df['hashtags'].apply(lambda x: splitUpTweets(x, seg_tw))
 
     for i in range(len(seghash)):
         if seghash[i] is not None:
@@ -86,20 +139,20 @@ if __name__ == '__main__':
     output_df['hashtags'] = seghash
 
     # extract emojis and smileys
-    output_df['emojis'] = df_pd['tweet_text'].apply(
-        lambda x: re.findall(r"((?::|;|=)(?:')?(?:-)?(?:\)|D|P|O))", x))
+    output_df['emojis'] = output_df['original_text'].apply(
+        lambda x: re.findall(r"([:;=](?:')?(?:-)?[)DPO])", x))
 
-    output_df['exaggerate_punctuation'] = df_pd['tweet_text'].apply(
+    output_df['exaggerate_punctuation'] = output_df['original_text'].apply(
         lambda x: re.search("[?!.]{2,}", x) is not None)
 
     # remove url, hashtags, mentions, RT and FV words, emojis, smileys
-    for v, i in enumerate(df_pd['tweet_text']):
-        df_pd.loc[v, "text"] = p.clean(i)
-        df_pd.loc[v, "text"] = p.clean(i.partition("RT")[0])
+    for v, i in enumerate(output_df['original_text']):
+        output_df.loc[v, "text"] = p.clean(i)
+        output_df.loc[v, "text"] = p.clean(i.partition("RT")[0])
         # df_pd.loc[v, "text"] = p.clean(i.partition("FV")[0])
 
     # lowercase
-    lower_case = df_pd['text'].str.lower()
+    lower_case = output_df['original_text'].str.lower()
 
     # lemamatization and tokenization
     lematizer = nltk.stem.WordNetLemmatizer()
