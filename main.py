@@ -40,15 +40,6 @@ def remove_punctuation(words):
     return new_words
 
 
-def get_pos(words):
-    new_words = []
-    for word in words:
-        new_word = nltk.pos_tag(word)
-
-        new_words.append(new_word)
-    return new_words
-
-
 def get_words(message): return [i for item in message for i in item.split()]
 
 

@@ -34,3 +34,6 @@ if __name__ == '__main__':
     print("Accuracy:", metrics.accuracy_score(testdata_y, pred))
     print("\nClassification Report:",
           metrics.classification_report(testdata_y, pred, zero_division=0))
+
+
+# try k-fold tfidf bow
