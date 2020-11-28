@@ -1,3 +1,4 @@
+from tpot import TPOTClassifier
 import matplotlib.pyplot as plt
 
 # Import scikit-learn dataset library
@@ -14,58 +15,29 @@ from sklearn.model_selection import GridSearchCV
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
-from tpot import TPOTClassifier
 
 
 if __name__ == '__main__':
 
-    # Create a svm Classifier
-    #clf = svm.SVC(kernel='rbf', random_state=0, gamma=10, C=10)
+    rfc = RandomForestClassifier(random_state=42)
 
-    #rfc = RandomForestClassifier(random_state=42)
-
-    param_grid = {
-        'n_estimators': [200, 500],
-        'max_features': ['auto', 'sqrt', 'log2'],
-        'max_depth': [4, 5, 6, 7, 8],
-        'criterion': ['gini', 'entropy']
-    }
-
-    #CV_rfc = GridSearchCV(estimator=rfc, param_grid=param_grid, cv=5)
-# read the data
     parameters = {'criterion': ['entropy', 'gini'],
                   'max_depth': list(np.linspace(10, 1200, 10, dtype=int)) + [None],
                   'max_features': ['auto', 'sqrt', 'log2', None],
                   'min_samples_leaf': [4, 12],
                   'min_samples_split': [5, 10],
                   'n_estimators': list(np.linspace(151, 1200, 10, dtype=int))}
+
     tpot_classifier = TPOTClassifier(generations=5, population_size=24, offspring_size=12,
                                      verbosity=2, early_stop=12,
                                      config_dict={
                                          'sklearn.ensemble.RandomForestClassifier': parameters},
                                      cv=4, scoring='accuracy')
+
     data = pd.read_csv('./results.csv')
-    # RandomForestClassifier(bootstrap=True, criterion='mse', max_depth=23,
-    # max_features='sqrt', max_leaf_nodes=None,
-    # min_impurity_decrease=0.0, min_impurity_split=None,
-    # min_samples_leaf=1, min_samples_split=5,
-    # min_weight_fraction_leaf=0.0, n_estimators=155, n_jobs=-1,
-    # oob_score=False, random_state=None, verbose=0, warm_start=False)
-    # print the names of the 13 features
-    #print("Features: ", data.feature_names)
-    # Best pipeline: RandomForestClassifier(input_matrix, criterion=gini, max_depth=274, max_features=log2, min_samples_leaf=12, min_samples_split=5, n_estimators=267)
-    #Accuracy: 0.8483665502362852
-    # print the label type of cancer('malignant' 'benign')
-    #print("Labels: ", data.target_names)
+    RandomForestClassifier(criterion='gini', max_depth=274,
+                           max_features='log2', min_samples_leaf=12, min_samples_split=5, n_estimators=267)
 
-    # print data(feature)shape
-    # data.data.shape
-
-    # print the cancer data features (top 5 records)
-    # print(data.data[0:5])
-
-    # print the cancer labels (0:malignant, 1:benign)
-    # print(data.target)
     label = data['emotion']
     features = data[['text', 'hashtags', 'emojis',
                      'exaggerate_punctuation', 'pos_tag']]
@@ -84,23 +56,23 @@ if __name__ == '__main__':
     testdata_x = scaling.transform(testdata_x)
 
     # Train the model using the training sets
-    tpot_classifier.fit(traindata_x, traindata_y)
+    rfc.fit(traindata_x, traindata_y)
 
     # Predict the response for test dataset
-    y_pred = tpot_classifier.predict(testdata_x)
+    y_pred = rfc.predict(testdata_x)
     # Model Accuracy: how often is the classifier correct?
     print("Accuracy:", metrics.accuracy_score(testdata_y, y_pred))
 
     # Model Precision: what percentage of positive tuples are labeled as such?
-    # print("Precision Score : ", metrics.precision_score(testdata_y, y_pred,
-    # pos_label='positive',
-    # average='weighted', zero_division=0))
-    # print("Recall Score : ", metrics.recall_score(testdata_y, y_pred,
-    # pos_label='positive',
-    # average='weighted'))
+    print("Precision Score : ", metrics.precision_score(testdata_y, y_pred,
+                                                        pos_label='positive',
+                                                        average='weighted', zero_division=0))
+    print("Recall Score : ", metrics.recall_score(testdata_y, y_pred,
+                                                  pos_label='positive',
+                                                  average='weighted'))
 
-    #print(metrics.f1_score(testdata_y, y_pred, average='macro'))
+    print(metrics.f1_score(testdata_y, y_pred, average='macro'))
 
-    #print(metrics.f1_score(testdata_y, y_pred, average='micro'))
+    print(metrics.f1_score(testdata_y, y_pred, average='micro'))
 
-    #print(metrics.f1_score(testdata_y, y_pred, average='weighted'))
+    print(metrics.f1_score(testdata_y, y_pred, average='weighted'))
