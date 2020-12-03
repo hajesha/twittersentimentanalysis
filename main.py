@@ -40,15 +40,6 @@ def remove_punctuation(words):
     return new_words
 
 
-def get_pos(words):
-    new_words = []
-    for word in words:
-        new_word = nltk.pos_tag(word)
-
-        new_words.append(new_word)
-    return new_words
-
-
 def get_words(message): return [i for item in message for i in item.split()]
 
 
@@ -64,8 +55,10 @@ if __name__ == '__main__':
     #     "dataset/processedPositive.csv",  index_col=None)
     stop_words = set(stopwords.words('english'))
     filelist = ['dataset/train_text.txt', 'dataset/train_labels.txt']
-    newpanda1 = pd.read_csv('dataset/train_text.txt' , delimiter='\n', names=['original_text'])
-    newpanda3 = pd.read_csv('dataset/train_labels.txt' , delimiter='\n', names=['emotion'])
+    newpanda1 = pd.read_csv('dataset/train_text.txt',
+                            delimiter='\n', names=['original_text'])
+    newpanda3 = pd.read_csv('dataset/train_labels.txt',
+                            delimiter='\n', names=['emotion'])
 
     newpanda = pd.concat(
         [
@@ -97,9 +90,9 @@ if __name__ == '__main__':
     # df_pd3.columns = ['original_text', 'emotion']
     # # df_pd2.reset_index(drop=True, inplace=True)
     # df_pd3.reset_index(drop=True, inplace=True)
-
     df_pd = df_pd[df_pd.is_there_an_emotion_directed_at_a_brand_or_product != "I can't tell"]
-    df_pd = df_pd[df_pd.is_there_an_emotion_directed_at_a_brand_or_product != "No emotion toward brand or product"]
+    df_pd = df_pd[df_pd.is_there_an_emotion_directed_at_a_brand_or_product !=
+                  "No emotion toward brand or product"]
     # df_pd.reset_index(drop=True, inplace=True)
 
     newpanda = newpanda[newpanda.emotion != '1']
@@ -113,8 +106,6 @@ if __name__ == '__main__':
 
     output_df = output_df.append(newpanda)
 
-
-
     output_df = output_df.dropna(subset=['original_text'])
     output_df.reset_index(drop=True, inplace=True)
 
@@ -125,9 +116,6 @@ if __name__ == '__main__':
 
     # output_df['emotion'] = df_pd['is_there_an_emotion_directed_at_a_brand_or_product'].replace(
     #     {"Positive emotion": 1, "Negative emotion": -1, "No emotion toward brand or product": 0})
-
-
-
 
     seghash = output_df['hashtags'].apply(lambda x: splitUpTweets(x, seg_tw))
 

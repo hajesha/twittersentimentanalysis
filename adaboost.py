@@ -6,25 +6,26 @@ from sklearn import datasets
 # Import train_test_split function
 from sklearn.model_selection import train_test_split
 # Import svm model
-from sklearn import svm
+from sklearn.ensemble import AdaBoostClassifier
 # Import scikit-learn metrics module for accuracy calculation
 from sklearn import metrics
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.model_selection import GridSearchCV
 import pandas as pd
 import numpy as np
-from sklearn.ensemble import RandomForestClassifier
+from sklearn.tree import DecisionTreeClassifier
 from tpot import TPOTClassifier
 
-
+# https://towardsdatascience.com/machine-learning-part-17-boosting-algorithms-adaboost-in-python-d00faac6c464
 if __name__ == '__main__':
 
     data = pd.read_csv('./results.csv')
 
     # Create a svm Classifier
-    clf = svm.SVC(kernel='rbf', random_state=0, gamma=10, C=10)
-
-    clf = svm.SVC(C=10.0, kernel='rbf', degree=3, gamma='auto')
+    ada = AdaBoostClassifier(
+        DecisionTreeClassifier(max_depth=1),
+        n_estimators=200
+    )
 
     label = data['emotion']
     features = data[['text', 'hashtags',
@@ -44,10 +45,10 @@ if __name__ == '__main__':
     testdata_x = scaling.transform(testdata_x)
 
     # Train the model using the training sets
-    clf.fit(traindata_x, traindata_y)
+    ada.fit(traindata_x, traindata_y)
 
     # Predict the response for test dataset
-    y_pred = clf.predict(testdata_x)
+    y_pred = ada.predict(testdata_x)
     # Model Accuracy: how often is the classifier correct?
     print("Accuracy:", metrics.accuracy_score(testdata_y, y_pred))
 

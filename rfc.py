@@ -1,3 +1,4 @@
+from tpot import TPOTClassifier
 import matplotlib.pyplot as plt
 
 # Import scikit-learn dataset library
@@ -14,21 +15,32 @@ from sklearn.model_selection import GridSearchCV
 import pandas as pd
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
-from tpot import TPOTClassifier
 
 
 if __name__ == '__main__':
 
+    rfc = RandomForestClassifier(random_state=42)
+
+    parameters = {'criterion': ['entropy', 'gini'],
+                  'max_depth': list(np.linspace(10, 1200, 10, dtype=int)) + [None],
+                  'max_features': ['auto', 'sqrt', 'log2', None],
+                  'min_samples_leaf': [4, 12],
+                  'min_samples_split': [5, 10],
+                  'n_estimators': list(np.linspace(151, 1200, 10, dtype=int))}
+
+    tpot_classifier = TPOTClassifier(generations=5, population_size=24, offspring_size=12,
+                                     verbosity=2, early_stop=12,
+                                     config_dict={
+                                         'sklearn.ensemble.RandomForestClassifier': parameters},
+                                     cv=4, scoring='accuracy')
+
     data = pd.read_csv('./results.csv')
-
-    # Create a svm Classifier
-    clf = svm.SVC(kernel='rbf', random_state=0, gamma=10, C=10)
-
-    clf = svm.SVC(C=10.0, kernel='rbf', degree=3, gamma='auto')
+    RandomForestClassifier(criterion='gini', max_depth=274,
+                           max_features='log2', min_samples_leaf=12, min_samples_split=5, n_estimators=267)
 
     label = data['emotion']
-    features = data[['text', 'hashtags',
-                     'exaggerate_punctuation']]
+    features = data[['text', 'hashtags', 'emojis',
+                     'exaggerate_punctuation', 'pos_tag']]
 
     features = features.apply(lambda col: LabelEncoder().fit_transform(
         col.astype(str)), axis=0, result_type='expand')
@@ -44,10 +56,10 @@ if __name__ == '__main__':
     testdata_x = scaling.transform(testdata_x)
 
     # Train the model using the training sets
-    clf.fit(traindata_x, traindata_y)
+    rfc.fit(traindata_x, traindata_y)
 
     # Predict the response for test dataset
-    y_pred = clf.predict(testdata_x)
+    y_pred = rfc.predict(testdata_x)
     # Model Accuracy: how often is the classifier correct?
     print("Accuracy:", metrics.accuracy_score(testdata_y, y_pred))
 
