@@ -22,13 +22,11 @@ if __name__ == '__main__':
     data = pd.read_csv('./results.csv')
 
     # Create a svm Classifier
-    clf = svm.SVC(kernel='linear', random_state=0, gamma=10, C=10)
-
-    clf = svm.SVC(C=10.0, kernel='linear', degree=3, gamma='auto')
+    clf = svm.SVC(kernel='rbf',  gamma='auto', C=0.01, degree=3)
 
     label = data['emotion']
-    features = data[['text', 'hashtags',
-                     'exaggerate_punctuation']]
+    features = data[['text', 'hashtags', 'emojis',
+                     'exaggerate_punctuation', 'pos_tag']]
 
     features = features.apply(lambda col: LabelEncoder().fit_transform(
         col.astype(str)), axis=0, result_type='expand')

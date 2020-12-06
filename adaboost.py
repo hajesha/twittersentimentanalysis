@@ -28,8 +28,8 @@ if __name__ == '__main__':
     )
 
     label = data['emotion']
-    features = data[['text', 'hashtags',
-                     'exaggerate_punctuation']]
+    features = data[['text', 'hashtags', 'emojis',
+                     'exaggerate_punctuation', 'pos_tag']]
 
     features = features.apply(lambda col: LabelEncoder().fit_transform(
         col.astype(str)), axis=0, result_type='expand')

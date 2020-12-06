@@ -21,7 +21,7 @@ if __name__ == '__main__':
     label = data['emotion']
 
     # split the data into 75% training and 25% testing
-    msk = np.random.rand(len(features)) < 0.95
+    msk = np.random.rand(len(features)) < 0.70
     traindata_x = features[msk]
     traindata_y = label[msk].values.tolist()
     testdata_x = features[~msk]
@@ -38,7 +38,6 @@ if __name__ == '__main__':
     print("Accuracy:", metrics.accuracy_score(testdata_y, pred))
     print("\nClassification Report:",
           metrics.classification_report(testdata_y, pred, zero_division=0))
-
 
     clf_4 = AdaBoostClassifier()
     clf_4.fit(traindata_x, traindata_y)
