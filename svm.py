@@ -22,9 +22,9 @@ if __name__ == '__main__':
     data = pd.read_csv('./results.csv')
 
     # Create a svm Classifier
-    clf = svm.SVC(kernel='rbf', random_state=0, gamma=10, C=10)
+    clf = svm.SVC(kernel='linear', random_state=0, gamma=10, C=10)
 
-    clf = svm.SVC(C=10.0, kernel='rbf', degree=3, gamma='auto')
+    clf = svm.SVC(C=10.0, kernel='linear', degree=3, gamma='auto')
 
     label = data['emotion']
     features = data[['text', 'hashtags',
