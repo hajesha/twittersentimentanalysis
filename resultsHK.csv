@@ -1,0 +1,1412 @@
+,hashtags,text,emotion
+0,"['rise_austin', 'sxsw']","['g', 'iphone', 'hr', 'tweeting', 'wa', 'dead', 'need', 'upgrade', 'plugin', 'station']",-1.0
+1,['sxsw'],"['know', 'awesome', 'ipad', 'iphone', 'app', 'likely', 'appreciate', 'design', 'also', 'theyre', 'giving', 'free']",1.0
+2,"['ipad', 'sxsw']","['wait', 'also', 'sale']",1.0
+3,['sxsw'],"['hope', 'years', 'festival', 'crashy', 'years', 'iphone', 'app']",-1.0
+4,['sxsw'],"['great', 'stuff', 'fri', 'marissa', 'mayer', 'google', 'tim', 'oreilly', 'tech', 'book', 'conference', 'matt', 'mullenweg', 'wordpress']",1.0
+5,['sxsw'],"['starting', 'around', 'corner', 'hop', 'skip', 'jump', 'good', 'time', 'fan']",1.0
+6,"['sxsw', 'fail']","['beautifully', 'smart', 'simple', 'idea', 'wrote', 'ipad', 'app']",1.0
+7,['sxsw'],"['counting', 'day', 'plus', 'strong', 'canadian', 'dollar', 'mean', 'stock', 'apple', 'gear']",1.0
+8,['sxsw'],"['excited', 'meet', 'show', 'sprint', 'galaxy', 'still', 'running', 'android']",1.0
+9,['sxsw'],"['find', 'start', 'impromptu', 'party', 'cant', 'wait', 'til', 'android', 'app', 'come']",1.0
+10,['sxsw'],"['foursquare', 'ups', 'game', 'time', 'still', 'prefer', 'far', 'best', 'looking', 'android', 'app', 'date']",1.0
+11,"['holler', 'gram', 'sxsw']","['gotta', 'love', 'google', 'calendar', 'featuring', 'top', 'party', 'show', 'case', 'check', 'via']",1.0
+12,"['sxsw', 'iphone']","['great', 'ipad', 'app']",1.0
+13,['sxsw'],"['haha', 'awesomely', 'rad', 'ipad', 'app']",1.0
+14,['sxsw'],"['noticed', 'dst', 'coming', 'weekend', 'many', 'iphone', 'user', 'hour', 'late', 'sxsw', 'come', 'sunday', 'morning']",-1.0
+15,['sxsw'],"['added', 'flight', 'matching', 'people', 'plane', 'airport', 'also', 'downloaded', 'iphone', 'app', 'nicely', 'done']",1.0
+16,"['android', 'sxsw']","['must', 'app', 'lovely', 'review', 'forbes', 'sxsw', 'ipad', 'app', 'holler', 'gram']",1.0
+17,['sxsw'],"['need', 'buy', 'ipad', 'im', 'austin', 'sure', 'ill', 'need', 'q', 'austin', 'apple', 'store']",1.0
+18,['sxsw'],"['oh', 'god', 'app', 'ipad', 'pure', 'unadulterated', 'awesome', 'easier', 'browse', 'event', 'ipad', 'website']",1.0
+19,"['smc', 'dallas', 'sxsw', 'ipad', 'chevysmc']","['okay', 'really', 'yay', 'new', 'app', 'kthxbai']",1.0
+20,"['holler', 'gram', 'sxsw']","['photo', 'installed', 'iphone', 'app', 'really', 'nice']",1.0
+21,"['austin', 'sxsw']","['really', 'enjoying', 'change', 'gowalla', 'android', 'looking', 'forward', 'seeing', 'else', 'foursquare', 'sleeve']",1.0
+22,"['4sq3', 'sxsw', 'keep', 'austin', 'weird']","['im', 'looking', 'forward', 'pre', 'party', 'wed', 'hoping', 'ill', 'win', 'resulting', 'shameless', 'promotion']",1.0
+23,"['android', 'sxsw']","['haha', 'awesomely', 'rad', 'ipad', 'app', 'via']",1.0
+24,"['holler', 'gram', 'sxsw']","['someone', 'started', 'group', 'google', 'group', 'pre', 'great', 'idea']",1.0
+25,"['sxsw', 'hollergram']","['new', 'look', 'like', 'going', 'rock', 'update', 'iphone', 'android', 'push', 'tonight']",1.0
+26,"['ipad2', 'sxsw', 'event', 'profs', 'pcma', 'engage365']","['right', 'app', 'sweeeeet', 'nice', 'job', 'team']",1.0
+27,"['google', 'circles', 'social', 'sxsw']","['smart', 'ipad', 'app', 'may', 'leave', 'vuvuzela', 'home']",1.0
+28,['sxsw'],"['must', 'app', 'ipad', 'going']",1.0
+29,"['sxsw', 'chaos']","['best', 'ha', 'first', 'line', 'popup', 'apple', 'store', 'wa', 'event', 'planner']",1.0
+30,['sxsw'],"['false', 'alarm', 'google', 'circle', 'coming', 'probably', 'ever']",-1.0
+31,"['sxswi', 'sxsw']","['great', 'weather', 'greet', 'still', 'need', 'sweater', 'night', 'apple', 'putting', 'flash', 'store', 'downtown', 'sell', 'ipad']",1.0
+32,['sxsw'],"['handheld', 'hobo', 'drafthouse', 'launch', 'hobo', 'shotgun', 'iphone', 'app']",1.0
+33,['sxsw'],"['hooray', 'apple', 'opening', 'popup', 'store', 'austin']",1.0
+34,"['speech', 'sxsw', 'sxswh', 'sxsh']","['wooooo', 'apple', 'store', 'downtown', 'austin', 'open', 'til', 'midnight']",1.0
+35,['sxsw'],"['talking', 'googles', 'effort', 'allow', 'user', 'open', 'system']",1.0
+36,"['911tweets', 'sxsw']","['st', 'stop', 'hunt', 'austin', 'java', 'get', 'spy', 'game', 'chance', 'win', 'ipad']",1.0
+37,"['apple', 'sxsw']","['line', 'apple', 'store', 'insane']",-1.0
+38,"['ipad', 'iphone', 'sxsw']","['attending', 'ipad', 'design', 'headache']",-1.0
+39,"['ipad2', 'sxsw', 'austin', 'mobile']","['boooo', 'flipboard', 'developing', 'iphone', 'version', 'android', 'say']",-1.0
+40,"['ipad2', 'sxsw']","['check', 'line', 'ipad', 'austin', 'power']",1.0
+41,['sxsw'],"['come', 'party', 'w', 'google', 'tonight', 'band', 'food', 'art', 'ice', 'cream', 'nifty', 'interactive', 'map']",1.0
+42,['sxsw'],"['holla', 'google', 'party', 'best', 'ever', 'get', 'butt']",1.0
+43,['sxsw'],"['love', 'iphone', 'case', 'cant', 'get', 'phone']",1.0
+44,"['sxsw', 'sxsw', 'sxsw']","['new', 'post', 'iphone', 'app', 'make', 'easy', 'connect', 'social', 'network', 'people', 'meet']",1.0
+45,"['sxsw', 'iphone', 'lp', 'travel']","['nice', 'iphone', 'app', 'behaving', 'today', 'crash', 'yesterday', 'ridiculous']",1.0
+46,['sxsw'],"['nice', 'hey', 'apple', 'fan', 'get', 'peek', 'space', 'thats', 'slated', 'popup', 'apple', 'store', 'tomorrow']",1.0
+47,"['sxsw', 'ipad2']","['one', 'thing', 'great', 'get', 'great', 'earth', 'face', 'google', 'company', 'love']",1.0
+48,"['sxsw', 'sxsw']","['thanks', 'mention', 'new', 'ipad', 'apps', 'showcased', 'conf']",1.0
+49,"['ipad2', 'sxsw']","['doe', 'provide', 'iphone', 'charger', 'ive', 'changed', 'mind', 'going', 'next', 'year']",-1.0
+50,['sxsw'],"['xmas', 'shiny', 'new', 'apps', 'new', 'book', 'popup', 'ipad', 'store', 'christmas', 'nerd']",1.0
+51,"['ipad', 'sxsw']","['yai', 'new', 'app', 'store', 'includes', 'uberguide', 'sponsored', 'cont']",1.0
+52,"['sxsw', 'sxswi']","['fast', 'fun', 'future', 'google', 'presenting', 'search', 'local', 'mobile']",1.0
+53,['sxsw'],"['headline', 'musthave', 'gadget', 'hmm', 'could', 'seen', 'one', 'coming']",1.0
+54,['sxsw'],"['know', 'dataviz', 'translates', 'satanic', 'iphone', 'im', 'sayin']",-1.0
+55,"['google', 'circles', 'sxsw', 'socbiz', 'fb']","['google', 'launched', 'checkins', 'month', 'ago', 'check', 'ok', 'check', 'future']",1.0
+56,"['apple', 'sxsw', 'ipad2']","['google', 'tweet', 'new', 'think', 'speak', 'mark', 'belinsky', 'panel']",1.0
+57,['sxsw'],"['kawasaki', 'c', 'lewis', 'level', 'reasoning', 'apples', 'continued', 'existence', 'evidence', 'existence', 'god']",1.0
+58,"['sxsw', 'dyac']","['kawasaki', 'pagemaker', 'saved', 'apple', 'oh', 'day', 'via']",1.0
+59,['sxsw'],"['spark', 'award', 'read']",1.0
+60,['sxsw'],"['ipad', 'great', 'thought', 'w', 'japan', 'apac', 'region', 'dealing', 'w', 'earthquake', 'tsunami', 'trauma']",1.0
+61,['sxsw'],"['school', 'marketing', 'expert']",1.0
+62,"['battery', 'killer', 'sxsw']","['temporary', 'store', 'def', 'tent', 'powerhouse', 'gym']",1.0
+63,"['sxsw', 'score']","['temporary', 'store', 'th', 'congress', 'along', 'happy', 'hipster']",1.0
+64,"['android', 'sxsw']","['win', 'opening', 'temporary', 'store', 'downtown', 'austin', 'support', 'launch', 'good']",1.0
+65,"['sxsw', 'cnet']","['christian', 'devs', 'want', 'talk', 'u', 'maybe', 'wk', 'together', 'cool', 'app']",1.0
+66,"['sxsw', 'cnet']","['apple', 'ha', 'taken', 'storm', 'excited', 'part']",1.0
+67,['sxsw'],"['haz', 'ifrom', 'gr']",1.0
+68,['sxsw'],"['stack', 's', 'waiting', 'bought', 'got', 'mine', 'hassle', 'apple', 'handled', 'perfectly']",1.0
+69,['sxsw'],"['doe', 'need', 'review', 'play', 'google', 'place', 'got', 'app']",1.0
+70,['sxsw'],"['take', 'major', 'south', 'korean', 'director', 'get', 'make', 'movie', 'entirely', 'iphone']",1.0
+71,['sxsw'],"['beautiful', 'apple', 'store', 'sxsw', 'pic']",1.0
+72,['sxsw'],"['must', 'app', 'lovely', 'review', 'forbes', 'sxsw', 'ipad', 'app', 'holler', 'gram']",1.0
+73,"['ipad', 'sxsw']","['temporary', 'apple', 'store', 'apple', 'sneaky', 'usual']",1.0
+74,['sxsw'],"['beta', 'testing', 'interactive', 'book', 'ipad', 'app', 'moonbot', 'studio', 'louisiana', 'cool', 'app']",1.0
+75,['sxsw'],"['apple', 'day', 'one', 'seeing', 'ton']",1.0
+76,['sxsw'],"['ipad', 'store', 'sold', 'everything', 'except', 'gig', 'wifi', 'white', 'manage', 'get']",1.0
+77,['sxsw'],"['ipad', 'store', 'sold', 'everything', 'except', 'gig', 'wifi', 'white', 'also', 'known', 'white', 'jean', 'configuration']",1.0
+78,"['sxsw', 'ipad', 'apple']","['offered', 'ipad', 'promo', 'ninjafinder', 'user', 'fan', 'suck']",1.0
+79,"['agile', 'agency', 'sxsw']","['lonelyplanet', 'austin', 'guide', 'free', 'limited', 'time']",1.0
+80,"['google', 'doodle', 'sxsw']","['apple', 'store', 'still', 'ha', 'ipad', 'short', 'line']",1.0
+81,"['google', 'aclu', 'sxsw']","['left', 'tradeshow', 'demo', 'google', 'theatre', 'ok', 'get', 'see', 'presenter', 'using']",1.0
+82,"['sxsw', 'apple']","['anyone', 'want', 'make', 'quick', 'hundred', 'dollar', 'new', 'ad', 'hoc', 'apple', 'store', 'get', 'hundred', 'plus', 'cost']",1.0
+83,"['game', 'storming', 'sxsw']","['monday', 'barry', 'diller', 'new', 'york', 'time', 'congress', 'lunch', 'w', 'hotel', 'party', 'google', 'party', 'six', 'dirty', 'martini', 'monday']",1.0
+84,"['winning', 'sxsw']","['seriously', 'testing', 'mobile', 'apps', 'constant', 'ipad', 'crash', 'causing', 'lost', 'schedule', 'sync', 'wp']",-1.0
+85,"['sxsw', 'pr', 'ecommerce']","['ready', 'iphone', 'apps', 'make', 'ur', 'blogging', 'easier']",1.0
+86,"['ipad', 'madness', 'sxsw']","['ipad', 'conflagration', 'doofusness']",-1.0
+87,"['apple', 'sxsw']","['attention', 'ers', 'rumored', 'popup', 'temporary', 'apple', 'store', 'ipad', 'launch', 'need']",1.0
+88,"['ie9', 'html5', 'sxsw']","['went', 'wa', 'lousy']",1.0
+89,"['earth', 'hour', 'sxsw']",['picture'],1.0
+90,['sxsw'],"['spent', 'come', 'sxsw', 'already', 'used', 'ipad', 'wait', 'couple', 'city', 'block']",-1.0
+91,"['geek', 'date', 'apple', 'sxsw', 'ipad2']","['behind', 'email', 'give', 'line', 'iphone', 'composed', 'reply']",1.0
+92,['sxsw'],"['like', 'pm', 'night', 'line', 'around', 'block', 'popup', 'apple', 'store', 'selling', 'ipad']",1.0
+93,['sxsw'],"['im', 'ipad', 'seen', 'wild', 'people', 'say', 'fast', 'still', 'pic', 'terrible']",-1.0
+94,"['apple', 'atxdt', 'sxsw']","['take', 'video']",1.0
+95,"['ipad', 'sxsw', 'weekend', 'battle', 'la']","['many', 'ipad', 'snapping', 'away', 'keynote', 'slide']",1.0
+96,"['tapworthy', 'sxsw']","['new', 'post', 'iphone', 'apps', 'well', 'using', 'south', 'southwest', 'interactive']",1.0
+97,"['cnn', 'cnngrill', 'sxsw', 'sxswi']","['sweet', 'new', 'google', 'map', 'demo', 'going', 'ballroom']",1.0
+98,['sxsw'],"['million', 'mile', 'per', 'day', 'driving', 'google', 'map', 'navigation']",1.0
+99,"['apple', 'sxsw', 'ipad2', 'genius']","['band', 'want', 'share', 'track', 'audience', 'stage', 'use', 'frostwire', 'android', 'theres', 'wifi', 'available']",1.0
+100,['sxsw'],"['u', 'iphone', 'need', 'caruse', 'zimride', 'etc', 'share', 'ride']",1.0
+101,['sxsw'],"['picked', 'mophie', 'battery', 'case', 'iphone', 'prep', 'lugging', 'around', 'laptop', 'using', 'phone', 'wa', 'huge', 'win', 'last', 'year']",1.0
+102,['sxsw'],"['rumor', 'monger', 'wa', 'good', 'read', 'preview', 'via']",1.0
+103,"['apple', 'ipad2', 'sxsw', 'tc']","['hobo', 'shotgun', 'video', 'game', 'coming', 'ipad', 'iphone', 'user', 'yes', 'please']",1.0
+104,"['apple', 'sxsw']","['build', 'store', 'le', 'hour', 'one', 'biggest', 'launch', 'companys', 'history', 'got']",1.0
+105,"['apple', 'sxsw']","['read', 'sound', 'like', 'incredible', 'app', 'available', 'android', 'phone', 'yet']",1.0
+106,"['sxsw', 'wp7']","['iphone', 'alarm', 'botch', 'timechange', 'many', 'ers', 'freak', 'late', 'flight', 'missed', 'panel', 'behind', 'bloody', 'mary']",-1.0
+107,['sxsw'],"['shout', 'lady', 'holding', 'ipad', 'free', 'show', 'take', 'photo', 'sipping', 'free', 'beer', 'cc']",1.0
+108,"['sxsw', 'ipad2']","['meant', 'also', 'wish', 'stupid', 'iphone']",-1.0
+109,"['fb', 'sxsw']","['rumor', 'apple', 'store', 'opening', 'th', 'congress', 'sign', 'point', 'yes']",1.0
+110,['sxsw'],"['picked', 'ipad', 'pop', 'apple', 'store', 'minute', 'wait']",1.0
+111,"['sxsw', 'crowded']","['brilliant', 'enlightening', 'game', 'mechanic', 'presentation', 'google']",1.0
+112,['sxsw'],"['marketing', 'sale', 'genius']",1.0
+113,['sxsw'],"['need', 'ipad', 'iphone', 'laptop', 'dictaphone', 'vidcamera', 'wow', 'love', 'meet', 'real', 'cerebellum', 'charged', 'people']",1.0
+114,['sxsw'],"['app', 'iphone', 'ridiculous', 'personal', 'planner', 'next', 'day']",1.0
+115,"['sxsw', 'connected', 'tv']","['found', 'app', 'kyping', 'iphones', 'geolocation', 'releasing', 'background', 'need', 'patch']",-1.0
+116,"['sxsw', 'connected', 'tv']","['app', 'iphone', 'live', 'rsvp', 'event', 'phone', 'check', 'sundayswaggereventbritecom']",1.0
+117,"['austin', 'apple', 'sxsw', 'winning']","['love', 'app', 'awesome', 'must', 'see', 'app', 'bizzy']",1.0
+118,"['sxsw', 'ground', 'link']","['course', 'apple', 'built', 'temp', 'store', 'austin', 'texas', 'understand', 'concept', 'corralling', 'cattle']",-1.0
+119,"['apple', 'sxsw', 'ipad2']","['love', 'apple', 'let', 'something', 'like', 'retail', 'store', 'near', 'keep', 'away', 'opening', 'popup', 'store']",1.0
+120,['sxsw'],"['surprise', 'apple', 'ha', 'opened', 'popup', 'store', 'austin', 'nerd', 'town', 'get', 'new']",1.0
+121,"['sxsw', 'ipad']","['surprise', 'apple', 'ha', 'opened', 'popup', 'store', 'austin', 'nerd', 'town', 'get', 'new', 'ipads']",1.0
+122,"['sxsw', 'lifeline', 'world']","['surprise', 'apple', 'ha', 'opened', 'popup', 'store', 'austin', 'nerd', 'town', 'get', 'new', 'ipads']",1.0
+123,"['sxsw', 'techies', 'unite']","['apple', 'great', 'example', 'retail', 'store', 'layed', 'future', 'register', 'checkout', 'line']",1.0
+124,['sxsw'],"['apple', 'opening', 'temporary', 'store', 'downtown', 'austin', 'ipad', 'launch']",1.0
+125,"['power', 'matteam', 'sxsw', 'thanks']","['apple', 'opening', 'temporary', 'store', 'downtown', 'austin', 'ipad', 'launch', 'oh', 'yay', 'traffic']",-1.0
+126,"['power', 'matt', 'team', 'sxsw', 'thanks']","['apple', 'popup', 'store', 'open', 'noon', 'ha', 'fresh', 'shipment', 'ipad', 'im', 'pretty', 'sure', 'im', 'going', 'get', 'one', 'finger', 'crossed']",1.0
+127,"['sxsw', 'apple', 'ipad2']","['apple', 'save', 'sxsw', 'set', 'open', 'popup', 'store']",1.0
+128,['sxsw'],"['apple', 'school', 'marketing', 'expert']",1.0
+129,['sxsw'],"['apple', 'school', 'marketing', 'expert', 'via']",1.0
+130,['sxsw'],"['apple', 'school', 'marketing', 'expert', 'via', 'true', 'love', 'loathe', 'one', 'doe', 'marketing', 'like']",1.0
+131,['sxsw'],"['apple', 'school', 'marketing', 'expert', 'cnet']",1.0
+132,['sxsw'],"['apple', 'school', 'marketing', 'expert', 'cnet', 'blog']",1.0
+133,['sxsw'],"['apple', 'store', 'downtown', 'austin', 'open', 'til', 'midnight', 'theres', 'still', 'time']",1.0
+134,"['sxsw', 'frostwire']","['apple', 'store', 'mall', 'sunday', 'x', 'crowded', 'line', 'fake', 'need', 'fucking', 'dongle', 'genius', 'let']",-1.0
+135,['sxsw'],"['makeshift', 'apple', 'store', 'th', 'congress', 'kidding', 'amazing']",1.0
+136,['sxsw'],"['temporary', 'apple', 'store', 'sxsw', 'really', 'cool', 'ipad']",1.0
+137,"['love', 'music', 'api', 'sxsw']","['temporary', 'apple', 'store', 'set', 'shit', 'temptation', 'going', 'control']",1.0
+138,"['sxsw', 'sxswi']","['temporary', 'apple', 'store', 'open', 'pm', 'th', 'congress', 'line', 'already', 'growing', 'viewio', 'via']",1.0
+139,"['sxsw', 'social', 'media', 'tech', 'ipad2', 'media']","['temporary', 'apple', 'store', 'block', 'office', 'cant', 'wait', 'see', 'line', 'tomorrow', 'photo', 'come']",1.0
+140,['sxsw'],"['ipad', 'news', 'apps', 'last', 'year']",-1.0
+141,"['sxsw', 'ipad2']","['iphone', 'apps', 'probably', 'need', 'use']",1.0
+142,['sxsw'],"['million', 'mobile', 'google', 'map', 'user']",1.0
+143,"['sxsw', 'accordion', 'damn', 'lucky']","['android', 'new', 'mobile', 'apps', 'using']",1.0
+144,['sxsw'],"['ipad', 'apps', 'like', 'software', 'development', 'release', 'start', 'working', 'update']",1.0
+145,['sxsw'],"['overheard', 'ipad', 'relaxing', 'computer', 'agreed']",1.0
+146,"['sxsw', 'geeksrule']","['overheard', 'interactive', 'arg', 'hate', 'iphone', 'want', 'blackberry', 'back']",-1.0
+147,['sxsw'],"['apple', 'come', 'cool', 'technology', 'ones', 'ever', 'heard', 'go', 'conference']",-1.0
+148,['sxsw'],"['last', 'year', 'everbody', 'wa', 'talking', 'ipad', 'year', 'social', 'medium', 'driven', 'revolution', 'year', 'better']",1.0
+149,['sxsw'],"['long', 'line', 'apple', 'pop', 'store', 'ipad', 'great', 'marketing', 'apple']",1.0
+150,['sxsw'],"['google', 'people', 'work', 'people', 'rather', 'people', 'work']",1.0
+151,['sxsw'],"['knackered', 'home', 'playing', 'ipad', 'updating', 'iphone', 'timeline', 'smashed', 'partytweets', 'cant', 'make', 'go', 'bed']",1.0
+152,['sxsw'],"['overheard', 'mdw', 'ill', 'second', 'halfway', 'iphone', 'battery', 'already', 'even', 'boarded', 'plane']",-1.0
+153,['sxsw'],"['sxsw', 'apple', 'school', 'marketing', 'expert']",1.0
+154,['sxsw'],"['first', 'day', 'sxsw', 'fun', 'final', 'presentation', 'google', 'doodle']",1.0
+155,,"['huge', 'line', 'store', 'crowd', 'tripping', 'get', 'new', 'ipad']",1.0
+156,['sxsw'],"['ur', 'party', 'u']",1.0
+157,"['sxsw', 'screen', 'future']","['laughed', 'ipad', 'spent', 'week', 'hauling', 'macbook', 'everywhere', 'really', 'want', 'ipad', 'shoulder', 'rub']",1.0
+158,"['sxsw', 'sxswi']","['attendee', 'need', 'qr', 'code', 'reader', 'iphone', 'tweet', 'u', 'image', 'badge', 'first', 'get', 'optiscan', 'free']",1.0
+159,['sxsw'],"['hey', 'attendee', 'hop', 'line', 'store', 'four', 'day', 'til', 'new', 'ipad', 'come']",1.0
+160,['sxsw'],"['took', 'away', 'lego', 'pit', 'replaced', 'recharging', 'station', 'might', 'check', 'price', 'iphone', 'crap', 'samsung', 'android']",-1.0
+161,['sxsw'],"['bad', 'apple', 'show', 'late', 'q', 'process', 'poopoos', 'idea', 'leaf', 'early', 'even', 'im', 'creative', 'busy']",-1.0
+162,"['sxsw', 'wth']","['trying', 'balance', 'power', 'power', 'need', 'iphone', 'v', 'ipad', 'g', 'ipad', 'suck', 'quick', 'might', 'go', 'airplane', 'mode']",-1.0
+163,['sxsw'],"['iphone', 'battery']",1.0
+164,['sxsw'],"['iphone', 'battery', 'cant', 'keep', 'tweet', 'thanks', 'apple']",-1.0
+165,['sxsw'],"['fun', 'watch', 'apple', 'opening', 'popup', 'store', 'austin', 'sxsw']",1.0
+166,"['fanboy', 'sxsw']","['control', 'set', 'open', 'popup', 'shop', 'core', 'action', 'via', 'cc']",1.0
+167,['sxsw'],"['celebrate', 'beauty', 'web', 'msft', 'launch', 'play', 'new', 'game', 'win', 'ipad']",1.0
+168,"['ipad2', 'sxsw']","['best', 'thing', 'ive', 'heard', 'weekend', 'gave', 'ipad', 'money', 'relief', 'need', 'ipad']",-1.0
+169,"['soundcloud', 'sxsw']","['ipad', 'better', 'time', 'improve']",1.0
+170,"['wrong', 'sxsw']","['go', 'beyond', 'earth', 'hour', 'year', 'sharing', 'positive', 'action', 'world', 'download', 'iphone', 'app']",1.0
+171,['sxsw'],"['google', 'v', 'bing', 'bing', 'ha', 'shot', 'success', 'w', 'structured', 'search', 'potentially', 'higher', 'margin', 'cpa', 'model', 'v']",-1.0
+172,"['agnerd', 'dairy', 'sxsw', 'ag', 'chat']","['course', 'bing', 'result', 'good', 'googles']",1.0
+173,"['ipad', 'tapworthy', 'design', 'flaws', 'sxswi', 'sxsw']","['impulsive', 'buy', 'friend', 'one', 'selling', 'st', 'gen', 'gb', 'g', 'ipad']",1.0
+174,['sxsw'],"['buying', 'new', 'ipads']",1.0
+175,['sxsw'],"['someones', 'buying', 'present', 'apple', 'opening', 'popup', 'store', 'austin']",1.0
+176,['sxsw'],"['nice', 'find', 'rsqs']",1.0
+177,['sxsw'],"['google', 'canadian', 'tuxedo', 'lose', 'hour']",1.0
+178,"['check', 'ins', 'sxsw', 'pnid']","['exciting', 'wait', 'apple', 'opening', 'temporary', 'store', 'downtown', 'austin', 'ipad', 'launch']",1.0
+179,"['sxsw', 'dfcb']","['great', 'certain', 'meeting', 'hello', 'holler', 'gram', 'new', 'ipad', 'app']",1.0
+180,"['sxsw', 'circles']","['dont', 'miss', 'charles', 'chen', 'android', 'chromeos', 'access', 'sxsw', 'google', 'booth', 'exhibit', 'hall', 'pm']",1.0
+181,"['tapworthy', 'sxsw']","['ipad', 'coming', 'guess', 'apples', 'pretty', 'desperate', 'give', 'attention']",-1.0
+182,"['sxsw', 'tmsxsw']","['coming', 'sure', 'download', 'sxsw', 'go', 'app', 'ha', 'schedule', 'location', 'event']",1.0
+183,['sxsw'],"['seriously', 'considering', 'leaving', 'macbook', 'pro', 'home', 'flying', 'solo', 'ipad', 'week', 'think', 'make', 'work']",1.0
+184,"['android', 'sxsw']","['shipment', 'daily', 'follow', 'update', 'popup', 'apple', 'store', 'seems', 'popup', 'ipad']",-1.0
+185,['sxsw'],"['four', 'day']",1.0
+186,['sxsw'],"['iphone', 'dead', 'find', 'secret', 'batphone']",-1.0
+187,"['usguys', 'sxsw']","['google', 'tv', 'demo', 'league', 'extraordinary', 'hacker', 'cool', 'stuff', 'like', 'web', 'apps', 'tv']",1.0
+188,"['sxsw', 'marissa', 'meyer']","['best', 'ipad', 'design', 'big', 'chunky', 'element', 'generous', 'space', 'clarity', 'trump', 'density', 'tap', 'quality', 'trump', 'tap', 'quantity']",1.0
+189,"['thank', 'econ', 'sxsw']","['attending', 'designing', 'ipad', 'interface', 'new', 'navigation', 'schema', 'w', 'great', 'stuff', 'far']",1.0
+190,['sxsw'],"['lovin', 'digital', 'band', 'sings', 'iphone', 'play', 'guitar', 'app', 'fan', 'record', 'vids', 'ipad', 'digital']",1.0
+191,['sxsw'],"['barry', 'diller', 'think', 'ipad', 'content', 'nut']",-1.0
+192,['sxsw'],"['really', 'need', 'another', 'big', 'social', 'network', 'right', 'thanks']",1.0
+193,['sxsw'],"['japan', 'docomo', 'introduced', 'mobile', 'apps', 'six', 'year', 'apple', 'came', 'app', 'store']",-1.0
+194,['sxsw'],"['jeez', 'guy', 'dunno', 'apple', 'popup', 'golds', 'gym', 'u', 'realize', 'unjobsaesthetic']",-1.0
+195,"['sxsw', 'sxtxstate', 'photo']","['even', 'begin', 'win']",1.0
+196,['sxsw'],"['even', 'begin', 'win']",1.0
+197,"['sxsw', 'google']","['even', 'begin', 'win', 'opening', 'temporary', 'store', 'downtown', 'austin', 'support', 'launch']",1.0
+198,['sxsw'],"['even', 'begin', 'apple', 'win', 'techcrunch']",1.0
+199,"['apple', 'sxsw']","['even', 'begin', 'apple', 'win']",1.0
+200,"['geek', 'sxsw']","['even', 'begin', 'apple', 'win']",1.0
+201,"['kobo', 'ts', 'geogames', 'sxsw', 'tm', 'sxsw']","['even', 'begin', 'apple', 'win']",1.0
+202,['sxsw'],"['even', 'begin', 'apple', 'win']",1.0
+203,['sxsw'],"['even', 'begin', 'apple', 'win', 'via']",1.0
+204,"['sxsw', 'emc']","['even', 'begin', 'apple', 'win']",1.0
+205,['sxsw'],"['even', 'begin', 'apple', 'win', 'via']",1.0
+206,"['sxsw', 'qagb']","['even', 'begin', 'apple', 'win', 'gonna', 'get', 'sum', 'via']",1.0
+207,"['sxswmoot', 'sxsw']","['even', 'begin', 'apple', 'win', 'sxsw', 'techcrunch']",1.0
+208,['sxsw'],"['even', 'begin', 'apple', 'win', 'sxsw', 'win', 'big']",1.0
+209,['sxsw'],"['even', 'begin', 'apple', 'win', 'sxsw']",1.0
+210,['sxsw'],"['even', 'begin', 'apple', 'win', 'sxsw']",1.0
+211,"['good', 'deed', 'sxsw', 'winning']","['even', 'begin', 'apple', 'win', 'sxsw']",1.0
+212,['sxsw'],"['even', 'begin', 'apple', 'win', 'sxsw']",1.0
+213,['sxsw'],"['even', 'begin', 'apple', 'win', 'sxsw', 'via']",1.0
+214,['sxsw'],"['even', 'begin', 'apple', 'win', 'sxsw', 'via']",1.0
+215,"['ipad', 'sxsw']","['badgeless', 'event', 'free', 'drink', 'heading', 'free', 'googlesponsored', 'happy', 'hour', 'semantic', 'web', 'austin', 'fogo', 'de', 'ch']",1.0
+216,['sxsw'],"['best', 'swag', 'ever', 'thanks', 'charging', 'iphone', 'thanks']",1.0
+217,"['sxsw', 'sxfl']","['timing', 'everything', 'ipad', 'brand', 'winner', 'sxsw']",1.0
+218,"['sxsw', 'mosaicxm']","['hey', 'exhibitor', 'capture', 'booth', 'experience', 'retrollect', 'disc', 'popular', 'disc', 'win', 'ipad']",1.0
+219,"['sxsw', 'outbrain', 'ipad', 'groupme']","['photo', 'far', 'best', 'accessory', 'ipad', 'followed', 'closely', 'margarita']",1.0
+220,['sxsw'],"['one', 'fav', 'photo', 'far']",1.0
+221,"['sxsw', 'work', 'nottheipad2']","['think', 'fell', 'bit', 'love', 'today', 'thanks', 'throwing', 'nerd', 'party', 'speakeasy']",1.0
+222,"['android', 'bizzy', 'sxsw']","['way', 'figure', 'ipad', 'good', 'replacement', 'making', 'year']",1.0
+223,['sxsw'],"['need', 'find', 'better', 'stream', 'follow', 'inane', 'ipad', 'tweet', 'surely', 'southby']",-1.0
+224,['sxsw'],"['find', 'hottest', 'spot', 'w', 'hot', 'spot', 'app', 'iphone']",1.0
+225,['sxsw'],"['google', 'focusing', 'bridging', 'digital', 'physical', 'divide', 'eg', 'map', 'streetview', 'hotpot', 'autonomous', 'driving']",1.0
+226,"['sxsw', 'ipad2']","['hey', 'folk', 'please', 'keep', 'u', 'posted', 'google', 'hope', 'blast']",1.0
+227,['sxsw'],"['good', 'news', 'austinbound', 'apple', 'fanboys']",1.0
+228,"['sxswi', 'sxsw']","['wish', 'list', 'tech', 'google', 'apps', 'help', 'level', 'playing', 'field', 'kid', 'may', 'software', 'home']",1.0
+229,['sxsw'],"['hitlantis', 'ipad', 'cool', 'song', 'explorer', 'app', 'hitlantiscom']",1.0
+230,"['connected', 'brands', 'sxsw']","['friend', 'sxsw', 'willing', 'pick', 'ipad', 'pay', 'premium', 'dm']",1.0
+231,['sxsw'],"['good', 'talk', 'akqas', 'ipad', 'interface', 'w', 'callback', 'design', 'principle', 'wish', 'go', 'beyond', 'medium', 'marketing', 'example']",1.0
+232,"['social', 'fuel', 'sxsw']","['person', 'front', 'took', 'picture', 'new', 'ipad']",1.0
+233,"['apple', 'sxsw']","['marketing', 'genius', 'apple', 'open', 'pop', 'store', 'outside']",1.0
+234,"['google', 'sxsw']","['get', 'ready', 'word', 'circle', 'trending']",1.0
+235,['sxsw'],"['get', 'food', 'forget', 'snap', 'photo', 'win', 'macbook', 'air', 'ipad', 'apple', 'tv']",1.0
+236,['sxsw'],"['austin', 'getting', 'full', 'underway', 'tell', 'iphone', 'intermittent', 'brick']",-1.0
+237,['sxsw'],"['google', 'giving', 'free', 'google', 'lab', 'laptop', 'open', 'source', 'coder', 'r', 'attending', 'meetup', 'got', 'cupcake']",1.0
+238,['sxsw'],"['go', 'app', 'available', 'blackberry', 'window', 'addition', 'iphone', 'ipad', 'android']",1.0
+239,"['enchantment', 'ipad', 'kindle', 'sxsw']","['want', 'go', 'apple', 'popup', 'store', 'im', 'afraid', 'ill', 'leave', 'new', 'ipad']",1.0
+240,"['ubersocial', 'iphone', 'sxsw']","['omg', 'im', 'going', 'macbook', 'pro', 'ipad', 'iphone', 'ipod', 'galaxy', 'tab']",1.0
+241,['sxsw'],"['golden', 'ticket', 'f', 'sq', 'party', 'day', 'real', 'party', 'felix', 'da', 'housecat', 'playing', 'ipad']",1.0
+242,['sxsw'],"['gsd', 'google', 'party', 'blowing', 'mind', 'much', 'amazing', 'food', 'drink', 'music', 'photo', 'booth', 'fun']",1.0
+243,['sxsw'],"['google', 'circle', 'first', 'real', 'alternative', 'facebook']",1.0
+244,"['sxsw', 'strange', 'problems']","['google', 'let', 'block', 'site', 'cant', 'stand', 'blocking', 'look', 'like', 'need']",1.0
+245,['sxsw'],"['length', 'google', 'penalty', 'based', 'severity', 'breach', 'webmaster', 'guideline', 'iewhite', 'text', 'white', 'bgr', 'might', 'get', 'day', 'pen']",-1.0
+246,"['itunes', 'austin', 'bbq', 'sxsw', 'sxs', 'wi']","['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today', 'itll', 'never', 'beat', 'myspace']",-1.0
+247,['sxsw'],"['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today', 'bigger', 'gaga']",1.0
+248,['sxsw'],"['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today', 'super', 'interesting']",1.0
+249,"['ubersocial', 'iphone', 'sxsw']","['google', 'launch', 'new', 'social', 'network', 'called', 'circle', 'today', 'applause', 'new', 'privacy', 'model', 'attempt']",1.0
+250,"['holler', 'gram', 'sxsw']","['google', 'connect', 'digital', 'physical', 'world', 'mobile']",1.0
+251,"['sxsw', 'ipad2']","['future', 'google', 'contextual', 'discovery', 'location', 'context', 'help', 'u', 'go', 'deeper', 'ever', 'search', 'without', 'search']",1.0
+252,"['smmnextgen', 'sxsw']","['check', 'googletv', 'ipad', 'apps', 'connected', 'tv', 'experience', 'sxsw']",1.0
+253,['sxsw'],"['check', 'googletv', 'ipad', 'apps', 'connected', 'tv', 'experience', 'sxsw', 'fascinating']",1.0
+254,"['apple', 'sxsw', 'austin', 'tx']","['cnnmoney', 'got', 'craving', 'mind', 'created', 'app', 'foodspotting']",1.0
+255,['sxsw'],"['ipad', 'hand', 'awesome', 'dude', 'gave', 'cutsies', 'hour', 'line']",1.0
+256,['sxsw'],"['heard', 'google', 'plan', 'launch', 'socnet', 'may', 'circle', 'learned', 'lot', 'year', 'lot', 'ha', 'changed', 'via']",1.0
+257,['sxsw'],"['may', 'invite', 'cool', 'party', 'two', 'iphone', 'charger', 'pocket', 'happy', 'see']",1.0
+258,['sxsw'],"['ive', 'meeting', 'im', 'line', 'popup', 'apple', 'store', 'ipad', 'love', 'place']",1.0
+259,['sxsw'],"['hello', 'enjoy', 'ride', 'anywhere', 'austin', 'download', 'app', 'booth']",1.0
+260,"['sxsw', 'twitter']","['oh', 'lordy', 'go', 'time', 'doe', 'store', 'open', 'pulling', 'trigger']",1.0
+261,['sxsw'],"['loved', 'honesty', 'googles', 'marissa', 'mayer', 'keynote', 'many', 'product', 'need', 'step', 'customer', 'service', 'location']",1.0
+262,"['sxsw', 'sxswi']","['hey', 'bout', 'donating', 'spending', 'new', 'japan', 'really', 'need', 'thing']",-1.0
+263,['sxsw'],"['wondering', 'much', 'revenue', 'austin', 'store', 'grossed', 'account', 'ipad', 'amid', 'strategic', 'release']",1.0
+264,['sxsw'],"['could', 'forget', 'cell', 'phone', 'today', 'fail', 'glad', 'ipad']",1.0
+265,['sxsw'],"['g', 'iphone', 'hr', 'tweeting', 'wa', 'dead', 'need', 'upgrade', 'plugin', 'station']",-1.0
+266,"['sxsw', 'il']","['feeling', 'worst', 'place', 'try', 'get', 'ipad', 'everyone', 'trying', 'get', 'one']",-1.0
+267,['sxsw'],"['love', 'macbook', 'ipad', 'iphone', 'year', 'one', 'run', 'juice', 'jump', 'next']",1.0
+268,"['ipad2', 'sxsw']","['holy', 'cow', 'got', 'hooked', 'paolo', 'alex', 'backup', 'charger', 'iphone']",1.0
+269,"['ubersocial', 'iphone', 'sxsw', 'masha']","['holy', 'cow', 'got', 'hooked', 'paolo', 'alex', 'backup', 'charger', 'iphone']",1.0
+270,['sxsw'],"['catch', 'mean', 'ipad']",1.0
+271,"['ipad2', 'apple', 'sxsw', 'popup', 'store']","['knew', 'plied', 'beer', 'stogy', 'last', 'night', 'id', 'weasel', 'way', 'team', 'android', 'party', 'tonight']",1.0
+272,['sxsw'],"['thought', 'would', 'use', 'ipad', 'lot', 'even', 'touched', 'hmmzies']",-1.0
+273,"['apple', 'sxsw', 'ipad2']","['ill', 'austin', 'convention', 'center', 'today', 'w', 'fam', 'showing', 'new', 'iphone', 'game']",1.0
+274,['sxsw'],"['im', 'beyond', 'frustrated', 'w', 'samsung', 'moment', 'runaround', 'leaving', 'att', 'iphone', 'enjoy']",1.0
+275,"['sxsw', 'efficient']","['idea', 'startupbus', 'thing', 'addictive', 'also', 'added', 'android', 'app']",1.0
+276,['sxsw'],"['hotspot', 'data', 'speed', 'could', 'keep', 'also', 'thanks', 'apple', 'releasing', 'io', 'time']",1.0
+277,"['airline', 'sxsw']","['wondering', 'ppl', 'friday', 'queue', 'convention', 'centre', 'apple', 'store', 'xd', 'im', 'still', 'figuring', 'wot', 'ill']",1.0
+278,['sxsw'],"['week', 'clip', 'join', 'review', 'free', 'go']",1.0
+279,"['sxsw', 'android', 'getjar', 'sxsw']","['room', 'full', 'people', 'w', 'good', 'wifi', 'run', 'android', 'share', 'pic', 'apps', 'vids', 'w', 'others']",1.0
+280,"['sxsw', 'google']","['room', 'full', 'people', 'w', 'good', 'wifi', 'run', 'android', 'share', 'pic', 'apps', 'vids', 'w', 'others']",1.0
+281,"['sxsw', 'ipad', 'sleeves']","['hot', 'spot', 'austin', 'gowalla', 'right', 'convention', 'cnt', 'ignite', 'party', 'n', 'apple', 'store']",1.0
+282,['sxsw'],"['austin', 'weekend', 'supporting', 'smarty', 'ear', 'launch', 'new', 'ipad', 'apps', 'speech', 'therapy']",1.0
+283,['sxsw'],"['need', 'sweet', 'mac', 'goodness', 'apple', 'ha', 'set', 'temporary', 'store', 'downtown']",1.0
+284,"['sxswnui', 'sxsw', 'ipad']","['zite', 'intelligent', 'ipad', 'magazine', 'deliciousness']",1.0
+285,['sxsw'],"['google', 'interested', 'location', 'based', 'tech', 'indoor', 'venue', 'business', 'convention', 'center', 'etc', 'tech', 'need', 'improve', 'first']",-1.0
+286,['sxsw'],"['tim', 'soos', 'invisible', 'instrument', 'jaw', 'dropping', 'iphone', 'wii', 'controller']",1.0
+287,['sxsw'],"['rockin', 'ipad', 'downtown', 'apple', 'store']",1.0
+288,"['sxsw', 'sxsw']","['awesome', 'ipad', 'jailbreak', 'grateful', 'dead']",1.0
+289,"['tech', 'sxsw']","['new', 'post', 'ipad', 'launch', 'huge', 'line', 'apple', 'popup', 'shop', 'austin']",1.0
+290,['sxsw'],"['ipad', 'sold', 'went', 'new', 'buyer', 'report']",1.0
+291,"['sxsw', 'iphone']","['remaining', 'ipad', 'stock', 'apple', 'store', 'come', 'get', 'one']",1.0
+292,"['sxsw', 'emc']","['ipad', 'accessory', 'bag', 'thanks']",1.0
+293,"['sxsw', 'austin', 'lp']","['ipad', 'app', 'pure', 'gold']",1.0
+294,['sxsw'],"['first', 'ipad', 'even', 'exist', 'last', 'year', 'already', 'feel', 'like', 'im', 'pulling', 'antique', 'everytime', 'use', 'ipad']",-1.0
+295,['sxsw'],"['turn', 'ipad', 'physical', 'messaging', 'platform', 'holler', 'gram', 'cheeky', 'app', 'built']",1.0
+296,['sxsw'],"['shoot', 'ipad', 'display', 'search', 'result', 'go', 'question', 'later']",-1.0
+297,"['sxsw', 'even', 'started', 'yet']","['pic', 'ipadwinning', 'performance']",1.0
+298,['sxsw'],"['fear', 'iphone', 'gs', 'slowpoke', 'network']",1.0
+299,['sxsw'],"['iphone', 'app', 'mocking', 'like', 'money', 'come']",-1.0
+300,"['sxsw', 'apple', 'tablet', 'marketing', 'advertising', 'ipod']","['iphone', 'app', 'one', 'worst', 'ive', 'use', 'long', 'time']",-1.0
+301,"['sxsw', 'mac', 'ipad']","['cool', 'iphone', 'app', 'launched', 'flypost', 'community', 'bulletin', 'board', 'w', 'location', 'learn']",1.0
+302,"['sxsw', 'video', 'channel', 'gadgets', 'news', 'uncategorized']","['pedicab', 'iphone', 'charger', 'would', 'epic', 'win']",1.0
+303,"['sxsw', 'video']","['check', 'iphone', 'developer', 'meet', 'sxsw']",1.0
+304,['sxsw'],"['iphone', 'transient', 'device', 'used', 'short', 'burst', 'ipad', 'p', 'couch', 'device']",1.0
+305,['sxsw'],"['disliking', 'iphone', 'twitter', 'auto', 'shortening', 'link']",-1.0
+306,"['apple', 'ipad', 'sxsw']","['iphone', 'clearly', 'positively', 'happily']",1.0
+307,"['4sq3', 'sxsw', 'keep', 'austin', 'weird']","['flipboard', 'developing', 'iphone', 'version', 'android', 'say']",1.0
+308,"['android', 'sxsw', 'party', 'free']","['iphone', 'overheating', 'many', 'british', 'sounding', 'people', 'texas']",-1.0
+309,"['sxsw', 'disco', 'talk']","['part', 'presentation', 'good', 'thing', 'crashing', 'instead', 'work', 'best', 'iphone', 'android']",1.0
+310,"['circles', 'sxsw']","['sister', 'throwing', 'google', 'sxsw', 'party', 'tonigh', 'come', 'band', 'food', 'art', 'ice', 'cream', 'nifty', 'interactive']",1.0
+311,['sxsw'],"['iphone', 'wilting', 'stress']",-1.0
+312,"['power', 'matteam', 'sxsw']","['believe', 'almost', 'always', 'use', 'google', 'map', 'iphone', 'google', 'map', 'use', 'mobile', 'say']",1.0
+313,"['live', 'gsdm', 'sxsw']","['course', 'doe', 'get', 'apple', 'store']",1.0
+314,['sxsw'],"['gotta', 'get', 'hey', 'taariq', 'howdy', 'texas', 'fav', 'app', 'androidor', 'get', 'iphone']",1.0
+315,['sxsw'],"['bigger', 'iphone', 'smaller', 'pc', 'good', 'big', 'event', 'like', 'meeti']",1.0
+316,['sxsw'],"['bigger', 'iphone', 'smaller', 'pc', 'good', 'big', 'event', 'like', 'meeting', 'day']",1.0
+317,"['apple', 'sxsw']","['im', 'bit', 'jealous', 'seeing', 'attendee', 'ipad', 'seems', 'obsolete']",1.0
+318,"['hable', 'sxsw']","['im', 'learning', 'thing', 'screen', 'year', 'olds', 'explanation', 'instantly', 'knew', 'use', 'ipad']",1.0
+319,['sxsw'],"['location', 'pixieengine', 'google', 'say', 'future', 'location', 'location', 'location']",-1.0
+320,"['sxsw', 'netflix', 'iphone']","['ipad', 'keep', 'awake', 'thank', 'god', 'bought']",1.0
+321,"['sxsw', 'sxswnui']","['iphone', 'know', 'week', 'tough', 'alreadydwindling', 'battery', 'help', 'jeebus', 'keep', 'correcting', 'curse', 'word']",-1.0
+322,['sxsw'],"['google', 'launch', 'social', 'network', 'circle', 'whos', 'excited']",1.0
+323,['sxsw'],"['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'via']",1.0
+324,"['sxsw', 'geek', 'dilemma']","['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'updated', 'launched', 'soon', 'care']",-1.0
+325,['sxsw'],"['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'brazils', 'orkut', 'user', 'waiting']",1.0
+326,['sxsw'],"['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today', 'updated']",1.0
+327,['sxsw'],"['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today']",1.0
+328,"['rise', 'sxsw']","['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today', 'surely', 'threat', 'fb']",1.0
+329,"['calyp', 'calyp', 'sxsw']","['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today']",1.0
+330,"['view', '512', 'sxsw']","['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today', 'via']",1.0
+331,"['sxsw', 'buffalo', 'sxsw']","['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today', 'good']",1.0
+332,"['sxsw', 'zazzlesxsw']","['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today', 'via']",1.0
+333,['sxsw'],"['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today', 'via']",1.0
+334,['sxsw'],"['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today', 'via']",1.0
+335,['sxsw'],"['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today']",1.0
+336,['sxsw'],"['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle']",1.0
+337,"['sxsw', 'qagb']","['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle']",1.0
+338,"['tech', 'sxsw']","['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'v']",1.0
+339,"['apple', 'sxsw', 'whammies']","['google', 'launch', 'new', 'social', 'network', 'sxsw', 'cnet', 'news']",1.0
+340,"['sxsw', 'better', 'things']","['google', 'launch', 'new', 'social', 'network', 'circle', 'linking', 'u', 'closely', 'peep', 'u', 'connect', 'w', 'possibly', 'today']",1.0
+341,['sxsw'],"['google', 'launch', 'product', 'wait', 'launch', 'product', 'exists', 'wait', 'product', 'doe', 'exist']",-1.0
+342,"['poster', 'ous', 'sxsw', 'soc', 'media']","['god', 'like', 'imac', 'macbook', 'iphone', 'blackberry', 'staring', 'enough', 'time', 'read', 'book', 'remember']",-1.0
+343,['sxsw'],"['ha', 'seems', 'like', 'news', 'sxswi', 'wa', 'apples', 'temporary', 'ipad', 'store']",-1.0
+344,['sxsw'],"['theres', 'line', 'apple', 'store', 'ipad', 'day']",1.0
+345,"['holler', 'gram', 'sxsw']","['saw', 'giant', 'line', 'thought', 'wa', 'movie', 'premiere', 'wa', 'apple', 'store', 'ipad', 'heard', 'scream', 'premiere']",1.0
+346,['sxsw'],"['since', 'im', 'listening', 'googles', 'marissa', 'mayer', 'engaging', 'twitter', 'im', 'wondering', 'heck', 'happened', 'google', 'buzz']",1.0
+347,['sxsw'],"['ive', 'looking', 'forward', 'google', 'bing', 'q', 'website', 'ranking', 'week']",1.0
+348,['sxsw'],"['lot', 'google', 'effort', 'helping', 'japan', 'many', 'global', 'issue', 'wtf', 'w', 'people']",1.0
+349,"['sxsw', 'android', 'videogame', 'smartphone']","['gotta', 'love', 'unabashed', 'apple', 'even', 'begin', 'apple', 'win']",1.0
+350,"['sxsw', 'ipad2']","['geeky', 'love', 'apple', 'opening', 'temporary', 'store', 'downtown', 'austin', 'ipad', 'launch']",1.0
+351,"['sxsw', 'new', 'apple', 'store', 'austin']","['love', 'apple', 'come', 'w', 'cool', 'technology', 'ones', 'ever', 'heard', 'go', 'conference']",1.0
+352,['sxsw'],"['love', 'apple', 'come', 'cool', 'technology', 'ones', 'ever', 'heard', 'go', 'conference']",1.0
+353,['sxsw'],"['trying', 'make', 'detailed', 'colour', 'coded', 'google', 'calendar', 'proving', 'really', 'tough', 'also', 'get', 'organized']",1.0
+354,['sxsw'],"['many', 'people', 'ipads', 'whole', 'room', 'raise', 'hand', 'ipad', 'half', 'room', 'raise', 'hand']",1.0
+355,['sxsw'],"['love', 'marketing', 'genius', 'inside', 'apples', 'temporary', 'store', 'austin']",1.0
+356,['sxsw'],"['great', 'vid', 'marty', 'live', 'unboxing', 'front', 'apple', 'store', 'video']",1.0
+357,['sxsw'],"['think', 'may', 'go', 'ipad', 'laptop', 'today', 'veteran', 'reason']",1.0
+358,"['sxsw', 'apple', 'ipad2']","['made', 'ambassador', 'upload', 'music', 'show', 'reward', 'soundcloud', 'android', 'app', 'fresh']",1.0
+359,['sxsw'],"['alert', 'medium', 'saw', 'one', 'android', 'tablet', 'like', 'finding', 'needle', 'haystack', 'also', 'saw', 'cr']",1.0
+360,"['sxsw', 'music', 'photos', 'videos']","['great', 'mental', 'image', 'people', 'session', 'taking', 'photo', 'w', 'ipad', 'air']",1.0
+361,"['sxsw', 'qagb', 'sxswi']","['purchased', 'mexican', 'mavis', 'boy', 'bear', 'sold', 'first', 'listen', 'thanks']",1.0
+362,['sxsw'],"['think', 'might', 'go', 'weekend', 'without', 'seeing', 'ipad', 'case', 'twice']",1.0
+363,['sxsw'],"['sure', 'mine', 'doe', 'via', 'ipad', 'know', 'relies', 'evernote']",1.0
+364,['sxsw'],"['bummed', 'miss', 'year', 'were', 'quarantined', 'kiddie', 'cold', 'garageband', 'ipad', 'comfort']",1.0
+365,['sxsw'],"['miss', 'knew', 'spotted', 'nfc', 'enabled', 'google', 'place', 'marker', 'bird', 'wonder', 'billboard', 'near']",1.0
+366,['sxsw'],"['loving', 'morphie', 'juicepack', 'today', 'recharge', 'iphone', 'worth']",1.0
+367,['sxsw'],"['brilliant', 'move', 'apple', 'even', 'begin', 'apple', 'win']",1.0
+368,"['google', 'sxsw']","['could', 'murphy', 'usa', 'better', 'serve', 'inside', 'google', 'map', 'phone', 'google', 'announcing', 'great', 'feature', 'v']",1.0
+369,['sxsw'],"['cant', 'intimate', 'together']",1.0
+370,"['sxsw', 'fh']","['compiling', 'list', 'one', 'google', 'doc', 'taking', 'lot', 'longer', 'thought', 'many', 'party', 'many', 'good', 'musician']",-1.0
+371,"['google', 'sxsw', 'mobile', 'hotpot']","['day', 'charger', 'kicked', 'bucket', 'heck', 'apple', 'store', 'thats', 'within', 'walking', 'distance']",-1.0
+372,"['sxsw', 'check', 'ins']","['iphone', 'ipad', 'feel', 'unequipped', 'compared', 'everyone', 'else', 'dang']",-1.0
+373,"['sxsw', 'steamy', 'hot', 'nerds']","['hm', 'need', 'another', 'google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today']",-1.0
+374,['sxsw'],"['new', 'app', 'store', 'includes', 'uberguide', 'sponsored']",1.0
+375,['sxsw'],"['couple', 'new', 'blog', 'random', 'tip', 'awesome', 'iphone', 'app', 'dev', 'politics', 'behind', 'html']",1.0
+376,['sxsw'],"['dude', 'next', 'holding', 'using', 'ipad', 'like', 'trophy']",1.0
+377,['sxsw'],"['hard', 'feeling', 'towards', 'google', 'say', 'would', 'make', 'great', 'partner']",1.0
+378,"['sxsw', 'gsdm']","['rumor', 'apple', 'popup', 'store', 'downtown', 'austin', 'ipad', 'launch', 'smart', 'move', 'of', 'many']",1.0
+379,['sxsw'],"['google', 'launching', 'anything', 'partying']",-1.0
+380,"['tapworthy', 'sxsw']","['buy', 'buy', 'even', 'begin', 'apple', 'win']",1.0
+381,"['sxsw', 'macallan']","['farooqui', 'mobile', 'io', 'android', 'catching', 'fast', 'grow', 'allow', 'inapp', 'purchasing']",1.0
+382,"['ipad', 'sxsw']","['fear', 'extended', 'wed', 'last', 'day', 'apple', 'popup', 'sunday']",1.0
+383,['sxsw'],"['nothing', 'teeming', 'sea', 'iphone', 'addict', 'busy', 'twittering', 'ever', 'engage', 'one', 'anoth', 'cont']",-1.0
+384,['sxsw'],"['fan', 'new', 'trend', 'audience', 'sharing', 'opinion', 'via', 'holding', 'ipad', 'listen']",-1.0
+385,"['android', 'sxsw', 'app']","['power', 'apple', 'people', 'spent', 'hundred', 'dollar', 'attend', 'spending', 'day', 'waiting', 'line', 'ipad']",1.0
+386,['sxsw'],"['continuum', 'attitude', 'crowdsourcing', 'gap', 'hear', 'apple', 'ill', 'tell']",1.0
+387,"['sxsw', 'playsxsw']","['third', 'era', 'google', 'logo', 'interactive', 'play', 'space', 'get', 'ready']",1.0
+388,['sxsw'],"['highlight', 'day', 'wa', 'undoubtedly', 'meeting', 'google', 'second', 'softball', 'fancrazed', 'preso']",1.0
+389,"['film', 'aster', 'iphone', 'sxsw']","['wow', 'lot', 'audience', 'seen', 'd', 'vector', 'panning', 'google', 'map', 'mobile', 'gasp', 'appreciation']",1.0
+390,['sxsw'],"['tomlinson', 'tx', 'observer', 'say', 'apple', 'subscription', 'data', 'holding', 'biggest', 'impediment', 'success']",-1.0
+391,['sxsw'],"['official', 'app', 'sxsw', 'go', 'thanks', 'installed']",1.0
+392,"['sxsw', 'vb']","['omg', 'jk', 'kiss', 'ipad', 'slap', 'xoom']",1.0
+393,['sxsw'],"['also', 'android', 'foodspottings', 'hit', 'iphone', 'app', 'find', 'food', 'crave']",1.0
+394,['sxsw'],"['usa', 'today', 'ipad', 'make', 'good', 'use', 'digital', 'shortcut', 'still', 'looking', 'like', 'newspaper']",1.0
+395,['sxsw'],"['iphone', 'one', 'hand', 'caramel', 'macchiato', 'ouchhisshot', 'apparently', 'two', 'pump', 'lava', 'begin']",1.0
+396,['sxsw'],"['haz', 'one', 'showed', 'charge', 'anywhere', 'bar', 'charge', 'iphone', 'whole', 'table', 'wanted', 'buy', 'one']",1.0
+397,['sxsw'],"['open', 'popup', 'store', 'across', 'street', 'two', 'week', 'umm', 'genius', 'obvious', 'cough', 'cough']",1.0
+398,['sxsw'],"['apple', 'ha', 'opened', 'makeshift', 'store', 'ipad', 'available', 'pm', 'today']",1.0
+399,"['bjd', 'productions', 'apple', 'sxsw', 'tech']","['hey', 'new', 'ipad', 'app', 'dexteria', 'available', 'like', 'u', 'facebook']",1.0
+400,['sxsw'],"['ipad', 'plenty', 'people', 'store', 'line', 'scarfing', 'apple', 'store', 'sxsw', 'w', 'others']",1.0
+401,"['itunes', 'ipad2', '1990style', 'sxsw']","['nice', 'line', 'outside', 'store', 'guess', 'people', 'want', 'ipad']",1.0
+402,['sxsw'],"['packing', 'point', 'showing', 'iphone', 'fragmentation']",-1.0
+403,['sxsw'],"['google', 'party', 'best', 'ever', 'get', 'butt']",1.0
+404,['sxsw'],"['hey', 'peep', 'new', 'iphone', 'app', 'launched', 'u', 'check', 'let', 'u', 'know', 'think']",1.0
+405,['sxsw'],"['google', 'planning', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'preview', 'far', 'super', 'positive']",1.0
+406,"['apple', 'sxsw', 'ipad', 'austin', 'fuck', 'yeah']","['need', 'play', 'game']",1.0
+407,['sxsw'],"['left', 'pocket', 'guide', 'hotel', 'know', 'im', 'going', 'cope', 'doe', 'say', 'usability', 'ipad', 'iphone', 'app']",-1.0
+408,['sxsw'],"['temporary', 'pop', 'shop', 'nice', 'flipboard', 'upgrade']",1.0
+409,"['apple', 'sxsw']","['apple', 'pop', 'store', 'joke']",1.0
+410,"['sxswi', 'sxsw']","['apple', 'popup', 'store', 'attractive', 'impressive', 'many', 'permanent', 'retail', 'store']",1.0
+411,"['sxsw', 'ui']","['apple', 'popup', 'store', 'line', 'finally', 'dwindled', 'time', 'check', 'ipad']",1.0
+412,['sxsw'],"['apple', 'popup', 'store', 'wa', 'hook', 'last', 'night', 'singing', 'dancing', 'high', 'five', 'new', 'ipad', 'purchase']",1.0
+413,['sxsw'],"['brilliant', 'pr', 'stunt', 'business', 'idea', 'customer', 'service', 'response', 'one', 'apple', 'set', 'popup', 'store', 'draw', 'crowd', 'medium', 'revenue']",1.0
+414,"['apple', 'sxsw']","['excellent', 'presentation', 'untapped', 'ipad', 'market', 'site', 'pour']",1.0
+415,"['android', 'gps', 'iphone', 'sxsw']","['ipad', 'pretty', 'sick', 'almost', 'make', 'think', 'need', 'one']",1.0
+416,"['samsung', 'sxsw', 'sxswi']","['problem', 'google', 'living', 'story', 'wa', 'process', 'creating', 'content', 'change', 'wa', 'interface']",-1.0
+417,['sxsw'],"['brilliant', 'read', 'attention', 'marketer', 'medium', 'professional', 'ipad', 'save']",-1.0
+418,['sxsw'],"['google', 'reproducing', 'digitally', 'way', 'organically', 'consume', 'information', 'goggles', 'best', 'example']",1.0
+419,"['empowered', 'sxsw']","['retiring', 'wine', 'library', 'tv', 'moving', 'onto', 'daily', 'grape', 'get', 'app', 'yr', 'iphone']",1.0
+420,['sxsw'],"['reveals', 'average', 'time', 'user', 'spent', 'nyts', 'oscar', 'ipad', 'app', 'wa', 'mins', 'blew', 'mind']",1.0
+421,['sxsw'],"['right', 'app', 'sweeeeet', 'nice', 'job', 'team']",1.0
+422,"['sxsw', 'eventseekr']","['congrats', 'good', 'news', 'austin', 'eats', 'bbq', 'iphone', 'available']",1.0
+423,"['sxsw', 'better', 'search']","['congrats', 'awesome', 'ipad', 'lounge', 'experience', 'complete']",1.0
+424,['sxsw'],"['congrats', 'yes', 'gowalla', 'win', 'best', 'andoid', 'app', 'team', 'android', 'choice', 'award', 'thanks']",1.0
+425,"['ipad2', 'austin', 'sxsw', 'apple']","['like', 'google', 'tweet', 'new', 'think', 'speak', 'mark', 'belinsky', 'panel']",1.0
+426,"['dgtl', 'tribe', 'sxsw', 'openbeta6']","['l', 'e', 'law', 'average', 'better', 'buzz', 'google', 'circle']",-1.0
+427,['sxsw'],"['love', 'naomi', 'campbell', 'popup', 'store', 'rage']",1.0
+428,['sxsw'],"['new', 'rule', 'ooing', 'ahing', 'new', 'ipad', 'get', 'big', 'deal', 'everybody', 'ha', 'one']",-1.0
+429,['sxsw'],"['hot', 'rumor', 'googles', 'new', 'social', 'network', 'google', 'circle', 'photo', 'video', 'status', 'sharing']",1.0
+430,"['ipad2', 'sxsw']","['google', 'saving', 'user', 'year', 'time', 'gps', 'navigation', 'using', 'alternate', 'route', 'w', 'traffic']",1.0
+431,['sxsw'],"['wow', 'saw', 'someone', 'using', 'computing', 'device', 'mac', 'ipad', 'rare', 'sighting', 'indeed']",1.0
+432,"['ipad2', 'sxsw']","['iphone', 'say', 'cant', 'connect', 'internet', 'even', 'though', 'wifi', 'work', 'great', 'computer', 'suggestion']",-1.0
+433,['sxsw'],"['grabbed', 'seat', 'ballroom', 'hear', 'google']",1.0
+434,['sxsw'],"['ok', 'seen', 'two', 'impressive', 'line', 'since', 'im', 'one', 'apple', 'store', 'yesterday', 'party', 'cc']",1.0
+435,['sxsw'],"['setting', 'popup', 'store', 'downtown', 'austin', 'sell', 'bajillions', 'ipad', 'attendee', 'course']",1.0
+436,"['sxswnui', 'gsdm', 'sxsw']","['exclusive', 'shot', 'popup', 'apple', 'store']",1.0
+437,['sxsw'],"['spilled', 'bean', 'next', 'platform', 'flipboard', 'iphone', 'team', 'started', 'working', 'gr']",1.0
+438,['sxsw'],"['new', 'ipad']",1.0
+439,"['sxsw', 'web3', 'saatchiny']","['impressed', 'far', 'ipad', 'slim', 'form', 'instant', 'ness', 'ive', 'seen', 'tried', 'one', 'yet']",1.0
+440,['sxsw'],"['many', 'ppl', 'w', 'apple', 'product', 'think', 'head', 'explode', 'message', 'brought', 'via', 'iphone']",1.0
+441,"['uxdes', 'sxsw']","['q', 'social', 'site', 'like', 'delicious', 'often', 'better', 'result', 'google', 'bing']",-1.0
+442,['sxsw'],"['ipad', 'soldout', 'st', 'time', 'user']",1.0
+443,['sxsw'],"['weve', 'got', 'exciting', 'thing', 'well', 'showing', 'year', 'including', 'drag', 'drop', 'store', 'management', 'iphone']",1.0
+444,"['hipster', 'much', 'sxsw']","['talked', 'great', 'developer', 'android', 'meetup', 'looking', 'forward', 'working']",1.0
+445,"['sxsw', 'ipad2']","['information', 'morning', 'apple', 'store', 'getting', 'build', 'two', 'week', 'ipad', 'love', 'jealous']",1.0
+446,['sxsw'],"['ive', 'seen', 'best', 'ipad', 'case', 'ever', 'im', 'starting', 'transfer', 'bit', 'book', 'fetishism', 'ipads', 'slowly', 'surely']",1.0
+447,['sxsw'],"['spotted', 'man', 'need', 'ipad', 'man', 'need', 'go', 'sxsw', 'apple', 'store']",1.0
+448,['sxsw'],"['still', 'ipad', 'least', 'popup', 'apple', 'store', 'bought', 'one']",1.0
+449,"['h4ckers', 'sxsw']","['apple', 'store', 'austin', 'people', 'taking', 'pic']",1.0
+450,['sxsw'],"['oh', 'apple', 'store', 'look', 'home', 'downtown', 'austin', 'apple', 'store', 'sxsw']",1.0
+451,"['apple', 'sxsw']","['theyd', 'stupid', 'apple', 'opening', 'temporary', 'store', 'austin', 'ipad', 'launch', 'via']",1.0
+452,['sxsw'],"['great', 'new', 'support', 'web', 'font']",1.0
+453,['sxsw'],"['sxsw', 'apple', 'school', 'marketing', 'expert']",1.0
+454,['sxsw'],"['great', 'talk', 'must', 'one', 'mention', 'apple']",1.0
+455,"['ubersocial', 'iphone', 'sxsw']","['read', 'selling', 'ipad', 'release', 'day', 'good', 'lord', 'vortex', 'smugness', 'day', 'may', 'unbearable']",-1.0
+456,"['sxsw', 'winwin', 'winning', 'tiger', 'blood']","['bad', 'want', 'go', 'home', 'read', 'google', 'reader', 'feed']",1.0
+457,['sxsw'],"['check', 'game', 'iphone', 'android', 'seems', 'pretty', 'cool']",1.0
+458,"['ftw', 'sxswi', 'sxsw']","['dangerous', 'iphone', 'apps']",-1.0
+459,"['apple', 'sxsw']","['hopefully', 'best', 'thing', 'come', 'fact', 'people', 'flew', 'austin', 'pick', 'ipad']",1.0
+460,"['sxsw', 'startup', 'bus']","['first', 'day', 'exhibit', 'hall', 'open', 'stop', 'booth', 'enter', 'win', 'ipad']",1.0
+461,['sxsw'],"['check', 'free', 'sxsw', 'sampler', 'itunes']",1.0
+462,['sxsw'],"['following', 'google', 'bing', 'qa', 'session', 'great', 'insight', 'webmaster']",1.0
+463,['sxsw'],"['like', 'ipoo', 'app', 'iphone', 'ha', 'chan', 'internets', 'bathroom', 'wall']",1.0
+464,['sxsw'],"['pdanet', 'awesome', 'app', 'yet', 'android', 'like']",1.0
+465,['sxsw'],"['check', 'new', 'app', 'gonna', 'huge', 'next', 'week', 'beyond']",1.0
+466,['sxsw'],"['new', 'whrrl', 'app', 'live', 'iphone', 'app', 'store', 'android', 'marketplace', 'get', 'hot', 'time']",1.0
+467,['sxsw'],"['used', 'ol', 'ipad', 'help', 'brit', 'find', 'hotel', 'austin']",1.0
+468,['sxsw'],"['must', 'one', 'without', 'ipad', 'someone', 'need', 'make', 'case', 'make', 'original', 'ipad', 'look', 'like', 'new', 'nd', 'gen']",1.0
+469,"['mind', 'jet', 'ipad', 'sxswi']","['unveiling', 'popup', 'apple', 'store', 'scarborough', 'building']",1.0
+470,['sxsw'],"['ipad', 'star', 'gadget', 'sxsw']",1.0
+471,"['ces', 'sxsw']","['went', 'whole', 'day', 'w', 'laptop', 'used', 'ipad', 'thing', 'missed', 'ftp', 'cloudapp', 'fast', 'typing', 'skype']",-1.0
+472,"['touching', 'stories', 'sxsw']","['exploring', 'world', 'd', 'xml', 'combine', 'google', 'earth', 'w', 'location', 'individual', 'show', 'time', 'cool']",1.0
+473,"['disco', 'talk', 'sxsw', 'sloanxsw']","['last', 'year', 'wa', 'single', 'ipad', 'public', 'today', 'theyre', 'common', 'laptop', 'seen', 'android', 'tablet']",1.0
+474,"['sxsw', 'cat', 'physics']","['think', 'would', 'app', 'blackberry', 'gave', 'iphone', 'finger', 'guess', 'ill', 'carry', 'around', 'ipad', 'lame']",-1.0
+475,['sxsw'],"['theres', 'expectation', 'engagement', 'ipad', 'visual', 'social', 'delving', 'experience']",1.0
+476,['sxsw'],"['wow', 'thing', 'insanely', 'thin', 'light', 'hold', 'ipad', 'seriously']",1.0
+477,['sxsw'],"['among', 'thing', 'missing', 'googleaclu', 'dance', 'party']",1.0
+478,['sxsw'],"['top', 'thing', 'ive', 'loved', 'far']",1.0
+479,['sxsw'],"['like', 'think', 'apple', 'decided', 'sell', 'new', 'ipad', 'based', 'suggestion', 'everyone', 'welcome']",1.0
+480,['sxsw'],"['anyone', 'think', 'im', 'going', 'walking', 'around', 'old', 'inferior', 'ipad', 'ipad', 'released', 'well', 'wrong']",1.0
+481,"['sxsw', 'fail']","['people', 'apple', 'store', 'smell', 'great']",-1.0
+482,['sxsw'],"['check', 'new', 'app', 'were', 'using', 'check']",1.0
+483,['sxsw'],"['check', 'video', 'get', 'glimpse', 'action', 'wa', 'like', 'ipad', 'could', 'resist']",1.0
+484,['sxsw'],"['believe', 'theyre', 'good', 'life', 'would', 'much', 'better', 'ipad']",1.0
+485,['sxsw'],"['thousand', 'ipad', 'floating', 'around', 'austin', 'seen', 'even', 'one', 'single', 'android', 'tablet', 'even', 'one', 'zero']",1.0
+486,"['trade', 'show', 'sxsw']","['excellent', 'tip', 'going', 'new', 'iphone', 'guide', 'free', 'march', 'hard', 'beat', 'free']",1.0
+487,"['sxsw', 'ipad']","['thank', 'letting', 'test', 'drive', 'car', 'apple', 'store', 'let', 'hope', 'fix', 'phone']",-1.0
+488,"['ubersocial', 'iphone', 'sxsw']","['way', 'ipad', 'design', 'headache', 'sure', 'bloggable', 'im', 'sure', 'interesting']",1.0
+489,['sxsw'],"['way', 'forgot', 'ipad', 'cleveland', 'hopkins', 'airport', 'w', 'others']",1.0
+490,['sxsw'],"['listening', 'google', 'q', 'saying', 'see', 'yelp', 'service', 'going', 'die', 'far', 'interesting']",1.0
+491,"['paying', 'data', 'sxsw']","['listening', 'googles', 'marissa', 'mayer', 'discus', 'new', 'product', 'including', 'google', 'hotpot', 'watch', 'yelp']",1.0
+492,"['ipad2', 'sxsw', 'apple']","['apple', 'set', 'open', 'popup', 'shop', 'core', 'action', 'geek', 'need', 'love']",1.0
+493,['sxsw'],"['apple', 'set', 'open', 'popup', 'shop', 'core', 'sxsw', 'action', 'theyre', 'going', 'sell', 'ipad']",1.0
+494,['sxsw'],"['apple', 'set', 'open', 'popup', 'shop', 'core', 'sxsw', 'action']",1.0
+495,"['free', 'music', 'sxsw']","['expecting', 'see', 'flood', 'shiny', 'new', 'ipad', 'today', 'line', 'apple', 'store', 'wa', 'around', 'block']",1.0
+496,['sxsw'],"['get', 'see', 'google', 'fail', 'social', 'another', 'day', 'okay', 'google', 'circle', 'debuting', 'today']",-1.0
+497,"['apple', 'sxsw']","['listening', 'twit', 'live', 'also', 'went', 'boxee', 'keg', 'party', 'google', 'robot', 'event', 'saw', 'tim', 'ferris', 'speak', 'checked', 'ebay', 'hackathon']",1.0
+498,['sxsw'],"['im', 'going', 'wait', 'know', 'going', 'better', 'ipad']",1.0
+499,"['sxsw', 'couch', 'couchfan', 'loves']","['im', 'fond', 'ipad']",1.0
+500,['sxsw'],"['attending', 'tv', 'new', 'medium', 'formula', 'success', 'seeing', 'lot', 'ipad', 'around']",1.0
+501,"['iphone', 'app', 'telework', 'sxsw']","['two', 'apple', 'store', 'atx', 'ipad', 'go', 'sale', 'next', 'friday', 'austin', 'apple', 'store', 'going', 'busy']",1.0
+502,"['zazzlesxsw', 'sxsw']","['apple', 'ha', 'two', 'austin', 'store', 'week', 'downtown', 'presence', 'change', 'popup', 'store']",1.0
+503,['sxsw'],"['know', 'u', 'u', 'selling', 'weve', 'never', 'talked', 'hate', 'product', 'check', 'heyo', 'iphone']",-1.0
+504,['sxsw'],"['unloading', 'store', 'corner', 'th', 'congress', 'austin', 'temp', 'store', 'dis', 'awesome']",1.0
+505,"['google', 'doodle', 'sxsw']","['apple', 'pop', 'store', 'pop', 'genius', 'bar', 'everywhere']",1.0
+506,['sxsw'],"['apple', 'pop', 'store', 'line', 'ridic']",-1.0
+507,"['sxsw', 'big', 'brands', 'sxsw']","['trying', 'update', 'software', 'iphone', 'download', 'app', 'far', 'luck', 'wonder', 'phone', 'mexico']",-1.0
+508,['sxsw'],"['def', 'could', 'use', 'ipad', 'today', 'tweeting', 'via', 'iphone', 'sorta', 'pretty', 'much', 'sux']",-1.0
+509,"['sxswi', 'sxsw']","['brilliant', 'use', 'case', 'kik', 'concierge', 'service', 'great', 'get', 'android', 'iphone', 'add', 'sxsw', 'user', 'ask', 'away']",1.0
+510,"['tapworthy', 'sxsw']","['used', 'ipad', 'app', 'example', 'good', 'navigation']",1.0
+511,"['sxsw', 'apple', 'ipad2']","['little', 'need', 'parent', 'anymore', 'comment', 'child', 'playing', 'ipad']",1.0
+512,['sxsw'],"['took', 'video', 'ipad', 'th', 'street', 'smart', 'cover', 'rad', 'filming', 'huge', 'display', 'nut', 'look', 'great', 'playback']",1.0
+513,['sxsw'],"['dense', 'una', 'vuelta', 'por', 'para', 'ver', 'la', 'gran', 'diferencia', 'revolution', 'clumsily', 'translated', 'google']",-1.0
+514,['sxsw'],"['wishing', 'wa', 'see', 'rumored', 'demo', 'new', 'social', 'network', 'circle', 'via']",1.0
+515,['sxsw'],['better'],-1.0
+516,['sxsw'],"['interrupt', 'regularly', 'scheduled', 'geek', 'programming', 'big', 'news']",1.0
+517,['sxsw'],"['interrupt', 'regularly', 'scheduled', 'geek', 'programming', 'big', 'news', 'sound', 'interesting']",1.0
+518,"['sxsw', 'fb']","['were', 'giving', 'away', 'ipad', 'creator', 'popular', 'disc', 'interactive', 'create', 'disc', 'share', 'twitter']",1.0
+519,"['sxsw', 'woops']","['sxsw', 'weekend', 'ipad', 'release', 'taking', 'part', 'either', 'sadly']",1.0
+520,['sxsw'],"['cocky', 'perhaps', 'separate', 'ipad', 'store', 'would', 'good', 'idea', 'guess', 'need', 'extra', 'marketing']",-1.0
+521,['sxsw'],"['brilliant', 'winwin']",1.0
+522,"['augmented', 'reality', 'sxsw']","['winner', 'awesome', 'got', 'ipad', 'via']",1.0
+523,['sxsw'],"['impressed', 'articulate', 'relevant', 'fun', 'austin', 'convention', 'center']",1.0
+524,"['sxsw', 'ipad2']","['new', 'app', 'resourceful', 'way', 'get', 'connected']",1.0
+525,"['911tweets', 'sxsw']","['disgusted', 'iphones', 'battery', 'life', 'already', 'pm', 'blackberry', 'going', 'strong']",-1.0
+526,"['google', 'sxsw']","['wow', 'witnessed', 'homeless', 'guy', 'giving', 'detailed', 'ipad', 'inventory', 'info', 'passerby', 'austin', 'popup', 'store']",1.0
+527,['sxsw'],"['ouch', 'google', 'v', 'bing', 'respect', 'bing', 'guy', 'wa', 'invited', 'fill', 'third', 'chair']",1.0
+528,['sxsw'],"['yes', 'gowalla', 'win', 'best', 'andoid', 'app', 'team', 'android', 'choice', 'award', 'thanks']",1.0
+529,"['tapworthy', 'sxsw']","['thought', 'social', 'get', 'overblown', 'google', 'may', 'announcing', 'circle', 'today']",-1.0
+530,['sxsw'],"['check', 'mom', 'ha', 'ipad', 'designing', 'boomer', 'sxsw']",1.0
+531,['sxsw'],"['google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today']",1.0
+532,"['google', 'sxsw', 'pnid']","['classiest', 'fascist', 'company', 'america', 'really', 'elegant']",-1.0
+533,['sxsw'],"['mintcom', 'confines', 'coding', 'iphone', 'app', 'luxury', 'worry', 'learning', 'diff', 'phone', 'version']",1.0
+534,"['social', 'viewing', 'sxsw']","['got', 'copy', 'today', 'excited', 'thx', 'keeping', 'world', 'enchanted', 'glad']",1.0
+535,['sxsw'],"['lack', 'newsworthy', 'announcement', 'unless', 'count', 'google', 'circle']",1.0
+536,['sxsw'],"['spread', 'word', 'festival', 'explorer', 'app', 'live', 'free']",1.0
+537,['sxsw'],"['new', 'app', 'store', 'includes', 'uberguide']",1.0
+538,"['sxsw', 'ipad2']","['new', 'app', 'store', 'includes', 'uberguide', 'cont']",1.0
+539,"['ipad', '2', 'apple', 'crazyco', 'sxsw']","['apple', 'outmarkets', 'comer']",1.0
+540,"['technology', 'apple', 'sxsw', 'brian_lam', 'tech']","['apple', 'popup', 'ordinance', 'front', 'line', 'admission', 'first', 'step', 'recovery']",1.0
+541,"['technology', 'sxsw', 'apple', 'tech']","['apple', 'popup', 'shop', 'cool']",1.0
+542,"['sxsw', 'micro', 'formats']","['google', 'people', 'work', 'people', 'rather', 'people', 'work']",1.0
+543,['sxsw'],"['lost', 'ipad', 'corrupted', 'iphone', 'crazy', 'hotel', 'good', 'time', 'au', 'austinbergstrom']",-1.0
+544,"['sxsw', 'thanks', 'branded', 'shades']","['midday', 'iphone', 'midbattery', 'outlet', 'blocked', 'immobile', 'booth', 'serf', 'purpose', 'taunt']",-1.0
+545,['sxsw'],"['im', 'sorry', 'going', 'party', 'iphone', 'forever']",1.0
+546,['sxsw'],"['ning', 'mobile', 'roadie', 'thrilled', 'offer', 'unofficial', 'insiders', 'guide', 'iphone', 'fun', 'austin']",1.0
+547,"['iphone', 'eventseekr', 'sxsw']","['google', 'people', 'work', 'people', 'rather', 'people', 'work']",1.0
+548,"['sxsw', 'google']","['find', 'start', 'impromptu', 'party', 'cant', 'wait', 'til', 'android', 'app', 'come']",1.0
+549,['sxsw'],"['pop', 'apple', 'store', 'packed']",1.0
+550,['sxsw'],"['oh', 'were', 'check', 'new', 'ipad', 'thing']",1.0
+551,"['android', 'smartphones', 'technology', 'mobile', 'sxsw', 'sxswi']","['sweet', 'google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today']",1.0
+552,"['sxsw', '2']","['nice', 'move', 'apple', 'set', 'open', 'popup', 'shop', 'core', 'action']",1.0
+553,"['sxsw', 'checkins', 'ouch']","['big', 'night', 'come', 'party', 'google', 'tonight', 'band', 'food', 'art', 'interactive', 'map', 'cc']",1.0
+554,"['mophie', 'sxsw']","['sxsw', 'novelty', 'ipad', 'news', 'apps', 'fade', 'fast', 'among', 'digital', 'delegate', 'via', 'xipad']",-1.0
+555,['sxsw'],"['thank', 'picked', 'book', 'killer', 'photoes', 'iphone']",1.0
+556,['sxsw'],"['good', 'work', 'check', 'latest', 'stream', 'apples', 'store', 'ipad', 'come']",1.0
+557,['sxsw'],"['good', 'news', 'austin', 'eats', 'bbq', 'iphone', 'available']",1.0
+558,['sxsw'],"['bout', 'time', 'new', 'app', 'store', 'includes', 'uberguide', 'sponsored', 'cont']",1.0
+559,"['fail', 'sxsw']","['good', 'info', 'improve', 'website', 'ranking', 'advice', 'google', 'bing']",1.0
+560,"['sxsw', 'buffalo', 'sxsw']","['oh', 'god', 'rumor', 'apple', 'opening', 'temporary', 'store', 'downtown', 'austin', 'ipad', 'launch']",1.0
+561,"['sxsw', 'apple']","['true', 'google', 'lost', 'way', 'caring', 'much', 'business', 'v', 'user']",-1.0
+562,['sxsw'],"['cool', 'rumor', 'apple', 'open', 'temporary', 'store', 'dt', 'atx', 'ipad', 'launch']",1.0
+563,"['android', 'sxsw']","['oh', 'snap', 'party', 'hosted', 'google']",1.0
+564,['sxsw'],"['brilliant', 'marketing', 'apple', 'opening', 'temporary', 'store', 'downtown', 'austin', 'next', 'world', 'buy']",1.0
+565,['sxsw'],"['brilliant', 'ive', 'meeting', 'im', 'line', 'popup', 'apple', 'store', 'ipad', 'love', 'place']",1.0
+566,['sxsw'],"['congrats', 'yes', 'gowalla', 'win', 'best', 'andoid', 'app', 'team', 'android', 'choice', 'award', 'thanks']",1.0
+567,"['sxsw', 'silly']","['love', 'rumor', 'apple', 'open', 'temporary', 'store', 'dt', 'atx', 'ipad', 'launch']",1.0
+568,"['sxsw', 'wj', 'chat']","['well', 'yeah', 'music', 'iphone', 'nerd', 'god', 'cute', 'girl', 'everywhere', 'love', 'interactive', 'end', 'music', 'begin']",1.0
+569,['sxsw'],"['shite', 'app', 'new', 'app', 'store', 'includes', 'uberguide', 'sponso', 'cont']",-1.0
+570,['sxsw'],"['brilliant', 'setting', 'popup', 'store', 'downtown', 'austin', 'sell', 'ton', 'ipad', 'attendee', 'course']",1.0
+571,"['broadcast', 'r', 'bestappever', 'sxsw']","['brilliant', 'apple', 'set', 'open', 'popup', 'shop', 'core', 'sxsw', 'action', 'theyre', 'going', 'sell', 'ipad']",1.0
+572,"['tech4good', 'sxsw']","['well', 'done', 'see', 'tonight', 'wt', 'wrote', 'ipad', 'app']",1.0
+573,['sxsw'],"['finally', 'yeaayyy', 'new', 'app', 'store', 'includes', 'uberguide', 'sponsored']",1.0
+574,"['sxsw', 'bynd']","['begin', 'story', 'cool', 'sxsw', 'app', 'also', 'apple', 'launching', 'ipad', 'temp', 'store', 'stay', 'tuned', 'love']",1.0
+575,['sxsw'],"['wise', 'apple', 'opening', 'temp', 'store', 'austin', 'via']",1.0
+576,"['ipad2', 'apple', 'sxsw', 'popup', 'store']","['fyi', 'breaking', 'google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'today', 'via']",1.0
+577,['sxsw'],"['brilliant', 'hope', 'plenty', 'ipads', 'apple', 'open', 'popup', 'shop', 'sxsw', 'report']",1.0
+578,"['iphone', 'sxsw']","['new', 'wwwdivasanddorkscom', 'best', 'world', 'apple', 'pop', 'store', 'invades', 'sxsw']",1.0
+579,"['ipad', 'sxsw', 'apple']","['goodguide', 'iphone', 'app', 'scan', 'barcode', 'rank', 'environmental', 'responsibility', 'companynice', 'pressure']",1.0
+580,"['sxsw', 'iphone']","['think', 'im', 'getting', 'ready', 'order', 'ipad', 'would', 'spend', 'attend']",1.0
+581,"['sxsw', 'gadgetenvy']","['wow', 'theyre', 'really', 'trying', 'tempt', 'pick', 'ipad', 'tomorrow']",1.0
+582,['sxsw'],"['know', 'iphone', 'ha', 'started', 'lying', 'signal', 'strength']",-1.0
+583,['sxsw'],"['wow', 'thats', 'dedication', 'well', 'im', 'first', 'line', 'hour', 'go']",1.0
+584,['sxsw'],"['worlds', 'largest', 'ipad']",1.0
+585,['sxsw'],"['nexus', 'tmobile', 'x', 'useful', 'iphone', 'many', 'ppl', 'iphone']",-1.0
+586,['sxsw'],"['google', 'party', 'maggie', 'maes', 'got', 'free', 'glow', 'dark', 'shade']",1.0
+587,['sxsw'],"['googles', 'scale', 'tiny', 'change', 'even', 'color', 'blue', 'meaningful', 'theres', 'optimum', 'shade', 'blue', 'link']",1.0
+588,"['zazzlesxsw', 'sxsw']","['hey', 'thats', 'u', 'go', 'game', 'launch', 'doityourself', 'iphone', 'scavenger', 'hunt', 'via', 'see']",1.0
+589,"['sxsw', 'gitcho', 'cocktail']","['hmm', 'cant', 'get', 'twitter', 'search', 'update', 'hootsuite', 'tweetdeck', 'ipad']",-1.0
+590,['sxsw'],"['last', 'day', 'get', 'austin', 'iphone', 'app', 'free']",1.0
+591,"['sxsw', 'ipad']","['ceo', 'gowalla', 'tell', 'journey', 'blinksale', 'iconbuffet', 'packrat', 'wa', 'born', 'lightbulb', 'turned']",1.0
+592,"['sxsw', 'saying']","['via', 'ipad', 'store', 'sold', 'everything', 'except', 'gig', 'wifi', 'white']",1.0
+593,['sxsw'],"['cnnmoney', 'computing', 'device', 'bigger', 'ipad', 'pass', 'mobile', 'space', 'ha', 'buzz']",1.0
+594,['sxsw'],"['look', 'everyone', 'zomg', 'got', 'ipad', 'first', 'day']",1.0
+595,"['sxsw', 'winning']","['get', 'loaded', 'hoot', 'mobile', 'update', 'iphone', 'blackberry', 'android']",1.0
+596,"['hangover', '3', 'sxsw']","['get', 'app', 'yet', 'android', 'version', 'ha', 'schedule']",1.0
+597,['sxsw'],"['tried', 'new', 'ipad', 'app', 'beautiful', 'p', 'thanks', 'tvontheradio', 'tix', 'yall', 'rock']",1.0
+598,['sxsw'],"['google', 'circle', 'new', 'social', 'medium', 'site', 'wow']",1.0
+599,['sxsw'],"['study', 'player', 'tell', 'u', 'petting', 'iphone', 'make', 'happy']",1.0
+600,['sxsw'],"['paper', 'phone', 'mean', 'ipad', 'likely', 'useless', 'well']",-1.0
+601,['sxsw'],"['google', 'launch', 'major', 'new', 'social', 'network', 'circle', 'possibly', 'today']",1.0
+602,['sxsw'],"['buzz', 'make', 'wish', 'android', 'iphone', 'envy']",1.0
+603,"['apple', 'ipad2', 'sxsw']","['apple', 'set', 'temporary', 'store', 'ipad', 'anyone', 'cc']",1.0
+604,"['sxsw', 'notionink', 'adam', 'sxsw']","['love', 'apple', 'come', 'cool', 'technology', 'ones', 'ever', 'heard', 'go', 'conference']",1.0
+605,"['sxsw', 'emc']","['love', 'apple', 'come', 'cool', 'technology', 'ones', 'ever', 'heard', 'go']",1.0
+606,"['festival', 'genius', 'notsomuch', 'sxsw']","['agree', 'theyre', 'great', 'iphone', 'apps', 'mealtime', 'via']",1.0
+607,['sxsw'],"['yeah', 'detail', 'ipad', 'giveaway', 'coming', 'tonight']",1.0
+608,['sxsw'],"['woot', 'first', 'android', 'disc', 'market', 'version', 'coming', 'soon']",1.0
+609,['sxsw'],"['yay', 'flipboards', 'next', 'platform', 'iphone', 'ceo', 'say']",1.0
+610,['sxsw'],"['score', 'google', 'handing', 'free', 'pi', 'pi', 'day']",1.0
+611,"['sxsw', 'techenvy']","['whoa', 'google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today']",1.0
+612,['sxsw'],"['cool', 'heard', 'apples', 'popup', 'store', 'downtown', 'austin', 'pic', 'already', 'gowalla']",1.0
+613,['sxsw'],"['nice', 'hey', 'apple', 'fan', 'get', 'peek', 'space', 'thats', 'slated', 'popup', 'apple', 'store', 'tomorrow']",1.0
+614,['sxsw'],"['im', 'reading', 'book', 'flight', 'guy', 'next', 'reading', 'ipad', 'boom']",1.0
+615,['sxsw'],"['haha', 'waited', 'line', 'apple', 'product', 'missing', 'important', 'rite', 'passage']",1.0
+616,['sxsw'],"['woo', 'hoo', 'finally', 'back', 'iphone']",1.0
+617,"['sxsw', 'ipad2', 'austin', 'apple']","['lot', 'ipad', 'austin', 'bigger', 'thought', 'would']",1.0
+618,"['tapworthy', 'sxsw']","['nc', 'buzzing', 'geekdom', 'austin', 'elevate', 'smart', 'apple']",1.0
+619,"['apple', 'sxsw']","['yeay', 'new', 'app', 'store', 'includes', 'uberguide', 'sponsored']",1.0
+620,['sxsw'],"['saw', 'morning', 'google', 'circle', 'would', 'start', 'rollout', 'holding', 'breath', 'openminded']",1.0
+621,['sxsw'],"['want', 'bad', 'would', 'make', 'live', 'blogging', 'ipad', 'much', 'efficient', 'beautiful', 'case', 'beat', 'leather']",1.0
+622,"['sxsw', 'ipad2']","['woohoo', 'standing', 'line', 'th', 'time']",1.0
+623,['sxsw'],"['woot', 'spilled', 'bean', 'next', 'platform', 'flipboard', 'iphone', 'team', 'started', 'working']",1.0
+624,['sxsw'],"['thanks', 'love', 'show', 'u', 'iphone', 'via', 'twitpic', 'well', 'share', 'love']",1.0
+625,"['tapworthy', 'sxsw']","['wishing', 'excellent', 'day', 'today', 'ive', 'got', 'ipad', 'envy']",1.0
+626,"['apple', 'sxsw', 'sxswi', 'austin']","['wow', 'apple', 'doe', 'right', 'thing', 'japan', 'must', 'read']",1.0
+627,"['sxswi', 'sxsw']","['probably', 'know', 'opening', 'popup', 'store', 'austin', 'et']",1.0
+628,"['sxsw', 'tapworthy', 'web', 'visions']","['funny', 'yes', 'theres', 'line', 'front', 'allbutconfirmed', 'popup', 'apple', 'store']",1.0
+629,['sxsw'],"['nice', 'yes', 'gowalla', 'win', 'best', 'andoid', 'app', 'team', 'android', 'choice', 'award', 'thanks']",1.0
+630,['sxsw'],"['customer', 'service', 'apple', 'open', 'temporary', 'store', 'near']",1.0
+631,['sxsw'],"['applauds', 'holler', 'gram', 'fun', 'ipad', 'app', 'fun', 'anyone', 'play']",1.0
+632,"['sxsw', 'gotta', 'get']","['dealing', 'w', 'white', 'freeze', 'screen', 'far', 'much', 'everyone', 'ha', 'iphone', 'making', 'conversion', 'possibility']",1.0
+633,['sxsw'],"['ideally', 'google', 'logo', 'bring', 'people', 'together', 'socially', 'creative', 'lead', 'google', 'doodle', 'team']",1.0
+634,['sxsw'],"['ive', 'worked', 'google', 'year', 'ive', 'seen', 'lot', 'evil']",-1.0
+635,"['google', 'marissagoogle', 'sxsw']","['omg', 'im', 'gonna', 'miss', 'panel', 'standing', 'line', 'panel', 'playing', 'new', 'ipad', 'itll', 'worth']",1.0
+636,['sxsw'],"['ipad', 'arm', 'giant', 'meatpointer', 'hilarious']",1.0
+637,['sxsw'],"['mentioned', 'guy', 'kawasaki', 'delightful', 'like', 'apple', 'drumroll', 'congrats']",1.0
+638,['sxsw'],"['must', 'see', 'app', 'bizzy']",1.0
+639,['sxsw'],"['really', 'great', 'social', 'search', 'probably', 'good', 'idea']",1.0
+640,"['apple', 'sxsw', 'austin', 'tech']","['available', 'killing', 'get']",1.0
+641,"['sxsw', 'apple']","['app', 'killing']",1.0
+642,"['sxsw', 'widfy']","['oh', 'yeah', 'flipboards', 'next', 'platform', 'iphone', 'ceo', 'say', 'via']",1.0
+643,['sxsw'],"['free', 'tunage', 'itunes']",1.0
+644,"['news', 'app', 'sxsw']","['heard', 'leading', 'market', 'share', 'smart', 'phone', 'u']",1.0
+645,"['pnid', 'sxsw', 'enchantment']","['tv', 'thanks', 'google', 'tv', 'watch', 'guy', 'live', 'living']",1.0
+646,"['att', 'sxsw']","['fan', 'get', 'really', 'excited', 'unique', 'design', 'klick', 'model', 'strap']",1.0
+647,['sxsw'],"['app', 'google', 'map', 'im', 'pretty', 'sure', 'schwag', 'bag', 'waste', 'paper']",1.0
+648,['sxsw'],"['blogger', 'orange', 'wodpress', 'blue', 'google', 'owns', 'market']",1.0
+649,"['chevy', 'tweet', 'house', 'sxsw']","['first', 'blog', 'post', 'grand', 'opening', 'apple', 'popup', 'store']",1.0
+650,"['google', 'doodle', 'gsdm', 'sxsw']","['check', 'holler', 'gram', 'ipad', 'app', 'ti', 'covered', 'awesome', 'sauce']",1.0
+651,['sxsw'],"['forget', 'plan', 'schedule', 'plus', 'free', 'iphone', 'app']",1.0
+652,['sxsw'],"['gadget', 'lust', 'rubbing', 'think', 'want', 'ipad', 'must', 'escape', 'soon']",1.0
+653,['sxsw'],"['ipad', 'rock']",1.0
+654,['sxsw'],"['going', 'alot', 'better', 'u', 'ipad', 'carry', 'around']",1.0
+655,['sxsw'],"['laptop', 'denotes', 'work', 'denotes', 'fun']",1.0
+656,"['holler', 'gram', 'sxsw']","['googles', 'party', 'theme', 'party', 'like', 'maggie', 'maes', 'pic']",1.0
+657,['sxsw'],"['enjoying', 'radio', 'station', 'iphone', 'use', 'link', 'plug', 'sound', 'system']",1.0
+658,"['sxsw', 'fanboy']","['hanging', 'industry', 'party', 'good', 'crowd']",1.0
+659,['sxsw'],"['first', 'survival', 'kit', 'iphone', 'shot', 'im', 'using', 'take', 'picture', 'might', 'ready']",1.0
+660,"['sxsw', 'app', 'events', 'networking']","['whos', 'gb', 'ipad', 'g', 'ill', 'paypal', 'right']",1.0
+661,"['sxsw', 'nokia', 'connects']","['fear', 'ers', 'confirmed', 'apple', 'store', 'week', 'popup', 'austin']",1.0
+662,"['sxsw', 'elonsxsw']","['apple', 'school', 'marketing', 'expert']",1.0
+663,['sxsw'],"['apple', 'school', 'marketing', 'expert']",1.0
+664,['sxsw'],"['bored', 'try', 'iphone', 'app']",1.0
+665,['sxsw'],"['free', 'fluffertrax', 'radio', 'app']",1.0
+666,"['sxsw', 'ipad2']","['going', 'come', 'consulting', 'booth', 'chance', 'win', 'ipad']",1.0
+667,['sxsw'],"['going', 'new', 'iphone', 'guide', 'free', 'march', 'hard', 'beat', 'free']",1.0
+668,"['sxsw', 'mwrc11', 'sxsw']","['ipad', 'design', 'headache', 'avoiding', 'pitfall', 'new', 'design', 'challenge']",-1.0
+669,"['holler', 'gram', 'sxsw']","['evernote', 'iphone', 'awesome', 'note', 'photo']",1.0
+670,"['flipboard', 'sxsw']","['disaster', 'iphone', 'died', 'middle', 'cant', 'function', 'heading', 'apple', 'store']",-1.0
+671,"['sxsw', 'ipad', 'jk']","['quadroid', 'qualcomm', 'android', 'called', 'platform', 'next', 'decade', 'v', 'wintel']",1.0
+672,"['sxsw', 'sxswi']","['ill', 'pay', 'new', 'ipad', 'white', 'gb', 'g', 'next', 'hour']",1.0
+673,['sxsw'],"['google', 'map', 'usage', 'mobile', 'seeing', 'demo', 'new', 'version', 'mobile', 'map', 'nice']",1.0
+674,['sxsw'],"['ipad', 'march', 'pm', 'pst']",-1.0
+675,['sxsw'],"['trend', 'google', 'twitter', 'next', 'angry', 'bird']",1.0
+676,['sxsw'],"['even', 'am', 'austin', 'iphone', 'batt', 'shit']",-1.0
+677,"['sxsw', 'ipad2']","['ipad', 'go', 'sale', 'next', 'friday', 'austin', 'apple', 'store', 'going', 'busy']",1.0
+678,['sxsw'],"['ipad', 'better', 'product', 'time', 'make', 'worthwhile', 'improvement', 'diller']",1.0
+679,"['kawasaki', 'thisisdare', 'sxsw']","['ipad', 'launch', 'buzz', 'via']",1.0
+680,['sxsw'],"['ipad', 'launch', 'really', 'south', 'austin', 'inde']",1.0
+681,['sxsw'],"['ipad', 'take']",1.0
+682,['sxsw'],"['ipad', 'take', 'one', 'biggest', 'event', 'first', 'day', 'sxsw']",1.0
+683,"['ipad', 'sxsw']","['ipad', 'take', 'video']",1.0
+684,"['flipboard', 'sxflip', 'sxsw', 'sxswi']","['ipad', 'take', 'video', 'via']",1.0
+685,"['mophie', 'tradeshow', 'sxsw']","['ipad', 'take', 'video']",1.0
+686,['sxsw'],"['ipad', 'take', 'video', 'via', 'mashable']",1.0
+687,['sxsw'],"['ipad', 'take', 'sxsw', 'video']",1.0
+688,['sxsw'],"['ipad', 'take', 'sxsw', 'video']",1.0
+689,['sxsw'],"['were', 'nd', 'congress', 'bookbook', 'ipad', 'case', 'get', 'fast']",1.0
+690,"['entry', 'friends', 'house', 'sxsw']","['new', 'look', 'like', 'going', 'rock', 'update', 'iphone', 'android', 'push', 'tonight']",1.0
+691,['sxsw'],"['gruber', 'keep', 'desk', 'apple', 'extended', 'keyboard', 'discontinued', 'loud', 'feel', 'like', 'writes', 'better']",1.0
+692,['sxsw'],"['via', 'pretty', 'neat', 'database', 'must', 'say', 'doe', 'work', 'shall', 'see']",1.0
+693,"['seattle', 'sxsw']","['mystery', 'prize', 'hope', 'ipad', 'thanks', 'great', 'panel', 'gift']",1.0
+694,"['twitter', 'sxsw']","['k', 'highquality', 'pdf', 'ipad', 'app', 'good', 'investment', 'small', 'mag', 'say', 'chris', 'tomlinson', 'formerly', 'texas', 'ob', 'ap']",1.0
+695,['sxsw'],"['setup', 'demo', 'restaurant', 'page', 'sign', 'download', 'iphone', 'app', 'check', 'say', 'hi']",1.0
+696,['sxsw'],"['got', 'back', 'door', 'invite', 'google', 'party', 'goona', 'network']",1.0
+697,['sxsw'],"['great', 'idea', 'behind', 'google', 'launching', 'secret', 'new', 'social', 'network', 'called', 'circle']",1.0
+698,['sxsw'],"['rd', 'time', 'charm', 'privacy', 'google', 'launch', 'new', 'social', 'network', 'circle', 'maybe', 'today']",1.0
+699,['sxsw'],"['got', 'free', 'iphone', 'charger', 'someone', 'came', 'gave', 'one', 'randomly', 'love']",1.0
+700,['sxsw'],"['got', 'free', 'iphonecharger', 'alex', 'wow', 'make', 'life', 'much', 'easier', 'thanks']",1.0
+701,['sxsw'],"['enjoying', 'google', 'ice', 'cream', 'sandwich', 'gsd', 'party', 'edible', 'wrapper']",1.0
+702,['sxsw'],"['great', 'festival', 'featured', 'app', 'store', 'work', 'google', 'map', 'plan', 'schedule']",1.0
+703,['sxsw'],"['watching', 'guy', 'simultaneously', 'use', 'laptop', 'ipad', 'force', 'strong', 'one', 'mmm']",1.0
+704,"['kill', 'community', 'sxsw']","['beluga', 'iphone', 'app', 'highlight', 'excellent', 'way', 'coordinate', 'relief', 'effort']",1.0
+705,['sxsw'],"['apple', 'selfish', 'brand', 'microsoft', 'ha', 'served', 'brand', 'well']",-1.0
+706,['sxsw'],"['saw', 'preview', 'new', 'ipad', 'app', 'awesome']",1.0
+707,['sxsw'],"['watching', 'promo', 'google', 'earth', 'engine', 'techie', 'save', 'world', 'harnessing', 'collective', 'power', 'good']",1.0
+708,['sxsw'],"['wa', 'really', 'bad', 'person', 'could', 'stolen', 'guy', 'ipad', 'saying']",1.0
+709,"['comcom', 'sxsw']","['really', 'great', 'experience', 'user', 'month', 'highly', 'recommend', 'iphone', 'battery']",1.0
+710,"['sxsw', 'tech', 'news']","['rumor', 'opening', 'popup', 'store', 'downtown', 'austin', 'ipad', 'launch', 'via']",1.0
+711,['sxsw'],"['rumor', 'apple', 'opening', 'temporary', 'store', 'downtown', 'austin', 'ipad', 'launch']",1.0
+712,['sxsw'],"['got', 'shiny', 'new', 'discover', 'new', 'music', 'built', 'html', 'flash', 'look', 'great', 'ipad']",1.0
+713,"['sxsw', 'live']","['tech', 'bro', 'posed', 'homeless', 'person', 'outside', 'apple', 'pop', 'sign', 'asking', 'ipad']",1.0
+714,['sxsw'],"['q', 'google', 'bing', 'website', 'ranking', 'fun']",1.0
+715,"['sxsw', 'cnn']","['available', 'android', 'absolute', 'musthave', 'apps', 'rock', 'interactive', 'via']",1.0
+716,['sxsw'],"['free', 'portable', 'iphone', 'charger', 'im', 'use', 'heck']",1.0
+717,['sxsw'],"['saw', 'pushed', 'update', 'iphone', 'app', 'look', 'ready', 'use', 'paperless', 'biz', 'card', 'solution']",1.0
+718,['sxsw'],"['probably', 'best', 'keep', 'away', 'apple', 'pop', 'store', 'temptation', 'get', 'white', 'g', 'ipad', 'insanely', 'tempting']",1.0
+719,"['living', 'dream', 'sxsw']","['learning', 'latest', 'food', 'related', 'apps', 'half', 'people', 'rm', 'make', 'apps', 'check', 'lovefresh', 'coming', 'soon', 'iphone']",1.0
+720,"['ncaa', 'sxsw']","['pretty', 'content', 'nat', 'geo', 'ha', 'pretty', 'article', 'ipad', 'cooler', 'twitter', 'list', 'current', 'arctic', 'explorer']",1.0
+721,"['barry', 'diller', 'sxsw', 'pnid']","['talk', 'mistake', 'building', 'app']",-1.0
+722,['sxsw'],"['fucking', 'mac', 'user', 'cwebb', 'ipad', 'grant', 'hill']",-1.0
+723,['sxsw'],"['yikes', 'reached', 'new', 'level', 'applefanboyism', 'last', 'night', 'literally', 'fell', 'asleep', 'macbook', 'pro', 'ipad', 'iphone', 'top']",1.0
+724,"['sxsw', 'poetry']","['touch', 'trackpads', 'first', 'iphone', 'ipad', 'positive', 'natural', 'sit', 'mobile', 'relaxed']",1.0
+725,"['tapworthy', 'sxsw']","['ha', 'ipad', 'wohooo', 'tnx', 'apple', 'popup', 'shop']",1.0
+726,"['jealous', 'sxsw']","['got', 'ipad', 'gave', 'red', 'cross', 'japan', 'first', 'day']",1.0
+727,"['ipad', 'apple', 'tablet', 'sxsw']","['win', 'ipad', 'sxsw', 'via']",1.0
+728,['sxsw'],"['ha', 'ipad', 'hand', 'exquisite']",1.0
+729,"['sxsw', 'rockstache', 'techsmith', 'stache']","['win', 'ipad', 'via', 'video', 'clipcon', 'see', 'intro', 'reel']",1.0
+730,"['ipad', 'sxsw']","['writer', 'ipad', 'app', 'saved', 'flight', 'bigger', 'panel', 'good', 'job']",1.0
+731,"['apple', 'austin', 'sxsw']","['dawns', 'ipad', 'app', 'week', 'early', 'help', 'prep']",1.0
+732,['sxsw'],"['win', 'ipad', 'sxsw', 'via']",1.0
+733,"['sxsw', 'uxdes']","['already', 'first', 'google', 'circle', 'search', 'result', 'cc']",1.0
+734,['sxsw'],"['ipad', 'available', 'im', 'austin', 'major']",1.0
+735,['sxsw'],"['buying', 'ipad', 'turn', 'ur', 'ipad', 'apple', 'store', 'wipe', 'clean', 'donates', 'school', 'mr', 'job', 'idea']",1.0
+736,['sxsw'],"['mondays', 'adfonic', 'daily', 'read', 'white', 'release', 'social', 'thing']",1.0
+737,"['sxsw', 'sxswi', 'assistive', 'tech']","['lol', 'u', 'r', 'gadgetzilla', 'fun', 'festival', 'time', 'omg', 'im', 'scared', 'got', 'netbook', 'droid']",1.0
+738,"['geek', 'date', 'apple', 'sxsw', 'ipad2']","['never', 'take', 'fully', 'charged', 'iphone', 'granted', 'pic', 'edit', 'tweet', 'square', 'apps', 'zap', 'good', 'kno']",1.0
+739,['sxsw'],"['packing', 'bag', 'taking', 'dell', 'laptop', 'sorry', 'richard', 'mercy', 'bb', 'torch', 'iphone', 'webmail', 'suppose', 'cheer']",1.0
+740,['sxsw'],"['best', 'schwag', 'ive', 'seen', 'battery', 'charger', 'iphone', 'get', 'one']",1.0
+741,['sxsw'],"['waiting', 'eagerly', 'google', 'launch', 'secret', 'new', 'social', 'network', 'called', 'circle', 'today', 'new', 'update']",1.0
+742,"['sxsw', 'fail', 'owl', 'love']","['google', 'brain', 'apology', 'randy', 'ad', 'popping', 'search', 'result', 'algorithm', 'skewed', 'weekend', 'randy', 'query', 'attendee']",-1.0
+743,"['netflix', 'sxsw']","['hour', 'wait', 'makeshift', 'apple', 'store', 'ipad']",-1.0
+744,['sxsw'],"['want', 'make', 'film', 'fun', 'download', 'app', 'checkin', 'screening', 'get', 'private', 'recommendation']",1.0
+745,['sxsw'],"['make', 'sense', 'limit', 'content', 'specific', 'platform', 'ipad', 'web', 'interview', 'w']",-1.0
+746,"['blackberry', 'abacus', 'iphone', 'sxsw']","['big', 'takeaway', 'interactive', 'need', 'iphone']",1.0
+747,"['ipad', 'sxsw', 'ipad', 'art']","['guy', 'kawasaki', 'believe', 'god', 'explanation', 'continuous', 'survival', 'apple', 'year', 'lol']",-1.0
+748,['sxsw'],"['apples', 'taking', 'old', 'ipads', 'teach', 'america', 'user', 'get', 'tax', 'writeoff', 'buy', 'new', 'ipad', 'kinda', 'cool']",1.0
+749,['sxsw'],"['essential', 'apps', 'beyond', 'underwire', 'wiredcom']",1.0
+750,"['sxsw', 'pissed', 'going', 'sxsw']","['informal', 'unscientific', 'observation', 'far', 'computer', 'choice', 'hand', 'contest']",1.0
+751,['sxsw'],"['alive', 'loving', 'great', 'talk', 'jonathan', 'dahl', 'googles', 'marissa', 'mayer']",1.0
+752,['sxsw'],"['realized', 'havnt', 'used', 'laptop', 'since', 'thursday', 'pure', 'sprinkle', 'top']",1.0
+753,['sxsw'],"['groupme', 'talk', 'apple', 'app', 'store', 'approval', 'woe', 'would', 'big', 'group', 'people', 'would', 'agree']",-1.0
+754,"['sxsw', 'oldsko0l']","['apple', 'love', 'heard', 'quite', 'bit', 'grumbling', 'holding', 'back', 'feature', 'ipad', 'people', 'would', 'buy', 'v']",-1.0
+755,['sxsw'],"['doe', 'meetups', 'im', 'work', 'well', 'least', 'p', 'meetup']",-1.0
+756,['sxsw'],"['monthly', 'value', 'user', 'io', 'android', 'utility', 'apps', 'valuable']",1.0
+757,"['ipad', 'apps', 'media', 'sxsw']","['dl', 'app', 'today', 'avail', 'itunes', 'app', 'store', 'android', 'market', 'look', 'u']",1.0
+758,['sxsw'],"['google', 'analytics', 'track', 'offsite', 'link', 'virtual', 'page', 'view', 'using', 'javascript']",1.0
+759,['sxsw'],"['google', 'analytics', 'rock']",1.0
+760,['sxsw'],"['holler', 'gram', 'ipad', 'itunes', 'app', 'store', 'via']",1.0
+761,['sxsw'],"['holler', 'gram', 'ipad', 'itunes', 'app', 'store', 'via', 'sters', 'great', 'app', 'free']",1.0
+762,['sxsw'],"['umshini', 'wam', 'night', 'fishing', 'weird', 'shit', 'said', 'work', 'well', 'together', 'liked', 'esp', 'iphone', 'footage']",1.0
+763,['sxsw'],"['watching', 'year', 'old', 'report', 'via', 'iphone', 'show', 'technology', 'going', 'anywhere', 'robot', 'revolt']",1.0
+764,['sxsw'],"['awesome', 'ipad', 'lounge', 'experience', 'complete']",1.0
+765,['sxsw'],"['vegan', 'guide', 'google', 'map', 'austin', 'tx', 'based', 'lazy', 'smurfs', 'info']",1.0
+766,"['ipad', 'sxsw']","['ipad', 'rearfacing', 'camera', 'get']",-1.0
+767,['sxsw'],"['ill', 'use', 'ipad', 'someone', 'give', 'otherwise', 'iphone', 'actually', 'task']",1.0
+768,"['sxsw', 'ipad']","['ipad', 'thanks']",1.0
+769,"['sxsw', 'singularity']","['got', 'ipad', 'courtesy', 'random', 'stranger', 'street', 'apple', 'investor', 'thank', 'utter']",1.0
+770,['sxsw'],"['ipad', 'cheaper', 'laptop']",1.0
+771,['sxsw'],"['iphone', 'app', 'people', 'use', 'scheduling', 'awesome', 'app']",1.0
+772,"['sxsw', 'browser', 'wars']","['saying', 'hi', 'new', 'iphone', 'case']",1.0
+773,['sxsw'],"['shooting', 'video', 'p', 'pic', 'ipad']",1.0
+774,['sxsw'],"['check', 'offer', 'google', 'cool']",1.0
+775,"['sxsw', 'heat', 'tracker']","['android', 'got', 'big', 'call', 'opening', 'keynote', 'knew', 'appreciate']",1.0
+776,['sxsw'],"['android', 'need', 'way', 'group', 'apps', 'like', 'ipad', 'ipod']",-1.0
+777,['sxsw'],"['awesome', 'hand', 'review', 'ipad', 'coming', 'tomorrow', 'guest', 'post', 'hes']",1.0
+778,"['sxsw', 'connected', 'car']","['lonely', 'planet', 'release', 'free', 'austin', 'city', 'guide', 'iphone', 'app', 'like', 'enough', 'apps', 'cluttering', 'handset']",-1.0
+779,['sxsw'],"['lonely', 'planets', 'new', 'iphone', 'austin', 'city', 'guide', 'free', 'march', 'going']",1.0
+780,['sxsw'],"['day', 'bank', 'america', 'launched', 'iphone', 'app', 'got', 'k', 'new', 'customer']",1.0
+781,"['sxsw', 'fail']","['another', 'google', 'social', 'failure']",-1.0
+782,['sxsw'],"['google', 'plan', 'bring', 'power', 'life', 'future', 'linking', 'digital', 'physical', 'world']",1.0
+783,['sxsw'],"['mom', 'want', 'ipad', 'back', 'lisa', 'rinna']",1.0
+784,['sxsw'],"['want', 'lose', 'love']",1.0
+785,['sxsw'],"['brilliant', 'rosso', 'used', 'google', 'doc', 'paste', 'recipe', 'make', 'mother', 'think', 'generated', 'recipe']",1.0
+786,"['sxsw', 'sxsw11']","['company', 'company', 'ha', 'best', 'supply', 'chain', 'walmart', 'apple']",1.0
+787,['sxsw'],"['way', 'deleting', 'app', 'stop', 'loading', 'iphone', 'draining', 'power', 'x', 'cancel', 'help']",-1.0
+788,['sxsw'],"['great', 'recap', 'seemingly', 'great', 'session', 'relive', 'wonder', 'wa', 'google', 'v', 'bing', 'panel']",1.0
+789,"['ipad', 'sxsw']","['great', 'recap', 'google', 'bing', 'q', 'session', 'website', 'ranking', 'via', 'cc']",1.0
+790,['sxsw'],"['ipad', 'graphic', 'much', 'faster', 'ipad', 'motorola', 'xoom']",1.0
+791,['sxsw'],"['hope', 'approves', 'irelay', 'social', 'network', 'mobile', 'photo', 'sharing', 'app', 'easier', 'share', 'people', 'download']",1.0
+792,"['ogilvynotes', 'sxsw']","['major', 'io', 'update', 'day', 'genius', 'project', 'manager', 'came', 'brilliant', 'idea']",-1.0
+793,"['ipad', 'sxsw']","['apple', 'great', 'turning', 'new', 'old']",1.0
+794,['sxsw'],"['sweet', 'apple', 'listened', 'u', 'temp', 'apple', 'store', 'near', 'ipad', 'launch']",1.0
+795,"['google', 'doodle', 'sxsw']","['apple', 'popup', 'store', 'wa', 'block', 'long']",-1.0
+796,"['sxsw', 'google', 'doodle']","['doe', 'apple', 'popup', 'store', 'still', 'ipads']",1.0
+797,"['google', 'doodle', 'sxsw']","['love', 'apple', 'popup', 'store', 'freaking', 'smart', 'one', 'question', 'bring', 'truck', 'signal', 'please', 'say', 'yes']",1.0
+798,['sxsw'],"['queue', 'apple', 'popup', 'store', 'still', 'long']",-1.0
+799,"['sxsw', 'apple']","['sxsw', 'apple', 'school', 'marketing', 'expert', 'cnet']",1.0
+800,['sxsw'],"['sxsw', 'apple', 'school', 'marketing', 'expert']",1.0
+801,"['evolving', 'workplace', 'sxsw']","['sxsw', 'apple', 'school', 'marketing', 'expert', 'via']",1.0
+802,['sxsw'],"['sxsw', 'apple', 'school', 'marketing', 'expert']",1.0
+803,['sxsw'],"['sxsw', 'apple', 'school', 'marketing', 'expert', 'via']",1.0
+804,['sxsw'],"['clever', 'apple', 'set', 'open', 'popup', 'shop', 'core', 'action']",1.0
+805,['sxsw'],"['temp', 'apple', 'storegreat', 'move', 'really', 'need', 'help', 'brand', 'recognition', 'seriousness', 'pretty', 'cool']",1.0
+806,['sxsw'],"['come', 'cant', 'spellchecking', 'without', 'autocorrect', 'must', 'nothing']",-1.0
+807,['sxsw'],"['line', 'apples', 'ipad', 'popup', 'store', 'already', 'wrapping', 'around', 'block']",1.0
+808,['sxsw'],"['apples', 'making', 'temp', 'store', 'u', 'get', 'ipad']",1.0
+809,['sxsw'],"['fear', 'attendee', 'pick', 'ipad', 'apples', 'austin', 'popup', 'shop', 'via']",1.0
+810,['sxsw'],"['search', 'sxsw', 'via', 'twitter', 'doe', 'work', 'check', 'googles', 'real', 'time', 'search', 'least', 'get', 'result']",1.0
+811,"['sxsw', 'cnnmoney', 'sxsw']","['share', 'share', 'share', 'join', 'pile', 'posterous', 'event', 'iphone']",1.0
+812,"['sxsw', 'google', 'circles']","['tried', 'square', 'credit', 'card', 'reader', 'iphone', 'android', 'amazingly', 'simple', 'impressed']",1.0
+813,['sxsw'],"['arg', 'load', 'iphone', 'via', 'app', 'store', 'site', 'trying', 'feelin', 'touch']",-1.0
+814,"['sxsw', 'mwrc11', 'sxsw']","['charge', 'every', 'hours', 'running', 'lowest', 'possible', 'screen', 'brightness', 'apple', 'fix', 'basic']",-1.0
+815,"['thank', 'econ', 'sxsw']","['iphone', 'charging', 'party', 'hallway', 'ux', 'ia', 'professional', 'unite']",1.0
+816,['sxsw'],"['rachael', 'harris', 'thats', 'saw', 'wa', 'driving', 'nut', 'thank', 'google']",1.0
+817,['sxsw'],"['go', 'bar', 'get', 'free', 'drink', 'iphone']",1.0
+818,"['sxsw', 'wssxsw']","['smart', 'idea', 'wt', 'wrote', 'ipad', 'app']",1.0
+819,"['sxflip', 'sxsw']","['googles', 'art', 'project', 'put', 'famous', 'artwork', 'billion', 'pixel', 'allowing', 'zoom', 'get', 'entirely', 'different', 'view', 'art']",1.0
+820,['sxsw'],"['googles', 'art', 'project', 'would', 'great', 'virtual', 'field', 'trip', 'kid', 'museum', 'around', 'world']",1.0
+821,"['google', 'circles', 'social', 'sxsw']","['good', 'cnn', 'article', 'important', 'social', 'web', 'innovator', 'im', 'bringing', 'griddler', 'ipad', 'app']",1.0
+822,['sxsw'],"['android', 'party', 'lustre', 'pearl', 'bar', 'w', 'others']",1.0
+823,['sxsw'],"['apple', 'case', 'study', 'great', 'showed', 'everyone', 'buzz', 'popup', 'store']",1.0
+824,"['qagb', 'sxsw']","['flash', 'discussion', 'still', 'relevant', 'ipad', 'design', 'headache']",-1.0
+825,['sxsw'],"['got', 'flask', 'ipad', 'yes', 'im', 'sitting', 'th', 'st', 'waiting', 'aicn', 'screening', 'iloveasurprise']",1.0
+826,"['sxsw', 'free', 'speech']","['guy', 'asked', 'googles', 'mayer', 'take', 'year', 'remove', 'deadly', 'route', 'google', 'map', 'death', 'valley']",-1.0
+827,"['sxsw', 'sxswbarcrawl', 'sxswi']","['rockin', 'cooler']",1.0
+828,['sxsw'],"['nyt', 'wsj', 'ask', 'future', 'branded', 'native', 'news', 'apps', 'ipad']",-1.0
+829,"['ubersocial', 'iphone', 'sxsw']","['attendee', 'mac', 'ipad']",1.0
+830,"['sxsw', 'zazzlesxsw', 'sxsw']","['apple', 'come', 'cool', 'technology', 'ones', 'ever', 'heard', 'go', 'conference', 'via']",1.0
+831,"['apple', 'sxsw', 'rji']","['apple', 'come', 'cool', 'technology', 'ones', 'ever', 'heard', 'go', 'conference', 'via']",1.0
+832,"['sxsw', 'pseudo', 'retweet']","['apple', 'come', 'cool', 'technology', 'ones', 'ever', 'heard', 'go', 'conference']",1.0
+833,"['flipboard', 'sxsw']","['google', 'connect', 'digital', 'physical', 'world', 'mobile']",1.0
+834,['sxsw'],"['first', 'send', 'u', 'pic', 'get', 'free', 'download', 'game']",1.0
+835,['sxsw'],"['shat', 'tear', 'good', 'news', 'austinbound', 'apple', 'fanboys']",1.0
+836,['sxsw'],"['hear', 'apple', 'opening', 'popup', 'store', 'downtown', 'scarborough', 'building', 'sxsw', 'ipad', 'cool']",1.0
+837,"['enchantment', 'sxsw']","['love', 'apple', 'wa', 'smart', 'enough', 'popup', 'store', 'story', 'map', 'tip']",1.0
+838,"['sxsw', 'nptech']","['band', 'google', 'aclu', 'party', 'rock']",1.0
+839,['sxsw'],"['hoping', 'easier', 'get', 'ipad', 'today', 'since', 'target', 'audience', 'busy']",1.0
+840,['sxsw'],"['oh', 'excuse', 'apple', 'come', 'cool', 'technology', 'go', 'conference']",1.0
+841,['sxsw'],"['wonder', 'percentage', 'interactive', 'participant', 'iphone', 'gotta', 'high']",1.0
+842,"['guy', 'kawasaki', 'sxsw']","['team', 'android', 'party', 'walked', 'dl', 'appolicious', 'app', 'enter', 'win', 'free', 'nexus']",1.0
+843,"['sxsw', 'comments']","['geek', 'interactive', 'panel', 'ipad', 'holler', 'gram', 'app', 'use', 'ipad', 'display', 'message', 'others']",1.0
+844,"['apple', 'ipad2', 'sxsw', 'tech', 'retail']","['line', 'apple', 'store', 'go', 'around', 'block', 'oh', 'thats', 'right', 'ipad', 'also']",1.0
+845,"['apple', 'sxsw']","['band', 'google', 'party', 'entertaining', 'band', 'ever', 'seen']",1.0
+846,"['apple', 'sxsw']","['line', 'popup', 'apple', 'store', 'phenomenal']",1.0
+847,"['ipad', 'sxsw', 'tapworthy', 'gsdm']","['venturebeat', 'second', 'day', 'business', 'apple', 'popup', 'store', 'appears', 'trending']",1.0
+848,"['killing', 'sxsw']","['bout', 'watch', 'live', 'apple', 'store', 'ipad', 'w', 'living', 'vicariously', 'buy', 'one']",1.0
+849,"['play', 'hopskoch', 'sxsw']","['another', 'late', 'start', 'damn', 'google', 'rocking', 'party']",1.0
+850,"['qagb', 'sxsw']","['spasmatics', 'rockin', 'aclu', 'google', 'party']",1.0
+851,"['sxsw', 'browser', 'wars']","['great', 'location', 'choice', 'nice', 'timing', 'ipad', 'launch', 'popping']",1.0
+852,['sxsw'],"['congratulation', 'yes', 'gowalla', 'win', 'best', 'andoid', 'app', 'team', 'android', 'choice', 'award', 'thanks']",1.0
+853,['sxsw'],"['launched', 'spins', 'ipad', 'app', 'ton', 'whatcha', 'think']",1.0
+854,['sxsw'],"['television', 'still', 'twoscreen', 'expierence', 'iphone', 'ipad']",1.0
+855,['sxsw'],"['ppl', 'spoken', 'great', 'session', 'w', 'bing', 'google', 'danny', 'sullivan', 'bring', 'back', 'next', 'year', 'larger', 'room']",1.0
+856,['sxsw'],"['anyone', 'leaving', 'iphone', 'ipad', 'time', 'kill', 'airport', 'flight', 'download', 'tiny', 'wing', 'welcome', 'im', 'sorry']",1.0
+857,['sxsw'],"['matthew', 'davis', 'designing', 'ipad', 'web', 'ha', 'like', 'strip', 'mall', 'content']",1.0
+858,['sxsw'],"['ipad', 'giveaway', 'using']",1.0
+859,['sxsw'],"['win', 'awesome', 'ipad', 'quibids', 'custom', 'case', 'catch', 'wearing', 'openbeta', 'vip', 'badge']",1.0
+860,['sxsw'],"['awesome', 'traded', 'last', 'year', 'ipad']",1.0
+861,"['uxdes', 'ipad', 'sxsw']","['haha', 'awesomely', 'rad', 'ipad', 'app', 'via']",1.0
+862,['sxsw'],"['haha', 'awesomely', 'rad', 'ipad', 'app', 'via']",1.0
+863,['sxsw'],"['piece', 'awesomeness', 'arduino', 'android', 'flaming', 'skull']",1.0
+864,['sxsw'],"['dude', 'may', 'actually', 'buy', 'ipad', 'tomorrow', 'apple', 'temporary', 'store', 'downtown', 'austin']",1.0
+865,"['sxsw', 'sxswi', 'apps', 'iphone']","['giving', 'away', 'ipad', 'panel', 'wish', 'luck']",1.0
+866,"['browser', 'wars', 'sxsw']","['giving', 'away', 'ipad', 'sharer', 'invite', 'friend', 'join', 'aos', 'ginger', 'man']",1.0
+867,['sxsw'],"['giving', 'away', 'apple', 'gift', 'card', 'exchange', 'serious', 'style', 'find', 'u', 'th', 'conv', 'cntr', 'u', 'look', 'hot', 'well', 'rest', 'fashion']",1.0
+868,"['iqlab', 'sxsw']","['android', 'may', 'gaining', 'market', 'share', 'never', 'know', 'apparently', 'industry', 'mover', 'shaker', 'apple', 'loyalist']",1.0
+869,"['ipad', 'sxsw', 'cbatsxsw']","['say', 'pretty', 'smart', 'timing', 'drop', 'right', 'top', 'nearly', 'anyones', 'talking']",1.0
+870,['sxsw'],"['marissa', 'mayer', 'google', 'making', 'smart', 'phone', 'smarter', 'life', 'efficient', 'knowing', 'sched', 'suggest', 'flight', 'map', 'weather']",1.0
+871,"['sxsw', 'ipad2']","['marissa', 'mayer', 'mobile', 'cursor', 'demo', 'next', 'gen', 'google', 'map', 'really', 'impressive', 'btw']",1.0
+872,['sxsw'],"['marissa', 'mayer', 'google', 'speaking', 'mobile', 'phone', 'usage', 'google', 'map', 'surpassed', 'online', 'use', 'past', 'couple', 'month']",1.0
+873,['sxsw'],"['marissa', 'mayer', 'talk', 'future', 'google', 'map', 'discus', 'hotpot', 'answer', 'locationbased', 'rating', 'recommendation', 'kek']",1.0
+874,['sxsw'],"['marissa', 'mayer', 'vp', 'consumer', 'product', 'google', 'great', 'job', 'audience', 'ha', 'ton', 'respect', 'google', 'w', 'location']",1.0
+875,"['touching', 'stories', 'tbwasxsw', 'sxsw']","['marissa', 'mayer', 'focus', 'location', 'based', 'service', 'demoed', 'hotpot', 'google', 'map', 'vector', 'map', 'augmented', 'reality']",1.0
+876,['sxsw'],"['marissa', 'mayer', 'wil', 'connect', 'digital', 'physical', 'world', 'mobile']",1.0
+877,['sxsw'],"['marissa', 'mayer', 'checkin', 'fun', 'get', 'thats', 'google', 'testing', 'loyalty', 'offer', 'watch', 'foursquare']",1.0
+878,['sxsw'],"['marissa', 'mayer', 'google', 'map', 'better', 'customer', 'service', 'quicker', 'response']",-1.0
+879,['sxsw'],"['marissa', 'mayer', 'google', 'connect', 'digital', 'physical', 'world', 'mobile']",1.0
+880,['sxsw'],"['marissa', 'mayer', 'location', 'contextual', 'discovery', 'enable', 'mobile', 'device', 'make', 'u', 'efficient', 'e', 'g', 'google', 'place', 'w', 'hotpot']",1.0
+881,['sxsw'],"['nothing', 'say', 'douche', 'cake', 'like', 'walking', 'around', 'ipad', 'like', 'iphone']",-1.0
+882,"['sxsw', 'austin']","['crowley', 'say', 'hard', 'feeling', 'towards', 'google', 'dodgeball', 'experience', 'say', 'would', 'good', 'partner']",1.0
+883,['sxsw'],"['really', 'amazing', 'see', 'many', 'people', 'putting', 'apples', 'note', 'app', 'ipad']",-1.0
+884,['sxsw'],"['really', 'amazing', 'see', 'many', 'people', 'putting', 'apples', 'note', 'app', 'ipad']",-1.0
+885,['sxsw'],"['google', 'web', 'font', 'pretty']",1.0
+886,['sxsw'],"['chrome', 'web', 'store', 'google', 'call', 'html', 'hot', 'tub']",1.0
+887,"['agile', 'agency', 'sxsw']","['apple', 'grabbed', 'tablet', 'mindshare', 'rim', 'owns', 'one', 'popular', 'event']",1.0
+888,"['sxsw', 'apple', 'ipad2']","['sure', 'use', 'free', 'app', 'checking', 'band']",1.0
+889,['sxsw'],"['enjoying', 'berkowitz', 'talk', 'rfid', 'ncf', 'impact', 'mobile', 'retail', 'would', 'carry', 'nfc', 'phone', 'google', 'bullish', 'ballroom', 'e']",1.0
+890,['sxsw'],"['best', 'thing', 'ive', 'heard', 'gave', 'ipad', 'money', 'relief', 'need', 'ipad']",-1.0
+891,['sxsw'],"['globalbestaward', 'holler', 'gram', 'ipad', 'itunes', 'store', 'via', 'sters', 'great', 'app']",1.0
+892,['sxsw'],"['next', 'big', 'thing', 'hmmm', 'google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today']",1.0
+893,"['sxsw', 'japan']","['quotable', 'apple', 'elegant', 'fascist', 'company', 'america', 'board']",-1.0
+894,['sxsw'],"['blogging', 'ipad', 'note', 'next', 'step', 'hope', 'great', 'time']",1.0
+895,['sxsw'],"['somebody', 'write', 'app', 'let', 'consistently', 'type', 'shit', 'goddamn', 'iphone', 'hey', 'jump']",-1.0
+896,"['google', 'circles', 'sxsw']","['excited', 'tomorrow', 'leaving', 'austin', 'am', 'see', 'googles', 'pm', 'still', 'working', 'schedule']",1.0
+897,['sxsw'],"['talking', 'ipads', 'usefulness', 'developer', 'were', 'nerd']",1.0
+898,['sxsw'],"['come', 'celebrate', 'w', 'charity', 'water', 'tonight', 'google', 'throwin', 'party', 'jump', 'start', 'week', 'right']",1.0
+899,"['smiley', 'party', 'sxsw']","['google', 'lab', 'fusion', 'table', 'made', 'election', 'day', 'foursquare', 'visualization', 'possible', 'pr']",1.0
+900,['sxsw'],"['im', 'late', 'finally', 'great', 'surprise', 'b', 'greeted', 'lovely', 'lindsay', 'stillman', 'gonna', 'b', 'good', 'night']",1.0
+901,['sxsw'],"['everyone', 'buy', 'app', 'new', 'ipad', 'day', 'birth', 'happy', 'happy']",1.0
+902,"['ipad2', 'sxsw']","['buy', 'ipad', 'makeshift', 'apple', 'store', 'launch', 'day', 'fuck', 'respect', 'much']",-1.0
+903,['sxsw'],"['walk', 'lady', 'bird', 'lake', 'wa', 'lovely', 'google', 'map', 'travel', 'time', 'trusted']",-1.0
+904,['sxsw'],"['law', 'average', 'better', 'buzz', 'google', 'circle']",1.0
+905,['sxsw'],"['ironic', 'tee', 'ha', 'usurped', 'ipad', 'hipster', 'geek', 'startup', 'chic', 'fashion', 'item', 'years']",1.0
+906,['sxsw'],"['ipad', 'calendar', 'frankeninterface', 'designed', 'one', 'interface', 'metaphor', 'us', 'another']",-1.0
+907,"['google', 'sxsw']","['formula', 'successful', 'day', 'sxsw', 'good', 'session', 'ipad', 'glass', 'macallan', 'single', 'malt']",1.0
+908,['sxsw'],"['wait', 'also', 'sale']",1.0
+909,"['sxsw', 'emc']","['music', 'location', 'mobile', 'recording', 'meet', 'update', 'time']",1.0
+910,"['sxsw', 'social', 'media', 'brk']","['sell', 'dream', 'steve', 'job', 'say', 'iphone', 'part', 'made', 'ppl', 'suicidal', 'chinese']",-1.0
+911,['sxsw'],"['check', 'free', 'app', 'festival', 'explorer', 'find', 'band', 'want', 'see', 'music', 'taste']",1.0
+912,['sxsw'],"['check', 'awesome', 'dj', 'skill', 'ipad', 'u']",1.0
+913,['sxsw'],"['check', 'south', 'southwest', 'interactive', 'iphone', 'ipad', 'musthave', 'apps', 'site', 'tool']",1.0
+914,"['sxsw', 'austin', 'lp']","['check', 'app', 'launching', 'keep', 'updated', 'party', 'android', 'iphone', 'app', 'way']",1.0
+915,"['sxsw', 'austin', 'lp', 'mobile']","['check', 'smyle', 'web', 'ha', 'group', 'chat', 'shared', 'location', 'medium', 'whiteboarding', 'thanks']",1.0
+916,"['gsdm', 'google', 'sxsw']","['check', 'mistake', 'made', 'building', 'netflix', 'iphone', 'going', 'cool', 'always', 'learn', 'mistake']",1.0
+917,['sxsw'],"['check', 'latest', 'stream', 'apples', 'store', 'ipad', 'come']",1.0
+918,"['sxsw', 'ipad2']","['check', 'latest', 'stream', 'apples', 'store', 'ipad', 'wait']",1.0
+919,"['itunes', 'austin', 'bbq', 'sxsw', 'sxs', 'wi']","['launched', 'popup', 'apple', 'store', 'vintage', 'store', 'format', 'mostly', 'ipod', 'snarky', 'employee', 'ah', 'good', 'old', 'day']",-1.0
+920,['sxsw'],"['stupid', 'technology', 'always', 'fail', 'important', 'time', 'w', 'iphone', 'laptop', 'blackberry', 'thing', 'working', 'pen']",-1.0
+921,['sxsw'],"['official', 'people', 'using', 'ipad', 'take', 'photo', 'look', 'weird']",-1.0
+922,['sxsw'],"['official', 'well', 'presenting', 'contest', 'worlds', 'best', 'mobile', 'apps']",1.0
+923,['sxsw'],"['official', 'im', 'buying', 'ipad']",1.0
+924,['sxsw'],"['pretty', 'excited', 'apple', 'pop', 'store', 'coming']",1.0
+925,"['save', 'brands', 'sxsw']","['pretty', 'excited', 'ipad', 'session']",1.0
+926,"['la', 'tism', 'sxsw', 'sxswlatam', 'latinas', 'tech']","['pretty', 'excited', 'iphone', 'stop', 'working']",-1.0
+927,['sxsw'],"['excited', 'see', 'hl', 'dynamic', 'video', 'ad', 'insertion', 'tv', 'everywhere', 'working', 'later', 'today', 'popup', 'apple', 'store']",1.0
+928,['sxsw'],"['first', 'computer', 'kid', 'wa', 'atari', 'kid', 'first', 'computer', 'ipad', 'able']",1.0
+929,['sxsw'],"['crowdbeacon', 'ha', 'put', 'together', 'guide', 'latest', 'update', 'iphone', 'app', 'going', 'sick']",1.0
+930,"['google', 'sxsw', 'lxh']","['second', 'day', 'business', 'apple', 'popup', 'store', 'appears', 'trending', 'apple', 'store', 'sxsw', 'pic']",1.0
+931,"['lean', 'startup', 'sxsw']","['conf', 'everyone', 'ha', 'mac', 'ipad', 'including', 'happened', 'pc', 'becoming', 'obsolete']",1.0
+932,"['edtech', 'sxsw']","['congrats', 'first', 'ipad']",1.0
+933,"['sxsw', 'sxswi']","['congrats', 'iphone', 'app', 'featured']",1.0
+934,"['sxsw', 'sxswi']","['congratulation', 'winning', 'android', 'award']",1.0
+935,['sxsw'],"['congratulation', 'sent', 'seesmic', 'android', 'phone']",1.0
+936,"['vmware', 'sxsw']","['trying', 'convince', 'watch', 'launch', 'google', 'social', 'network', 'know', 'wa', 'going', 'comedy']",-1.0
+937,['sxsw'],"['cool', 'mean', 'watch', 'ustream', 'skyfire', 'browser', 'iphone', 'safari', 'work', 'fun']",1.0
+938,"['sxsw', 'oldsko0l']","['could', 'cool', 'google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today']",1.0
+939,"['disco', 'talk', 'sxsw', 'sloanxsw']","['eating', 'coolhaus', 'ice', 'cream', 'sandwich', 'google', 'party', 'hmmm', 'happy']",1.0
+940,"['tap', 'worth', 'hisxsw', 'sxsw']","['really', 'could', 'use', 'one', 'tiny', 'macbook', 'air', 'read', 'apple', 'set', 'temporary', 'store', 'sxsw']",1.0
+941,"['usguys', 'sxsw']","['crew', 'ripped', 'android', 'party', 'thanks', 'u', 'droid']",1.0
+942,"['sxsw', 'hisxsw']","['data', 'crunch', 'crippling', 'google', 'voice', 'back', 'regular', 'texting', 'go']",-1.0
+943,"['kill', 'community', 'sxsw']","['new', 'product', 'idea', 'pant', 'built', 'iphone', 'charging', 'dock', 'built', 'pocket']",1.0
+944,['sxsw'],"['true', 'expect', 'insidious', 'approach', 'like', 'apple', 'subscription', 'disgraceful']",-1.0
+945,"['sxsw', 'android', 'getjar', 'sxsw']","['even', 'begin', 'win']",1.0
+946,['sxsw'],"['security', 'guard', 'enjoying', 'ipad', 'apple', 'store', 'austin']",1.0
+947,"['sxsw', 'lp', 'travel']","['unimitated', 'fingerprint', 'security', 'scan']",1.0
+948,"['vufinders', 'iphone', 'sxsw']","['bldg', 'app', 'appstore', 'need', 'wholistic', 'mktg', 'awareness', 'p', 'r', 'strategy', 'drive', 'adoption', 'rely', 'apple']",-1.0
+949,['sxsw'],"['also', 'ipad', 'ordered', 'stand', 'line', 'wasting', 'valuable', 'fellowship', 'time']",1.0
+950,['sxsw'],"['discovered', 'new', 'conversation', 'icebreaker', 'hey', 'new', 'ipad', 'yes']",1.0
+951,"['sxsw', 'musicviz']","['composed', 'tweet', 'acerbic', 'cynical', 'ipad', 'user', 'phone', 'crashed', 'dumped', 'apps']",-1.0
+952,['sxsw'],"['wish', 'ipad', 'right', 'last', 'longer', 'phone', 'awkward', 'laptop']",1.0
+953,['sxsw'],"['could', 'dangerous', 'sweet', 'apple', 'listened', 'u', 'temp', 'apple', 'store', 'near', 'ipad', 'launch']",1.0
+954,"['sxsw', 'sxswi']","['could', 'first', 'big', 'news', 'google', 'building', 'new', 'social', 'framework']",1.0
+955,"['apple', 'ipad2', 'sxsw', 'sxswh']","['google', 'bing', 'meet', 'lover', 'tiff', 'last', 'month', 'seems', 'disappointingly', 'friendly']",-1.0
+956,['sxsw'],"['google', 'bing', 'page', 'rank', 'panel', 'ridiculously', 'crowded', 'al', 'franken', 'justin', 'timberlake']",-1.0
+957,"['911tweets', 'sxsw', 'umass', 'jour']","['unexpected', 'bonus', 'waking', 'am', 'make', 'flight', 'order', 'ipad', 'right', 'released']",1.0
+958,['sxsw'],"['near', 'field', 'communication', 'already', 'android', 'phone']",1.0
+959,['sxsw'],"['major', 'ipad', 'design', 'flaw', 'sxsw', 'go', 'ipad', 'app', 'stay', 'open', 'switch', 'apps']",-1.0
+960,"['sxsw', 'ipad2']","['im', 'headed', 'hear', 'talk', 'integrated', 'social', 'network', 'dynamic', 'team', 'synergy', 'ive', 'got', 'ipad', 'ready', 'go']",1.0
+961,['sxsw'],"['bored', 'keynote', 'use', 'ipad', 'draw', 'picture', 'even', 'good', 'artist']",1.0
+962,['sxsw'],"['brand', 'focus', 'trust', 'zappos', 'likability', 'virgin', 'product', 'apple', 'recipe', 'success']",1.0
+963,['sxsw'],"['brand', 'focus', 'purpose', 'object', 'survive', 'succeed', 'google', 'search', 'useful', 'info', 'nike', 'sneaker', 'performance']",1.0
+964,['sxsw'],"['unexpected', 'geekout', 'moment', 'far', 'talked', 'guy', 'bringing', 'traveller', 'rpg', 'iphone']",1.0
+965,"['google', 'sxsw', 'pnid']","['stood', 'line', 'minute', 'buy', 'ipads', 'apple', 'popup', 'store']",1.0
+966,"['ipad', '2', 'sxswi', 'sxsw']","['sam', 'licked', 'got', 'ipad', 'cc']",1.0
+967,['sxsw'],"['added', 'flight', 'matching', 'people', 'plane', 'airport', 'also', 'downloaded', 'iphone', 'app', 'nicely', 'done']",1.0
+968,['sxsw'],"['found', 'new', 'mapquest', 'iphone', 'app', 'ha', 'turnbyturn', 'gps', 'free', 'time', 'check', 'get', 'reacquainted', 'mq']",1.0
+969,['sxsw'],"['probably', 'put', 'away', 'android', 'party', 'kinda', 'embarrassed', 'iphone']",-1.0
+970,"['smc', 'dallas', 'sxsw', 'ipad', 'chevysmc']","['make', 'good', 'sense', 'apple', 'set', 'open', 'popup', 'shop', 'core', 'sxsw', 'action', 'via']",1.0
+971,['sxsw'],"['uber', 'brand', 'smart', 'gonna', 'move', 'ton', 'ipad', 'opening', 'popup', 'shop', 'austin', 'via']",1.0
+972,['sxsw'],"['heard', 'apple', 'opening', 'store', 'downtown', 'austin', 'tomorrow', 'sell', 'ipads', 'attendee']",1.0
+973,['sxsw'],"['interested', 'hear', 'different', 'google', 'buzz', 'get', 'ready', 'word', 'circle', 'trending']",1.0
+974,"['netflix', 'sxsw']","['annoyed', 'schedule', 'app', 'ha', 'bad', 'ipad', 'finger', 'aint', 'fat', 'yall']",-1.0
+975,['sxsw'],"['hear', 'apple', 'opening', 'temporary', 'store', 'via']",1.0
+976,"['tapworthy', 'sxsw']","['ballroom', 'd', 'talking', 'cool', 'project', 'obv', 'love', 'google', 'art', 'project']",1.0
+977,"['tapworthy', 'sxsw']","['packed', 'charging', 'ipad', 'busy', 'day', 'weekend', 'ahead', 'also', 'need', 'download', 'apps', 'iphone', 'ipad']",1.0
+978,"['austin', 'crowd', 'sxsw']","['ipad', 'found', 'friend', 'jeff', 'ha', 'thanks', 'everyone', 'helped', 'especially']",1.0
+979,"['mobile', 'farm', 'sxsw']","['packed', 'many', 'device', 'alarm', 'set', 'see', 'yall', 'psyched', 'meet', 'finally', 'many', 'guy']",1.0
+980,['sxsw'],"['first', 'ipad', 'sighting', 'interactive', 'infact', 'everyone', 'ha', 'least', 'apple', 'product', 'use', 'time']",1.0
+981,['sxsw'],"['download', 'daily', 'grape', 'new', 'app', 'iphone', 'take', 'wine', 'shop']",1.0
+982,['sxsw'],"['cobra', 'iradar', 'detection', 'system', 'coming', 'android', 'next', 'month']",1.0
+983,['sxsw'],"['exciting', 'day', 'day', 'tim', 'ferriss', 'rumor', 'launch', 'google', 'circle', 'later']",1.0
+984,['sxsw'],"['pie', 'day', 'google', 'booth']",1.0
+985,['sxsw'],"['forbidden', 'apple', 'ha', 'spoiled', 'long', 'live', 'rocking', 's', 'world']",-1.0
+986,"['lame', 'sauce', 'sxsw']","['made', 'decision', 'id', 'like', 'purchase', 'ipad', 'would', 'perfect']",1.0
+987,"['google', 'sxsw']","['getting', 'idea', 'save', 'ipad', 'using', 'action', 'list', 'true', 'gtd', 'syncs', 'w', 'iphone', 'web']",1.0
+988,"['ipad2', 'sxsw']","['decided', 'need', 'ipad']",1.0
+989,['sxsw'],"['model', 'one', 'apple', 'come', 'cool', 'tech', 'ones', 'ever', 'heard', 'cuz', 'go', 'conference']",1.0
+990,"['sxsw', 'sightings']","['great', 'ui', 'demo']",1.0
+991,"['midem', 'sxsw']","['ipad', 'design', 'panel', 'hilton', 'salon', 'j', 'filling', 'quickly', 'surprise', 'fun', 'ipad']",1.0
+992,['sxsw'],"['bit', 'disappointed', 'two', 'ipad', 'talk', 'many', 'overlapping', 'example']",-1.0
+993,['sxsw'],"['every', 'dj', 'spin', 'ipad', 'part', 'arsenal', 'future', 'coming', 'wait']",1.0
+994,['sxsw'],"['hope', 'u', 'jinx', 'nice', 'iphone', 'app', 'behaving', 'today', 'crash', 'yesterday', 'ridiculous']",1.0
+995,['sxsw'],"['thank', 'goodness', 'ran', 'ipad', 'worry', 'giving', 'buying', 'one', 'popup', 'apple', 'store']",1.0
+996,['sxsw'],"['fest', 'tipdont', 'iphone', 'doucheput', 'away', 'phone', 'talk', 'fellow', 'festgoers', 'line', 'etcall', 'good', 'people', 'love', 'film']",-1.0
+997,"['apple', 'sxsw']","['counting', 'day', 'plus', 'strong', 'canadian', 'dollar', 'mean', 'stock', 'apple', 'gear']",1.0
+998,"['ubersocial', 'iphone', 'sxsw', 'mashable']","['drink', 'called', 'alan', 'turing', 'making', 'lego', 'robot', 'oh', 'google', 'speakeasy']",1.0
+999,['sxsw'],"['apple', 'driving', 'consumerization']",1.0
+1000,"['ubersocial', 'iphone', 'sxsw']","['android', 'party', 'kinda', 'embarrassed', 'iphone']",-1.0
+1001,"['ubersocial', 'iphone', 'sxsw']","['friend', 'finally', 'put', 'android', 'get', 'app', 'get', 'disc', 'kh']",1.0
+1002,['sxsw'],"['sound', 'fantastic', 'google', 'party', 'awesome']",1.0
+1003,['sxsw'],"['schedule', 'heavier', 'laptop', 'wheres', 'ipad', 'already']",1.0
+1004,['sxsw'],"['kinda', 'giddy', 'finally', 'fun', 'come', 'u', 'non']",1.0
+1005,"['sxsw', 'iphone']","['google', 'body', 'beta', 'uber']",1.0
+1006,"['sxsw', 'annoying']","['anybody', 'get', 'mobile', 'apps', 'work', 'ive', 'downloaded', 'android', 'iphone', 'blackberry', 'get', 'stuck', 'downloading', 'startup']",-1.0
+1007,['sxsw'],"['im', 'already', 'jealous', 'apple', 'doe', 'popup', 'store']",1.0
+1008,['sxsw'],"['already', 'tell', 'brought', 'pillow', 'iphone', 'backup', 'charger']",1.0
+1009,['sxsw'],"['find', 'playing', 'app', 'android', 'got', 'u']",1.0
+1010,"['sxsw', 'sxsw', 'sxsw']","['see', 'left', 'brain', 'search', 'google', 'right', 'brain', 'search', 'x', 'panel']",1.0
+1011,['sxsw'],"['srsly', 'love', 'promo', 'srsly', 'hate', 'excludes', 'esp', 'since', 'ipad', 'insists', 'im', 'disney']",-1.0
+1012,['sxsw'],"['google', 'aclu', 'party', 'tonight', 'best', 'thing', 'ever', 'apparently', 'spazmatics', 'franchised', 'band', 'rock']",1.0
+1013,"['nerdbird', 'sxsw']","['white', 'gig', 'wifi', 'available', 'popup', 'store', 'right', 'wait']",1.0
+1014,"['sxsw', 'winning']","['ipad', 'giveaway', 'fantastic', 'going', 'squeeze']",1.0
+1015,"['sxsw', 'android']","['loving', 'music', 'aclu', 'google', 'party']",1.0
+1016,['sxsw'],"['sure', 'total', 'scene', 'spoke', 'austin', 'apple', 'store', 'cautiously', 'optimistic']",1.0
+1017,['sxsw'],"['add', 'google', 'alert', 'project', 'amazing', 'thing', 'happen']",1.0
+1018,"['papasangre', 'sxsw']","['look', 'like', 'apps', 'blackberry']",1.0
+1019,"['news', 'app', 'sxsw']","['even', 'use', 'iphone', 'evidence', 'might', 'well', 'call', 'country', 'united', 'state', 'apple']",1.0
+1020,"['sxsw', 'cnet']","['google', 'analytics', 'dfp', 'expert', 'would', 'love', 'insight', 'managing', 'dfp', 'campaign', 'ad', 'management', 'measurement', 'dm']",1.0
+1021,['sxsw'],"['liking', 'apple', 'popup', 'store', 'sixth', 'street', 'congress', 'avenue']",1.0
+1022,"['v', 'cards', 'qrcode', 'iphone', 'sxsw']","['fail', 'whale', 'artist', 'living', 'ipad']",1.0
+1023,"['circles', 'sxsw', 'smm']","['line', 'longer', 'temp', 'apple', 'store', 'ipad', 'microsoft', 'booth', 'ie', 'yeah', 'right']",1.0
+1024,['sxsw'],"['short', 'line', 'apple', 'pop', 'store', 'austin', 'people']",1.0
+1025,"['911tweets', 'sxsw']","['whoa', 'line', 'pop', 'apple', 'store', 'downtown', 'austin', 'ipad', 'midnight', 'madness']",1.0
+1026,"['apple', 'sxsw']","['new', 'iphone', 'autocorrect', 'already', 'tried', 'change', 'coworkers', 'visigoth', 'going', 'long', 'five', 'day']",-1.0
+1027,"['sxsw', 'japan']","['iphone', 'battery', 'wa', 'made']",-1.0
+1028,"['sxsw', 'nptech']","['one', 'best', 'photo', 'apps', 'iphone', 'hipstamatic', 'getting']",1.0
+1029,['sxsw'],"['smart', 'move', 'apple', 'opening', 'popup', 'store', 'launch', 'downtown', 'austin']",1.0
+1030,['sxsw'],"['sweet', 'convore', 'iphone', 'app', 'ready']",1.0
+1031,['sxsw'],"['guy', 'couch', 'playing', 'white', 'ipad', 'mashbash', 'party', 'around', 'making', 'statement', 'dammit']",1.0
+1032,['sxsw'],"['yes', 'apple', 'design', 'win', 'new', 'isack', 'soo', 'cool']",1.0
+1033,"['bavcid', 'sxsw']","['apple', 'fanboy', 'bought', 'ipad', 'sweeeet', 'special', 'apple', 'popup', 'store']",1.0
+1034,"['sxsw', 'cn']","['hey', 'apple', 'fan', 'get', 'peek', 'space', 'thats', 'slated', 'popup', 'apple', 'store', 'tomorrow']",1.0
+1035,['sxsw'],"['new', 'circle', 'game', 'google', 'try', 'launch', 'new', 'social', 'network', 'called', 'circle']",-1.0
+1036,['sxsw'],"['going', 'foot', 'forget', 'stop', 'newest', 'apple', 'store', 'austin']",1.0
+1037,['sxsw'],"['got', 'google', 'party', 'interviewed', 'twit', 'tv', 'finally', 'ran']",1.0
+1038,"['holler', 'gram', 'sxsw']","['im', 'google', 'party', 'rock']",1.0
+1039,"['maps', 'sxsw']","['heres', 'guy', 'bought', 'first', 'popup', 'store', 'hope', 'register', 'thoora', 'beta']",1.0
+1040,['sxsw'],"['xwave', 'headset', 'actually', 'control', 'iphone', 'apps', 'brain']",1.0
+1041,"['circles', 'sxswi', 'sxsw']","['man', 'hipster', 'getting', 'crazy', 'google', 'party']",1.0
+1042,['sxsw'],"['apple', 'hope', 'notice', 'ipad']",-1.0
+1043,['sxsw'],"['would', 'interested', 'hear', 'recomds', 'recommends', 'using', 'google', 'voice', 'separate', 'work', 'life']",1.0
+1044,"['iphone', 'sxsw']","['win', 'free', 'ipad', 'webdoccom', 'awesome', 'tech', 'right']",1.0
+1045,['sxsw'],"['inside', 'ipad', 'chip', 'brings', 'browsing', 'boost', 'best', 'hungry', 'tip', 'mekong', 'river', 'g']",1.0
+1046,['sxsw'],"['omg', 'free', 'ipad', 'salon', 'h', 'one']",1.0
+1047,"['apple', 'sxsw', 'longlinesbadux']","['would', 'love', 'ipad', 'get', 'food', 'forget', 'snap', 'photo', 'win', 'macbook', 'air', 'ipad']",1.0
+1048,"['itunes', 'sxsw']","['future', 'network', 'data', 'thats', 'google', 'may', 'win', 'long', 'term']",-1.0
+1049,"['smiley', 'party', 'sxsw', 'please']","['hope', 'may', 'someday', 'keynote', 'swsx', 'bored', 'keynote', 'ipad']",1.0
+1050,"['zazzle', 'sxsw', 'sxsw', 'sxswi']","['volume', 'overwhelming', 'market', 'selfpolice', 'thats', 'user', 'picked', 'google', 'bing']",1.0
+1051,['sxsw'],"['leaning', 'web', 'convention', 'like', 'small', 'button', 'ipad']",-1.0
+1052,['sxsw'],"['google', 'map', 'app', 'save', 'life', 'regular', 'basis', 'map', 'ha', 'million', 'user', 'user', 'mobile']",1.0
+1053,['sxsw'],"['one', 'inyourface', 'ex', 'stealing', 'show', 'yr', 'apple', 'school', 'mkt', 'expert']",1.0
+1054,"['lean', 'startup', 'sxsw']","['loving', 'new', 'iphone', 'suggestion', 'coming']",1.0
+1055,"['ipad', 'sxsw', 'sxswi']","['omg', 'table', 'next', 'u', 'passing', 'around', 'ipad']",1.0
+1056,"['sxsw', 'web3', 'saatchiny']","['tim', 'get', 'one', 'apple', 'employee', 'showed', 'force', 'popup', 'apple', 'store']",1.0
+1057,"['sxsw', 'cstejas']","['google', 'party', 'line', 'start', 'behind', 'ha', 'germ', 'ha', 'put', 'towel', 'early']",1.0
+1058,['sxsw'],"['wow', 'apple', 'pop', 'store', 'downtown', 'projecting', 'million', 'profit', 'weekend', 'alone', 'may', 'stay', 'past', 'weekend']",1.0
+1059,"['sxsw', 'apple', 'ipod', 'iphone']","['omg', 'apple', 'popup', 'retail', 'please', 'let', 'full', 'palette', 'ipad', 'truck', 'parked', 'back']",1.0
+1060,['sxsw'],"['use', 'google', 'profile', 'fb', 'entry', 'point', 'fb', 'personal', 'try', 'digg', 'google', 'reader', 'draw', 'people']",1.0
+1061,['sxsw'],"['ready', 'take', 'tech', 'geekdom', 'whole', 'new', 'level', 'need', 'twitter', 'google', 'hitops']",1.0
+1062,['sxsw'],"['wow', 'apple', 'really', 'thought']",1.0
+1063,"['designing', 'kids', 'sapient', 'sxsw']","['lol', 'true', 'official', 'people', 'using', 'ipad', 'take', 'photo', 'look', 'weird']",-1.0
+1064,['sxsw'],"['yes', 'please', 'want', 'win', 'ipad', 'get', 'case']",1.0
+1065,['sxsw'],"['anyone', 'see', 'visit', 'temporary', 'apple', 'store']",1.0
+1066,['sxsw'],"['ah', 'nice', 'simple', 'idea', 'hello', 'holler', 'gram', 'get', 'know', 'new', 'ipad', 'app']",1.0
+1067,['sxsw'],"['trying', 'steve', 'wozniak', 'drink', 'free', 'thanks', 'google', 'speakeasy']",1.0
+1068,['sxsw'],"['temp', 'apple', 'store', 'killing', 'austin', 'selling', 'early', 'every', 'day']",1.0
+1069,['sxsw'],"['store', 'popped', 'huge', 'crowd', 'waiting', 'geek', 'dream', 'come', 'true']",1.0
+1070,"['open', 'exhibits', 'sxsw']","['sxsw', 'apple', 'survival', 'kit', 'taking', 'apple', 'stuff', 'clothes']",1.0
+1071,"['wake', 'laughing', 'iphone', 'appstore', 'sxsw']","['hmm', 'stream', 'ipad', 'mobile', 'compatible', 'maybe', 'next', 'year']",-1.0
+1072,['sxsw'],"['third', 'time', 'charm', 'launch', 'new', 'social', 'network', 'cnet', 'news']",1.0
+1073,"['h4ckers', 'sxsw']","['yay', 'love', 'ipad', 'perfectly', 'portable', 'travel', 'weve', 'thanks', 'popup', 'store']",1.0
+1074,['sxsw'],"['gotta', 'love', 'google', 'calendar', 'featuring', 'top', 'party', 'show', 'case', 'check', 'via']",1.0
+1075,['sxsw'],"['look', 'like', 'wa', 'fun', 'session', 'mistake', 'made', 'building', 'nextflix', 'iphone']",1.0
+1076,"['holler', 'gram', 'sxsw']","['may', 'hide', 'tweet', 'think', 'apple', 'popup', 'store', 'wa', 'final', 'straw', 'yes', 'im', 'jealous']",1.0
+1077,['sxsw'],"['would', 'like', 'know', 'lb', 'app', 'downloaded', 'ha', 'commandeered', 'iphones', 'geolocation', 'setting', 'relinquish']",-1.0
+1078,"['sxsw', 'lbs']","['google', 'tv', 'ipad', 'app', 'connected', 'tv', 'experience', 'talk', 'wa', 'super', 'rad']",1.0
+1079,"['ipad', 'sxsw']","['great', 'see', 'u', 'ill', 'austin', 'convention', 'center', 'today', 'w', 'fam', 'showing', 'new', 'iphone', 'game']",1.0
+1080,"['barry', 'diller', 'sxsw', 'pnid']","['foursquare', 'ups', 'game', 'time', 'still', 'prefer', 'far', 'best', 'looking', 'android', 'app', 'date']",1.0
+1081,"['ipad2', 'sxsw']","['iphone', 'user', 'kill', 'yo', 'self', 'u', 'hated', 'ubertwitter', 'new', 'app', 'store', 'includes', 'uberguide']",1.0
+1082,"['team', 'android', 'sxsw', 'sxsw']","['love', 'wave', 'ipad', 'webber']",1.0
+1083,['sxsw'],"['spoke', 'google', 'using', 'semantic', 'tech', 'make', 'searching', 'user', 'review', 'better']",1.0
+1084,['sxsw'],"['traded', 'xoom', 'j', 'party', 'ipad']",1.0
+1085,"['ipad', 'apple', 'sxsw', 'sleepy']","['dear', 'apple', 'could', 'roll', 'hot', 'dog', 'cart', 'full', 'ipad', 'austin', 'convention', 'center', 'bring', 'hot', 'dog']",1.0
+1086,"['qagb', 'sxsw']","['new', 'iphone', 'new', 'ipad', 'come', 'running', 'fast', 'cuz', 'every', 'girl', 'crazy', 'sharp', 'mac', 'man', 'strum', 'guitar']",1.0
+1087,['sxsw'],"['cover', 'time', 'apple', 'store', 'sxsw', 'w', 'others']",1.0
+1088,['sxsw'],"['hey', 'people', 'launch', 'follow', 'detail', 'chance', 'free', 'ipad']",1.0
+1089,"['ipad', 'sxsw']","['want', 'one', 'rumor', 'apple', 'opening', 'temporary', 'store', 'downtown', 'austin', 'ipad', 'launch']",1.0
+1090,['sxsw'],"['oh', 'ridiculous', 'even', 'begin', 'apple', 'win', 'via']",1.0
+1091,['sxsw'],"['genius', 'idea', 'apple', 'popup', 'store']",1.0
+1092,"['sxsw', 'il']","['update', 'heading', 'apple', 'store', 'buy', 'ipad']",1.0
+1093,"['google', 'lego', 'sxsw', 'startup', 'bus', 'cle']","['getting', 'ready', 'ipad', 'design', 'headache']",-1.0
+1094,['sxsw'],"['getting', 'ready', 'installing', 'iphone', 'woot']",1.0
+1095,['sxsw'],"['already', 'paying', 'dividend', 'discovered', 'couple', 'cool', 'apps', 'iphone', 'android']",1.0
+1096,['sxsw'],"['never', 'realized', 'shitty', 'iphone', 'battery', 'wa', 'im', 'charging', 'every', 'hour']",-1.0
+1097,['sxsw'],"['steal', 'show', 'popup']",1.0
+1098,"['sxsw', 'zazzlsxsw']","['met', 'team', 'set', 'apple', 'store', 'set', 'whole', 'place', 'nothing', 'day', 'great', 'work']",1.0
+1099,"['sxsw', 'zazzlsxsw']","['nice', 'hear', 'mintcom', 'working', 'ipad', 'app']",1.0
+1100,['sxsw'],"['appears', 'apple', 'opening', 'pop', 'store', 'austin', 'employee', 'trying', 'hide', 'beechwood', 'table', 'gave', 'away']",1.0
+1101,['sxsw'],"['several', 'year', 'late', 'think', 'trend', 'social', 'apps']",-1.0
+1102,['sxsw'],"['another', 'reason', 'go', 'austin', 'open', 'popup', 'store']",1.0
+1103,"['sxsw', 'sxswbarcrawl', 'sxswi']","['great', 'blog', 'latest', 'news', 'like', 'opening', 'store']",1.0
+1104,['sxsw'],"['thats', 'great', 'im', 'unique', 'im', 'one', 'w', 'iphone', 'gs', 'others', 'follower', 'iphone']",1.0
+1105,['sxsw'],"['facebook', 'google', 'biggest', 'competitor', 'said', 's', 'crowley']",1.0
+1106,['sxsw'],"['todays', 'tech', 'tidbit', 'ipad', 'take', 'sxsw', 'video', 'via']",1.0
+1107,['sxsw'],"['echofon', 'iphone', 'mac', 'mute', 'function', 'block', 'wait']",1.0
+1108,['sxsw'],"['heck', 'google', 'map', 'use', 'browser', 'geolocation', 'missing', 'somehow', 'using', 'chrome']",-1.0
+1109,['sxsw'],"['heck', 'would', 'anyone', 'want', 'mozilla', 'switch', 'crapkit', 'webkit', 'gecko', 'good', 'stupid', 'apple', 'google', 'bandwaggoners']",-1.0
+1110,"['sxsw', 'geekery']","['woah', 'expect', 'google', 'circle', 'today', 'googles', 'league', 'extraordinary', 'hacker', 'event', 'today', 'big']",1.0
+1111,['sxsw'],"['apple', 'cited', 'opposite', 'crowdsourcing', 'proprietary', 'steve', 'job', 'tell', 'want']",-1.0
+1112,"['sxsw', 'thin', 'mints']","['amused', 'apple', 'popup', 'store', 'year', 'brilliant', 'idea', 'brilliant']",1.0
+1113,['sxsw'],"['walked', 'line', 'ipad', 'bahahahaha', 'least', 'block', 'long']",-1.0
+1114,['sxsw'],"['called', 'hot', 'spot', 'mobile', 'heatmap', 'iphone', 'app', 'leveraging', 'sq', 'help', 'find', 'hot', 'quiet', 'place']",1.0
+1115,['sxsw'],"['updated', 'iphone', 'app', 'ha', 'song', 'info', 'select', 'stream', 'incl', 'live', 'video', 'streaming', 'time']",1.0
+1116,['sxsw'],"['yes', 'nailed', 'google', 'circle', 'allow', 'online', 'communication', 'respect', 'boundary', 'offline', 'social', 'life']",1.0
+1117,['sxsw'],"['connected', 'bluetooth', 'keyboard', 'iphone', 'hello', 'fast', 'blogging', 'im']",1.0
+1118,"['sxsw', 'ipad2']","['convinced', 'upgrade', 'ipad', 'held', 'one', 'trade', 'show', 'failed', 'willpower', 'check']",1.0
+1119,['sxsw'],"['showed', 'charge', 'anywhere', 'bar', 'charge', 'iphone', 'whole', 'table', 'wanted', 'buy', 'one']",1.0
+1120,['sxsw'],"['walked', 'past', 'supposed', 'temp', 'store', 'downstairs', 'apple', 'cult', 'wa', 'outside', 'taking', 'photo', 'iphones']",-1.0
+1121,['sxsw'],"['passed', 'apple', 'store', 'th', 'easily', 'folk', 'line']",1.0
+1122,"['sxsw', 'apple', 'ipad2']","['joined', 'heaving', 'river', 'flow', 'see', 'marissa', 'mayer', 'google']",1.0
+1123,['sxsw'],"['wa', 'shocked', 'see', 'google', 'showcasing', 'blogger', 'thought', 'completely', 'forgot', 'service']",1.0
+1124,['sxsw'],"['picked', 'book', 'killer', 'photoes', 'iphone']",1.0
+1125,['sxsw'],"['picked', 'ipad', 'back']",1.0
+1126,"['uxdes', 'sxsw']","['free', 'coffee', 'company', 'free', 'drink', 'company', 'b', 'free', 'food', 'company', 'c', 'money', 'saved', 'go', 'apple', 'life']",1.0
+1127,['sxsw'],"['guess', 'need', 'figure', 'session', 'ipad', 'app', 'killer', 'selection', 'overwhelming']",1.0
+1128,"['sxsw', 'addicted', 'interwebs']","['already', 'seeing', 'heavy', 'ipad', 'presence']",1.0
+1129,['sxsw'],"['week', 'total', 'ipad', 'envy']",1.0
+1130,['sxsw'],"['see', 'future', 'evolving', 'mobile', 'social', 'local', 'converge', 'yield', 'even', 'relevant', 'result']",1.0
+1131,['sxsw'],"['good', 'meet', 'see', 'forget', 'giving', 'away', 'best', 'mindmanager', 'map', 'detail']",1.0
+1132,"['mac', 'sxsw', 'platform']","['prefer', 'news', 'iphone', 'ipad', 'droid', 'ha', 'apps', 'mobile', 'apps']",1.0
+1133,"['brainwashed', 'lines', 'sxsw']","['google', 'prefers', 'launch', 'hyped', 'new', 'social', 'feature', 'meh', 'bang', 'via', 'tc']",-1.0
+1134,"['sxsw', 'google', 'bread']","['like', 'vega', 'iphone', 'best', 'used', 'hand', 'warmer']",-1.0
+1135,['sxsw'],"['great', 'panel', 'ipad', 'magazine', 'design', 'pulling', 'article', 'different', 'mag', 'sound', 'awesome', 'whos', 'going', 'build']",1.0
+1136,"['want', 'camera', 'ipad', 'sxsw']","['great', 'panel', 'w', 'guy', 'fr', 'google', 'hotpot', 'social', 'recs', 'def', 'end', 'recs']",1.0
+1137,"['sxsw', 'mkesxsw']","['airport', 'delay', 'introduced', 'feel', 'like', 'drug', 'pusher', 'first', 'ipad', 'play', 'free']",1.0
+1138,"['sxsw', 'tapworthy', 'fb']","['apples', 'release', 'ipad', 'huge', 'win', 'especially', 'international', 'attendee', 'town', 'show']",1.0
+1139,"['sxsw', 'mosaicxm']","['note', 'self', 'downside', 'tweeting', 'white', 'ipad', 'expect', 'mocked']",-1.0
+1140,['sxsw'],"['believe', 'god', 'explanation', 'apples', 'continued', 'existence', 'guy', 'kawasaki']",1.0
+1141,['sxsw'],"['cant', 'believe', 'google', 'announced', 'maggie', 'maes', 'game', 'changer', 'sure']",1.0
+1142,['sxsw'],"['tell', 'happening', 'iphone', 'apps', 'update', 'day']",1.0
+1143,"['16162', 'sxsw']","['im', 'insanely', 'jealous', 'everyone', 'ipad', 'seems', 'like', 'great', 'way', 'interact', 'panel', 'next', 'year']",1.0
+1144,"['sxtxstate', 'sxsw']","['apples', 'temporary', 'megastore', 'could', 'model', 'future', 'conference', 'event']",1.0
+1145,['sxsw'],"['google', 'seems', 'sabotaged', 'youtube', 'account', 'wtf', 'trying', 'entire', 'online', 'ecosystem', 'bad', 'form']",-1.0
+1146,['sxsw'],"['google', 'missed', 'dance', 'party', 'lifetime']",1.0
+1147,['sxsw'],"['friend', 'think', 'abandoned', 'reality', 'mean', 'communication', 'iphone', 'stopped', 'working']",-1.0
+1148,"['smcomedyfyeah', 'sxsw']","['normal', 'scene', 'ipad', 'lap', 'iphone', 'hand']",1.0
+1149,['sxsw'],"['happened', 'taxi', 'magic', 'iphone', 'app', 'call', 'cab', 'via']",-1.0
+1150,['sxsw'],"['suspense', 'google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle', 'possibly', 'today']",1.0
+1151,['sxsw'],"['funny', 'moment', 'panel', 'dennis', 'crowley', 'get', 'ipad', 'owner', 'hold', 'new', 'ipad', 'looked', 'like', 'lighter', 'rock', 'concert']",1.0
+1152,"['sxsw', 'apple']","['next', 'presentation', 'googles', 'marissa', 'mayer', 'great', 'austin', 'convention', 'center', 'w']",1.0
+1153,['sxsw'],"['essential', 'water', 'energy', 'bar', 'smart', 'phone', 'camera', 'map', 'dt', 'sunglass', 'rainjacket', 'laptop', 'ipad', 'mp', 'player', 'ipod', 'earplug']",1.0
+1154,"['geek', 'spring', 'break', 'sxsw']","['g', 'love', 'apple', 'popup', 'store', 'one', 'question', 'bring', 'truck', 'signal', 'please', 'say', 'yes']",1.0
+1155,"['sxsw', 'pure', 'genius']","['ha', 'apple', 'come', 'cool', 'technology', 'ones', 'ever', 'heard', 'go', 'conference']",1.0
+1156,['sxsw'],"['geek', 'need', 'somewhere', 'downtown', 'line', 'get', 'ipad', 'ill', 'dropping']",1.0
+1157,['sxsw'],"['lol', 'apple', 'come', 'cool', 'technology', 'ones', 'ever', 'heard', 'go', 'conference']",1.0
+1158,['sxsw'],"['lol', 'apple', 'come', 'cool', 'technology', 'ones', 'ever', 'heard', 'go', 'conference', 'via']",1.0
+1159,['sxsw'],"['lol', 'apple', 'come', 'cool', 'technology', 'ones', 'ever', 'heard', 'go', 'conference']",1.0
+1160,"['sonos', 'sxsw']","['chatting', 'via', 'iphone', 'hilarious']",1.0
+1161,"['sxsw', 'fb']","['thanks', 'giving', 'new', 'top', 'cover', 'banged', 'juicepack', 'iphone', 'case', 'product', 'rock']",1.0
+1162,['sxsw'],"['ha', 'google', 'guy', 'talk', 'explaining', 'made', 'realistic', 'twitter', 'bot', 'experiment', 'gee', 'thanks']",-1.0
+1163,"['apple', 'sxsw']","['intrvw', 'govt', 'vending', 'machine', 'put', 'get', 'svcs', 'platform', 'iphone', 'wa', 'teaching', 'moment']",1.0
+1164,"['sxsw', 'photo']","['woot', 'rumor', 'apple', 'opening', 'temporary', 'store', 'downtown', 'austin', 'ipad', 'launch']",1.0
+1165,['sxsw'],"['yes', 'lol', 'u', 'r', 'gadgetzilla', 'fun', 'festival', 'time', 'omg', 'im', 'scared', 'got', 'netbook', 'droid']",1.0
+1166,['sxsw'],"['wew', 'new', 'app', 'store', 'includes', 'uberguide', 'sponsored', 'cont']",1.0
+1167,['sxsw'],"['badger', 'angel', 'news', 'nice', 'one', 'also', 'were', 'giving', 'away', 'free', 'ipad']",1.0
+1168,"['nudge', 'nudge', 'appleatxdt', 'sxsw']","['video', 'playbook', 'action', 'ipad', 'still', 'win']",1.0
+1169,"['apple', 'sxsw', 'ipad']","['pop', 'store', 'austin', 'brilliant', 'long', 'line', 'even', 'night']",1.0
+1170,['sxsw'],"['think', 'larrys', 'elevation', 'google', 'great', 'lost', 'way', 'caring', 'much', 'biz', 'enough', 'world']",1.0
+1171,"['apple', 'sxsw']","['wow', 'interrupt', 'regularly', 'scheduled', 'geek', 'programming', 'big', 'news']",1.0
+1172,['sxsw'],"['wow', 'yes', 'gowalla', 'win', 'best', 'andoid', 'app', 'team', 'android', 'choice', 'award', 'thanks']",1.0
+1173,"['sxsw', 'group', 'chat', 'apps']","['envy', 'roof', 'thanks', 'every', 'person']",1.0
+1174,['sxsw'],"['maybe', 'someone', 'get', 'hand', 'old', 'ipad', 'instead', 'throwing', 'away']",1.0
+1175,['sxsw'],"['google', 'deep', 'eddy', 'sweet', 'tea', 'vodka', 'gsdm', 'cool', 'factor', 'gsd', 'w', 'others']",1.0
+1176,"['100tc', 'sxswi', 'sxsw', 'ipad']","['oh', 'utter', 'fail', 'cant', 'see', 'letter', 'ballroom', 'iphone', 'app', 'long', 'wrap', 'cc']",-1.0
+1177,"['marissa', 'google', 'sxsw']","['life', 'hacker', 'debut', 'steampunk', 'ipad', 'ft', 'reclaimed', 'copper', 'piping', 'one', 'minimaglight', 'kinda', 'thin', 'etchasketch', 'interface']",1.0
+1178,['sxsw'],"['engineer', 'google', 'chrome', 'came', 'correct', 'misstatement', 'browser', 'awesome']",1.0
+1179,['sxsw'],"['mega', 'tether', 'iphone', 'android', 'party']",1.0
+1180,['sxsw'],"['gamechanger', 'like', 'wave', 'buzz', 'doubt', 'google', 'launch', 'major', 'new', 'social', 'network', 'called', 'circle']",-1.0
+1181,['sxsw'],"['never', 'apparent', 'nice', 'would', 'apple', 'made', 'stuff', 'w', 'removable', 'battery']",-1.0
+1182,['sxsw'],"['read', 'ler', 'marissa', 'mayer', 'google', 'connect', 'digital', 'physical', 'world', 'mobile']",1.0
+1183,['sxsw'],"['enter', 'contest', 'maybe', 'win', 'ipad']",1.0
+1184,['sxsw'],"['day', 'closer', 'becoming', 'owner', 'ipad', 'stoked', 'thing', 'getting', 'final']",1.0
+1185,['sxsw'],"['sitting', 'panel', 'wishing', 'ala', 'two', 'year', 'old', 'ha', 'completely', 'overtaken']",1.0
+1186,"['iphone', 'sxsw']","['ahh', 'wonderful', 'news', 'ipad', 'available', 'online', 'ordering', 'go', 'get', 'ur']",1.0
+1187,['sxsw'],"['were', 'experimenting', 'tinkering', 'like', 'ninety', 'best', 'viewed', 'ipad', 'new', 'best', 'viewed', 'internet', 'explorer']",1.0
+1188,"['tmsxsw', 'sxsw']","['suffering', 'ipad', 'envy']",1.0
+1189,['sxsw'],"['iphone', 'user', 'gps', 'stuck', 'one', 'new', 'geo', 'app', 'update', 'foursquare', 'gowalla']",-1.0
+1190,['sxsw'],"['apple', 'offer', 'original', 'ipad', 'donation', 'program']",1.0
+1191,['sxsw'],"['farmer', 'use', 'blackberry', 'iphone', 'ipad', 'catching', 'bigger', 'screen']",1.0
+1192,['sxsw'],"['texas', 'observer', 'tomlinson', 'say', 'would', 'double', 'revenue', 'per', 'issue', 'ipad', 'subscription']",1.0
+1193,['sxsw'],"['great', 'interview', 'bloomberg', 'tv', 'kick']",1.0
+1194,['sxsw'],"['cool', 'google', 'basically', 'foing', 'version', 'apple', 'event', 'showing', 'ton', 'new', 'product', 'feature']",1.0
+1195,"['sxsw', 'google', 'mobile']","['cool', 'potential', 'nontext', 'application', 'iphone', 'awesome']",1.0
+1196,['sxsw'],"['pair', 'nice', 'back', 'back', 'talk', 'morning', 'interface', 'design', 'ipad', 'future', 'touch', 'general']",1.0
+1197,"['jzsxsw', 'sxsw']","['hope', 'everyone', 'ha', 'awesome', 'weekend', 'know', 'giving', 'away', 'great', 'apple', 'prize']",1.0
+1198,['sxsw'],"['free', 'itunes', 'album', 'featured', 'artist', 'grab', 'missed']",1.0
+1199,['sxsw'],"['apple', 'take', 'bruise', 'panelist', 'well', 'regarded', 'sustainability', 'space', 'corporate', 'sustainability', 'reporting', 'transparency']",-1.0
+1200,['sxsw'],"['apple', 'like', 'pay', 'thats', 'apple', 'like', 'barry', 'diller']",-1.0
+1201,['sxsw'],"['daily', 'ipad', 'going', 'evolve', 'theyre', 'still', 'impossible', 'download', 'mb', 'downloads']",-1.0
+1202,['sxsw'],"['ipad', 'go', 'sale', 'pm', 'im', 'looking', 'gig', 'color', 'preference']",1.0
+1203,"['google', 'sxsw']","['mayer', 'come', 'sans', 'intro', 'still', 'get', 'cheer', 'launch', 'googles', 'priority', 'location', 'fast', 'fun', 'future']",1.0
+1204,['sxsw'],"['free', 'itunes', 'sxsw', 'featured', 'artist', 'sampler']",1.0
+1205,"['sxsw', 'apple']","['apple', 'save', 'sxsw', 'set', 'open', 'popup', 'store', 'cnet', 'news']",1.0
+1206,"['guy', 'kawasaki', 'sxsw']","['apple', 'save', 'sxsw', 'set', 'open', 'popup', 'store']",1.0
+1207,"['papasangre', 'sxsw']","['holy', 'smoke', 'ipad', 'replacing', 'flip', 'cam', 'default', 'video', 'capture', 'device', 'beautiful', 'elegant', 'apple']",1.0
+1208,"['sxsw', 'xplat']","['google', 'presentation', 'mayer', 'sale', 'pitch']",-1.0
+1209,['sxsw'],"['google', 'presenting', 'hotpot', 'austin', 'convention', 'center', 'w']",1.0
+1210,"['sxsw', 'apple']","['omgz', 'makeshift', 'apple', 'store', 'gold', 'gym']",1.0
+1211,['sxsw'],"['sooo', 'design', 'ipads', 'session', 'hour', 'long', 'ad', 'buy', 'ipad', 'apps']",-1.0
+1212,"['google', 'blog', 'sxsw', 'vip']","['ipad', 'design', 'headache', 'take', 'two', 'tablet', 'call', 'panel', 'excited', 'hear', 'live']",-1.0
+1213,"['progress', 'bar', 'sxsw']","['thats', 'awesome', 'rumor', 'apple', 'opening', 'temporary', 'store', 'downtown', 'austin']",1.0
+1214,"['project', '314', 'sxsw']","['wa', 'awesome', 'hear', 'marissa', 'mayer', 'acknowledge', 'google', 'map', 'need', 'increase', 'support', 'product', 'b', 'c', 'incorrect', 'route']",-1.0
+1215,"['xsw', 'sxswi', 'popupshop', 'apple']","['wow', 'shakespeares', 'pub', 'th', 'st', 'heres', 'delete', 'button', 'iphone', 'video', 'camera']",1.0
+1216,['sxsw'],"['madness', 'already', 'downtown', 'st', 'day', 'apple', 'popup', 'store', 'seems', 'brisk', 'biz']",1.0
+1217,['sxsw'],"['ipad', 'success', 'apple', 'popup', 'store', 'austin']",1.0
+1218,"['sxsw', '310409h2011']","['sxxpress', 'line', 'almost', 'long', 'apple', 'line']",-1.0
+1219,"['nerdbird', 'sxsw']","['awesome', 'restaurant', 'week', 'app']",1.0
+1220,"['sxsw', 'sxswi']","['fun', 'meet', 'folk', 'app', 'made', 'ipad']",1.0
+1221,['sxsw'],"['anybody', 'get', 'ipad', 'downtown', 'apple', 'popup', 'store', 'yet', 'trampling']",1.0
+1222,"['iphone', 'app', 'sxsw']","['killer', 'meet', 'ups', 'new', 'old', 'friend', 'today', 'apple', 'microsoft', 'solo', 'killer', 'many']",1.0
+1223,"['android', 'sxsw', 'sxsw']","['complete', 'io', 'dominance', 'compels', 'apple', 'open', 'frickin', 'temporary', 'apple', 'store', 'downtown', 'austin', 'week']",1.0
+1224,['sxsw'],"['ipad', 'queue', 'epic']",1.0
+1225,['sxsw'],"['even', 'cabby', 'tech', 'savvy', 'thats', 'iphone', 'streaming', 'twitter']",1.0
+1226,['sxsw'],"['freaking', 'everyone', 'ha', 'ipad', 'iphone', 'mac', 'wow']",1.0
+1227,"['frood', 'sxsw']","['amazing', 'new', 'app', 'mobil', 'worker']",1.0
+1228,"['sxsw', 'ipad', 'ipad2']","['love', 'new', 'ipad', 'seems', 'much', 'faster', 'fluid', 'original', 'seems', 'natural', 'hold', 'excited', 'use', 'week']",1.0
+1229,['sxsw'],"['love', 'new', 'iphone', 'case', 'featuring', 'glad', 'got', 'case']",1.0
+1230,"['blackberry', 'sxsw', 'iphone']","['awesome', 'new', 'version', 'iphone', 'new', 'web', 'site', 'coming', 'want', 'demo', 'meet', 'pls']",1.0
+1231,['sxsw'],"['novelty', 'news', 'fade', 'fast', 'among', 'digital', 'delegate', 'aron', 'pilhofer', 'nyt', 'khoi', 'vinh']",-1.0
+1232,"['apple', 'sxsw']","['day', 'one', 'coming', 'close', 'lot', 'good', 'stuff', 'looking', 'fwd', 'tomorrow', 'coolest', 'far', 'google', 'location', 'map', 'plan', 'feature']",1.0
+1233,['sxsw'],"['outside', 'panel', 'people', 'skip', 'barely', 'get', 'anything', 'work', 'iphone', 'need', 'shrink', 'k', 'people']",-1.0
+1234,['sxsw'],"['imagine', 'every', 'company', 'concept', 'like', 'google']",1.0
+1235,"['tapworthy', 'sxsw']","['novelty', 'ipad', 'news', 'apps', 'fade', 'fast', 'among', 'delegate']",-1.0
+1236,['sxsw'],"['stuff', 'great', 'love', 'seeing', 'guy', 'think', 'outside', 'box', 'google', 'doodle']",1.0
+1237,['sxsw'],"['year', 'time', 'saved', 'every', 'day', 'people', 'qho', 'use', 'google', 'map', 'route', 'around', 'feature']",1.0
+1238,['sxsw'],"['pollak', 'much', 'trouble', 'sell', 'apple', 'duh']",-1.0
+1239,"['android', 'sxsw', 'android', 'sxsw']","['feature', 'iphone', 'week']",1.0
+1240,"['disco', 'talk', 'sxsw']","['kick', 'giving', 'away', 'ipad', 'visit', 'fb', 'page', 'enter']",1.0
+1241,['sxsw'],"['showing', 'ipad', 'pretty', 'much', 'like', 'showing', 'puppy', 'anywhere', 'else', 'get', 'fawning', 'attention', 'dont', 'ha']",1.0
+1242,"['sxsw', 'xm', 'events']","['turning', 'twitter', 'forgotten']",-1.0
+1243,['sxsw'],"['showing', 'uzu', 'ipad', 'app']",1.0
+1244,"['popplet', 'sxsw']","['kicking', 'w', 'talking', 'ipad', 'design', 'headache']",-1.0
+1245,['sxsw'],"['wifi', 'working', 'laptop', 'neither', 'g', 'iphone', 'grrr']",-1.0
+1246,['sxsw'],"['awesome', 'first', 'day', 'approved', 'new', 'app', 'go', 'download', 'check', 'blog', 'big', 'stereo']",1.0
+1247,['sxsw'],"['ipad', 'flight', 'wifi', 'sitting', 'behind', 'ready', 'shiner']",1.0
+1248,['sxsw'],"['good', 'app', 'party', 'people', 'party', 'crasher', 'release', 'android', 'app', 'cluster']",1.0
+1249,['sxsw'],"['prepping', 'attending', 'without', 'iphone', 'dehumanizing', 'experience']",1.0
+1250,"['social', 'muse', 'android', 'appcircus', 'sxsw']","['platform', 'concertgoers', 'launch', 'android', 'app', 'time', 'sxsw', 'mashable']",1.0
+1251,['sxsw'],"['ipad', 'week', 'w', 'ipad', 'since', 'gave', 'withdrawal']",1.0
+1252,['sxsw'],"['grateful', 'aclu', 'google', 'earplug', 'right']",1.0
+1253,['sxsw'],"['line', 'apple', 'popup', 'store', 'stretch', 'around', 'block', 'guess', 'getting', 'ipad', 'today']",1.0
+1254,"['sxsw', 'google']","['big', 'line', 'google', 'bing', 'session', 'people', 'line', 'saying', 'one', 'ballroom']",1.0
+1255,['sxsw'],"['line', 'ipad', 'pop', 'apple', 'store', 'ha', 'outlandish', 'entire', 'week']",1.0
+1256,['sxsw'],"['life', 'cant', 'get', 'ipad', 'sync', 'session', 'partial', 'iphone', 'fine', 'ipad', 'deciding', 'want']",-1.0
+1257,"['google', 'sxsw']","['ze', 'frank', 'missed', 'childhood', 'walk', 'project', 'google', 'street', 'view', 'enables', 'stunning', 'revelation']",1.0
+1258,"['sxsw', 'apple']","['friend', 'austin', 'ill', 'buffalo', 'new']",1.0
+1259,['sxsw'],"['learning', 'google', 'afternoon', 'woot']",1.0
+1260,"['tapworthy', 'sxsw']","['cab', 'ride', 'hell', 'get', 'apple', 'store', 'mall', 'sold', 'getting', 'dinner', 'figure', 'get', 'back', 'hotel']",-1.0
+1261,"['ubersocial', 'iphone', 'sxsw', 'mashable']","['two', 'guy', 'google', 'doodle', 'team', 'talk', 'fun', 'making', 'homepage', 'pretty']",1.0
+1262,"['holler', 'gram', 'sxsw']","['woman', 'front', 'ha', 'etchasketch', 'housing', 'ipad', 'awesome']",1.0
+1263,"['sxsw', 'sightings']","['im', 'frontend', 'dev', 'talk', 'way', 'turned', 'head', 'far', 'could', 'see', 'single', 'nonapple', 'device', 'cor']",1.0
+1264,['sxsw'],"['installing', 'android', 'get', 'vip', 'pedicab', 'treatment']",1.0
+1265,['sxsw'],"['im', 'giving', 'next', 'person', 'come', 'tell', 'cool', 'android', 'look', 'around', 'look', 'hard']",1.0
+1266,"['ubersocial', 'iphone', 'sxsw']","['navigating', 'crowded', 'party', 'suck', 'way', 'worse', 'everyone', 'walk', 'around', 'face', 'iphone']",-1.0
+1267,['sxsw'],"['nice', 'able', 'use', 'usb', 'charging', 'cord', 'plug', 'add', 'juice', 'iphone']",1.0
+1268,['sxsw'],"['big', 'buzz', 'year', 'ipad', 'course', 'group', 'chat', 'text', 'service', 'like', 'group', 'yobongo', 'know']",1.0
+1269,"['sxsw', 'sxswi']","['best', 'thing', 'ive', 'heard', 'weekend', 'gave', 'ipad', 'money', 'relief', 'need']",-1.0
+1270,"['qagb', 'sxsw']","['regretting', 'bring', 'ipad', 'seeing', 'lot', 'time', 'would', 'useful', 'especially', 'battery', 'life']",1.0
+1271,"['sxsw', 'winning']","['im', 'loving', 'apple', 'popup', 'downtown', 'office', 'long', 'last', 'u', 'local']",1.0
+1272,['sxsw'],"['lining', 'get', 'ipad', 'apple', 'pop', 'store', 'much', 'long', 'line']",1.0
+1273,"['sxsw', 'winning']","['gadgetaddicted', 'apple', 'fanboy', 'manage', 'come', 'home', 'without', 'ipad', 'suspense', 'intense', 'intense', 'suspense']",1.0
+1274,['sxsw'],"['stay', 'charged', 'visit', 'mophie', 'booth', 'great', 'deal', 'juice', 'pack', 'ur', 'iphone', 'stay', 'tuned', 'flash', 'giveaway']",1.0
+1275,['sxsw'],"['changed', 'mind', 'need', 'ipad', 'need', 'wider', 'screen', 'detect', 'zombie']",1.0
+1276,"['geek', 'sxsw']","['nieuwe', 'regel', 'google', 'tweet', 'new', 'think', 'speak', 'mark', 'belinsky', 'panel']",1.0
+1277,"['holler', 'gram', 'sxsw']","['apple', 'genius', 'pun', 'intended', 'check']",1.0
+1278,"['sxsw', 'sxswi']","['genius', 'may', 'actually', 'buy', 'ipad', 'tomorrow', 'apple', 'temporary', 'store', 'downtown', 'austin']",1.0
+1279,['sxsw'],"['well', 'forget', 'right', 'gonna', 'focus', 'getting', 'shinmy', 'new', 'ipad', 'min', 'apple', 'make', 'happy', 'nfl', 'doe']",1.0
+1280,"['winning', 'sxsw', 'mine']","['getting', 'new', 'ipad', 'flash', 'apple', 'store']",1.0
+1281,['sxsw'],"['google', 'goggles', 'location', 'could', 'tell', 'example', 'history', 'building', 'looking']",1.0
+1282,"['holler', 'gram', 'sxsw']","['google', 'goggles', 'may', 'new', 'fave', 'thing']",1.0
+1283,['sxsw'],"['food', 'thought', 'juxtaposed', 'ipad', 'rocking', 'lybian', 'rebel', 'thwarted', 'gorgeous', 'day', 'la', 'japan', 'reeling']",1.0
+1284,['sxsw'],"['quit', 'fighting', 'apple', 'store', 'sxsw', 'w', 'others']",1.0
+1285,['sxsw'],"['tm', 'litle', 'girl', 'want', 'ipad', 'guess', 'got', 'get', 'one', 'checked', 'apple', 'pop', 'store']",1.0
+1286,['sxsw'],"['got', 'given', 'free', 'portable', 'iphone', 'charger', 'sweet', 'thx']",1.0
+1287,['sxsw'],"['glad', 'ive', 'got', 'faulty', 'iphone', 'go', 'well', 'everyones', 'battery', 'dy', 'time', 'quicker', 'hope', 'know']",-1.0
+1288,['sxsw'],"['party', 'badge', 'suckas']",1.0
+1289,['sxsw'],"['google', 'tweet', 'new', 'think', 'speak', 'mark', 'belinsky', 'panel']",1.0
+1290,"['sxsw', 'nerds']","['google', 'circle', 'social', 'network', 'idea', 'sound', 'like', 'plan']",1.0
+1291,['sxsw'],"['circle', 'ha', 'everyone', 'going', 'around', 'circle']",1.0
+1292,['sxsw'],"['google', 'ha', 'many', 'product', 'need', 'condense', 'fyi', 'nine', 'mobile', 'product']",-1.0
+1293,['sxsw'],"['google', 'look', 'technical', 'solution', 'theyre', 'great', 'community', 'human', 'solution']",-1.0
+1294,"['sxsw', 'sxswi', 'photo']","['google', 'map', 'best', 'true', 'dat', 'double', 'true']",1.0
+1295,"['sxsw', 'ipad2']","['google', 'map', 'route', 'around', 'traffic', 'saving', 'user', 'year', 'every', 'day', 'marissa', 'mayer']",1.0
+1296,"['futurecast', 'sxsw']","['google', 'party', 'austin', 'texas', 'entry', 'received', 'anti', 'privacy', 'law', 'petition', 'sunglass', 'free', 'beer']",1.0
+1297,['sxsw'],"['google', 'launch', 'major', 'new', 'social', 'network', 'really', 'dont', 'need', 'another', 'social', 'network']",-1.0
+1298,['sxsw'],"['ipad', 'design', 'know', 'value', 'white', 'space']",1.0
+1299,"['touching', 'stories', 'ipad', 'tablet', 'sxsw']","['ipad', 'design', 'headache', 'interface', 'metaphor', 'look', 'like', 'book', 'make', 'behave', 'like', 'book', 'simple', 'stuff', 'often', 'forgotten']",-1.0
+1300,['sxsw'],"['ipad', 'design', 'malady', 'ipad', 'elbow', 'hate', 'ipads', 'back', 'button', 'heat', 'million', 'sun']",-1.0
+1301,['sxsw'],"['ipad', 'design', 'panel', 'good']",1.0
+1302,['sxsw'],"['ipad', 'design', 'session', 'packed', 'hilton', 'salon', 'j', 'w', 'others']",1.0
+1303,"['austin', 'sxsw']","['ipad', 'design', 'talk', 'wa', 'great', 'ran', 'late', 'haul', 'get', 'ballroom', 'innovative', 'design', 'biomimicry']",1.0
+1304,['sxsw'],"['go', 'im', 'still', 'using', 'iphone', 'g']",-1.0
+1305,['sxsw'],"['whos', 'gonna', 'getting', 'ipad', 'apple', 'store', 'today', 'bet', 'que', 'getting', 'bigger', 'bet']",1.0
+1306,"['nerdcore', 'sxsw', 'fb']","['good', 'job', 'went', 'home', 'watched', 'season', 'guild', 'suck', 'tweet', 'abt', 'iphone', 'hijack', 'top', 'tweet', 'lol']",-1.0
+1307,['sxsw'],"['google', 'calendar', 'getting', 'little', 'control']",-1.0
+1308,"['twitter', 'sxsw']","['google', 'circle', 'lame']",-1.0
+1309,['sxsw'],"['think', 'lost', 'way', 'caring', 'much', 'business', 'instead', 'user', 'tim', 'oreilly']",-1.0
+1310,['sxsw'],"['day', 'google', 'map', 'saving', 'two', 'year', 'users', 'life']",1.0
+1311,"['google', 'marissagoogle', 'sxsw']","['spotted', 'google', 'map', 'street', 'view', 'car', 'wonder', 'ill', 'able', 'find', 'map', 'one', 'day']",1.0
+1312,['sxsw'],"['saw', 'google', 'speak', 'creating', 'search', 'engine', 'tht', 'recognize', 'picture', 'artificial', 'intelligence']",1.0
+1313,['sxsw'],"['us', 'google', 'tv', 'room', 'nobody', 'raise', 'hand', 'packed', 'room', 'session']",-1.0
+1314,['sxsw'],"['google', 'wa', 'advertising', 'checkinthing']",1.0
+1315,['sxsw'],"['whoohoo', 'got', 'new', 'app', 'store', 'includes', 'uberguide', 'cont']",1.0
+1316,['sxsw'],"['sweet', 'got', 'ipad', 'thats', 'nerd', 'joke']",1.0
+1317,"['apple', 'ipad', 'sxsw']","['great', 'news', 'u', 'twit', 'crew', 'apple', 'building', 'temporary', 'store', 'u', 'get', 'ur', 'ipad']",1.0
+1318,['sxsw'],"['great', 'stuff', 'fri', 'marissa', 'mayer', 'google', 'tim', 'oreilly', 'tech', 'book', 'conference', 'matt', 'mullenweg', 'wordpress']",1.0
+1319,['sxsw'],"['great', 'time', 'google', 'party']",1.0
+1320,['sxsw'],"['totally', 'agree', 'check', 'googletv', 'ipad', 'apps', 'connected', 'tv', 'fascinating']",1.0
+1321,"['sxsw', 'iphone']","['prop', 'gsdm', 'big', 'g', 'google', 'great', 'crowd', 'agency', 'space', 'bluezoom', 'give', 'run']",1.0
+1322,"['sxsw', 'sxsw']","['security', 'guard', 'enjoying', 'ipad', 'apple', 'store', 'austin']",1.0
+1323,['sxsw'],"['guess', 'ipad', 'tweetup', 'thanks']",1.0
+1324,"['jealous', 'sxsw', 'wssxsw']","['busdev', 'guy', 'come', 'line', 'ask', 'wr', 'feel', 'ipad', 'good', 'discussion', 'iads']",1.0
+1325,['sxsw'],"['homeless', 'guy', 'outside', 'popup', 'apple', 'store', 'holding', 'sign', 'saving', 'ipad', 'ask', 'photo']",1.0
+1326,['sxsw'],"['opening', 'popup', 'store', 'austin', 'geekfest', 'apple', 'thousand']",1.0
+1327,['sxsw'],"['save', 'set', 'open', 'popup', 'store', 'despite', 'two', 'austin', 'texas', 'location']",1.0
+1328,['sxsw'],"['school', 'marketing', 'expert', 'thousand', 'town', 'demonstrate', 'social']",1.0
+1329,"['sxsw', 'mobile', 'apps', 'sxsw', 'access', 'sxsw']","['even', 'begin', 'win', 'past', 'week', 'theres', 'major', 'dilemma']",1.0
+1330,"['sxsw', 'sxsw11']","['lunch', 'view', 'html', 'dev', 'trench', 'android', 'painful', 'io', 'sleek']",-1.0
+1331,['sxsw'],"['open', 'graph', 'repair', 'damage', 'google', 'title', 'tag']",-1.0
+1332,['sxsw'],"['party', 'dj', 'jo', 'playing', 'red', 'bull', 'bpm', 'ipad']",1.0
+1333,"['check', 'ins', 'pnid', 'sxsw']","['wow', 'much', 'hirer', 'expected', 'google', 'map', 'use', 'mobile']",1.0
+1334,"['ipad2', 'apple', 'sxsw']","['last', 'month', 'wa', 'discovr', 'ipad', 'time', 'discovr', 'iphone', 'climbing', 'app', 'store', 'chart']",1.0
+1335,"['ipad', 'sxsw']","['awwww', 'yeah', 'congrats', 'winning', 'last', 'case', 'boyfriend', 'aw']",1.0
+1336,['sxsw'],"['ha', 'feel', 'like', 'person', 'nonmac', 'ipad']",-1.0
+1337,['sxsw'],"['ipad', 'hand', 'thanks', 'popup', 'apple', 'store', 'first', 'impression', 'may', 'lemon', 'backlight', 'ha', 'bleed', 'thru', 'bottom']",-1.0
+1338,['sxsw'],"['enchanting', 'offer', 'likeability', 'virgin', 'air', 'trustworthiness', 'zappos', 'great', 'product', 'apple']",1.0
+1339,"['marissa', 'google', 'sxsw']","['enchanting', 'offer', 'likeability', 'virgin', 'airline', 'trustworthiness', 'zappos', 'great', 'product', 'apple']",1.0
+1340,['sxsw'],"['hard', 'time', 'tweeting', 'using', 'iphone', 'using', 'ipad', 'much', 'better']",1.0
+1341,"['sxsw', 'iphone']","['ha', 'interesting', 'presentation', 'ipad', 'ha', 'helped', 'disability', 'insightful']",1.0
+1342,['sxsw'],"['bing', 'icanhas', 'fire', 'still', 'going', 'keep', 'searching', 'google', 'though']",1.0
+1343,['sxsw'],"['ha', 'google', 'analytics', 'visit', 'ipad', 'iphone', 'ranked', 'top', 'way', 'people', 'access']",1.0
+1344,"['save', 'brands', 'sxsw']","['trend', 'tomlinson', 'seeing', 'age', 'ipad', 'owner', 'higher', 'expected', 'say', 'demo']",1.0
+1345,['sxsw'],"['must', 'app', 'ipad', 'going']",1.0
+1346,['sxsw'],"['yall', 'seen', 'temp', 'apple', 'store', 'going', 'downtown', 'would', 'yall', 'stream', 'instead']",1.0
+1347,"['sxsw', 'sheeple']","['wow', 'popup', 'store', 'downtown', 'real', 'lets']",1.0
+1348,"['see', 'creepy', 'sxsw']","['free', 'store', 'track', 'featured', 'artist', 'grab', 'gone', 'thanks']",1.0
+1349,['sxsw'],"['checked', 'apple', 'store', 'line', 'way', 'man', 'line', 'long']",1.0
+1350,['sxsw'],"['amazing', 'amount', 'app', 'update', 'ipad', 'today', 'kick']",1.0
+1351,"['apple', 'sxsw']","['beware', 'android', 'app', 'schedule', 'completely', 'innacurate', 'walked', 'hyatt', 'reason']",-1.0
+1352,"['lonely', 'austin', 'sxsw']","['back', 'big', 'apple', 'need', 'wean', 'new', 'foursquare', 'addiction', 'thanks', 'people', 'really', 'care', 'nah']",1.0
+1353,['sxsw'],"['data', 'new', 'oil', 'company', 'like', 'google', 'facebook', 'monopoly', 'term', 'service', 'wary']",-1.0
+1354,"['sxsw', 'uxdes']","['nick', 'time', 'get', 'app']",1.0
+1355,['sxsw'],"['nice', 'im', 'heading', 'barton', 'creek', 'get', 'mackbook', 'pro', 'waiting', 'outside', 'apple', 'store']",1.0
+1356,['sxsw'],"['hear', 'marissa', 'mayer', 'google', 'speak', 'row', 'back', 'cool']",1.0
+1357,['sxsw'],"['heard', 'app', 'bizzy', 'theyve', 'challenged', 'tdg', 'check', 'read']",1.0
+1358,"['sxsw', 'google', 'circles']","['heard', 'apples', 'going', 'open', 'special', 'store', 'theyre', 'expecting', 'lot', 'customer']",1.0
+1359,"['sxsw', 'austin']","['kara', 'swisher', 'apple', 'stylish', 'fascist', 'company', 'america']",-1.0
+1360,"['sxsw', 'sxswi']","['hey', 'eric', 'wa', 'popup', 'apple', 'store', 'nice', 'long', 'line', 'techsavvy', 'folk', 'ready', 'spend', 'hardearned']",1.0
+1361,['sxsw'],"['hey', 'mark', 'sleep', 'bring', 'home', 'shiny', 'new', 'ipad', 'would', 'ya']",1.0
+1362,['sxsw'],"['hey', 'taariq', 'howdy', 'texas', 'fav', 'app', 'far', 'official', 'one', 'androidor', 'get', 'iphone']",1.0
+1363,"['sxsw', 'apple']","['hey', 'yall', 'anyway', 'get', 'text', 'update', 'cool', 'pocket', 'google', 'machine', 'phone']",1.0
+1364,"['sxsw', 'hpsxsw']","['whats', 'behind', 's', 'race']",1.0
+1365,"['sxsw', 'iphone', 'apps']","['genius', 'behind', 'google', 'circle', 'real', 'life', 'social', 'graph', 'network', 'v', 'view', 'document', 'paul', 'adam']",1.0
+1366,"['vmware', 'sxsw']","['fashion', 'essential', 'ipad', 'plus', 'mobile', 'phone', 'chronicling', 'witty', 'tweet', 'unlocking', 'mayor', 'badge', 'taking', 'photo', 'hootsuite', 'owl']",1.0
+1367,"['social', 'viewing', 'sxsw']","['threw', 'together', 'keep', 'ipad', 'attempt', 'keep', 'hour', 'stuff', 'weekend']",1.0
+1368,"['sxsw', 'mxm']","['apples', 'white', 'earbuds', 'good', 'symbol', 'need', 'social', 'proof', 'ipod', 'launched', 'knew', 'new', 'toy']",1.0
+1369,['sxsw'],"['well', 'cashmore', 'gave', 'new', 'ipad', 'crushing', 'nonendorsement']",-1.0
+1370,['sxsw'],"['apps', 'keep', 'grooving']",1.0
+1371,"['sxsw', 'itunes']","['rip', 'iphone', 'june', 'survived', 'severe', 'drop', 'could', 'evade', 'drowning']",-1.0
+1372,"['sxsw', 'free', 'music']","['iphone', 'droid', 'apps', 'le', 'downloads', 'total']",-1.0
+1373,['sxsw'],"['selfrespecting', 'apple', 'fanboy', 'attend', 'interactive', 'event', 'year', 'without']",1.0
+1374,"['sxsw', 'first', 'world', 'problems']","['learning', 'get', 'personalized', 'recommendation', 'using', 'google', 'hotpot']",1.0
+1375,['sxsw'],"['wa', 'fri', 'dinner', 'enjoying', 'twitter', 'abuzz', 'possible', 'news', 'google', 'circle', 'launch', 'may', 'happen']",1.0
+1376,"['sxsw', 'music', 'rewards']","['new', 'whrrl', 'app', 'live', 'iphone', 'app', 'store', 'android', 'marketplace', 'get', 'hot', 'time']",1.0
+1377,['sxsw'],"['new', 'whrrl', 'app', 'live', 'iphone', 'app', 'store', 'android', 'marketplace', 'get', 'hot', 'time', 'via']",1.0
+1378,['sxsw'],"['bought', 'juice', 'pack', 'iphone', 'solely', 'cool', 'kid']",1.0
+1379,['sxsw'],"['bought', 'downtown', 'austin', 'apple', 'store', 'min', 'wait', 'line', 'get', 'salesperson', 'darryl', 'wa', 'excellent']",1.0
+1380,['sxsw'],"['bought', 'ipad', 'impulse', 'must', 'something', 'water']",1.0
+1381,['sxsw'],"['bought', 'ipad', 'minute', 'apple', 'store', 'sxsw', 'w', 'others']",1.0
+1382,"['sxsw', 'fb']","['great', 'night', 'interactive', 'party', 'congress', 'ave', 'amazing', 'apple', 'store']",1.0
+1383,['sxsw'],"['bought', 'one', 'last', 'ipads', 'apple', 'store', 'downtown', 'austin', 'sold', 'wa', 'done', 'purchasing']",1.0
+1384,"['sxsw', 'tmsxsw']","['bought', 'last', 'ipad', 'g', 'mb', 'apple', 'popup', 'store']",1.0
+1385,"['texting', 'sxsw']","['passed', 'huge', 'queue', 'ipad', 'design', 'boomer', 'way', 'mobile', 'apps', 'learn', 'comic', 'book', 'also', 'full']",1.0
+1386,['sxsw'],"['social', 'technology', 'amazing', 'google', 'ha', 'set', 'person', 'finder', 'english', 'japanese']",1.0
+1387,['sxsw'],"['agree', 'apple', 'stole', 'little', 'part', 'show', 'wa', 'wa', 'exciting', 'new', 'biz', 'concept']",1.0
+1388,['sxsw'],"['fully', 'expect', 'ipad', 'shamed']",1.0
+1389,['sxsw'],"['tomorrow', 'go', 'back', 'apple', 'store', 'sigh']",-1.0
+1390,['sxsw'],"['got', 'impression', 'plan', 'stand', 'line', 'ipad', 'march', 'th', 'though']",1.0
+1391,"['ipad', '2', 'sxswi', 'sxsw']","['hate', 'typing', 'ipad', 'yeah', 'ken', 'calhoun', 'man', 'real', 'deal', 'bringing', 'laptop', 'sun']",-1.0
+1392,"['iphone', 'photosharing', 'sxsw']","['feeling', 'many', 'shiny', 'new', 'ipad']",1.0
+1393,['sxsw'],"['heard', 'got', 'first', 'ipad', 'hrs']",1.0
+1394,['sxsw'],"['hope', 'years', 'festival', 'crashy', 'years', 'iphone', 'app']",-1.0
+1395,['sxsw'],"['know', 'premature', 'tweet', 'id', 'love', 'see', 'pic', 'apple', 'pop', 'store']",1.0
+1396,['sxsw'],"['meant', 'itunes', 'work', 'ie', 'run', 'apple', 'software', 'even', 'would', 'run', 'ubuntu', 'desktop', 'dl']",-1.0
+1397,['sxsw'],"['outdid', 'time', 'tech', 'iphone', 'broken', 'might', 'worst', 'thing', 'ever', 'happen']",-1.0
+1398,['sxsw'],"['crowley', 'really', 'want', 'new', 'ipad', 'time', 'get']",1.0
+1399,['sxsw'],"['think', 'might', 'quit', 'resume', 'tonight', 'ipad', 'iphone', 'tethering', 'happened', 'better', 'time']",1.0
+1400,"['sxsw', 'sxswi']","['used', 'think', 'started', 'making', 'great', 'apps', 'official', 'app', 'ipad', 'blow', 'version', 'site', 'away']",1.0
+1401,"['sxsw', 'apple']","['want', 'ipad', 'case']",1.0
+1402,['sxsw'],"['wa', 'line', 'wa', 'around', 'block', 'decided', 'forgo', 'ipad', 'goodness', 'food']",1.0
+1403,"['pushio', 'sxsw', 'ipad']","['wish', 'liveblog', 'iphone', 'app', 'plugin', 'ready', 'quite']",1.0
+1404,['sxsw'],"['id', 'say', 'yes', 'facebook', 'google', 'implementing', 'brightens', 'future', 'good', 'impact', 'im', 'search']",1.0
+1405,"['sxsw', 'im', 'outcast']","['im', 'glad', 'ipad', 'think']",-1.0
+1406,['sxsw'],"['im', 'going', 'lets', 'meet', 'cant', 'use', 'yet', 'android', 'phone', 'show', 'work']",-1.0
+1407,"['sxsw', 'sxsw', 'mistake']","['im', 'guessing', 'app', 'time']",-1.0
+1408,"['sxsw', 'princess']","['dang', 'ive', 'touched', 'ipad', 'want', 'sigh']",1.0
+1409,"['sxsw', 'sxswi']","['josh', 'williams', 'said', 'farmville', 'success', 'wa', 'wakeup', 'call', 'game', 'build', 'iphone', 'wa', 'thing', 'going']",1.0
+1410,['sxsw'],"['totalitarian', 'thought', 'action', 'people', 'worldwide', 'come', 'austin', 'tx', 'decide', 'spend', 'time', 'line', 'apple', 'store']",-1.0
