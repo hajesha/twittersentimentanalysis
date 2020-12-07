@@ -37,6 +37,8 @@ if __name__ == '__main__':
     # Initialize all the dataframes
     df_pd = readfile(
         "crowdflower-brands-and-product-emotions/data/judge_1377884607_tweet_product_company.csv")
+
+
     output_df = pd.DataFrame()
     stop_words = set(stopwords.words('english'))
 
@@ -76,4 +78,48 @@ if __name__ == '__main__':
     output_df = output_df.dropna(subset=['text'])
     output_df.reset_index(drop=True, inplace=True)
 
+    # second set
+    filelist = ['dataset/train_text.txt', 'dataset/train_labels.txt']
+    newpanda1 = pd.read_csv('dataset/train_text.txt',
+                            delimiter='\n', names=['original_text'])
+    newpanda3 = pd.read_csv('dataset/train_labels.txt',
+                            delimiter='\n', names=['emotion'])
+
+    newpanda = pd.concat(
+        [
+            newpanda1.reset_index(drop=True),
+            newpanda3.reset_index(drop=True),
+        ],
+        axis=1,
+        ignore_index=True,
+
+    )
+
+    newpanda.columns = ['text', 'emotion']
+    newpanda = newpanda[newpanda.emotion != '1']
+    newpanda['emotion'] = newpanda['emotion'].replace({2.0: 1, 0.0: -1})
+
+    newpanda['hashtags'] = newpanda['text'].apply(lambda x: re.findall(r"#(\w+)", x))
+    seghash = newpanda['hashtags'].apply(lambda x: splitUpTweets(x, seg_tw))
+    seghash.reset_index(drop=True, inplace=True)
+    # Remove stop words in segmented tweet
+    for i in range(len(seghash)):
+        if seghash[i] is not None:
+            seghash[i] = list(
+                filter(lambda a: ((a not in stop_words) & (a != "_")), seghash[i]))
+
+    # lemamatization and tokenization
+    newpanda['text'] = newpanda['text'].apply(
+        lambda x: [(lematizer.lemmatize(w)) for w in tokenizer.tokenize(x.lower())])
+
+    newpanda = newpanda.dropna(subset=['text'])
+    # CLean up the text
+    newpanda['text'] = newpanda['text'].apply(remove_links)
+
+    newpanda = newpanda.dropna(subset=['text'])
+    newpanda.reset_index(drop=True, inplace=True)
+
+    output_df = output_df.append(newpanda)
+    output_df = output_df.dropna(subset=['text'])
+    output_df.reset_index(drop=True, inplace=True)
     output_df.to_csv('resultsHK.csv', encoding='utf-8')

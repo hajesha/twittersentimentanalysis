@@ -9,10 +9,28 @@ def readfile(filepath):
 # Press the green button in the gutter to run the script.
 if __name__ == '__main__':
 
-    df_pd = readfile("resultsHK.csv").sample(frac=1,random_state=4)
-    plt.pie(df_pd.emotion.value_counts())
+    ## Simple Plot
+    # df_pd = readfile("resultsHK.csv").sample(frac=1,random_state=4)
+    # plt.pie(df_pd.emotion.value_counts())
+    # plt.show()
 
+    df_pd = readfile("resultsHK.csv").sample(frac=1,random_state=4)
+    plt.pie(df_pd.emotion.value_counts(),  labels=["positive","negative"], autopct='%1.1f%%')
+    print(df_pd.emotion.value_counts())
     plt.show()
+    df_majority = df_pd[df_pd.emotion == 1]
+    df_minority = df_pd[df_pd.emotion == -1]
+    df_majority_resampled = resample(df_majority,
+                                     replace=False,     # sample with replacement
+                                     n_samples=10000,    # to match majority class
+                                     random_state=123)
+    df_upsampled = pd.concat([df_majority_resampled, df_minority])
+
+    df_upsampled.to_csv('resultsupscaled.csv', encoding='utf-8')
+    plt.pie(df_upsampled.emotion.value_counts(),  labels=["positive","negative"], autopct='%1.1f%%')
+    print(df_upsampled.emotion.value_counts())
+    plt.show()
+
     #
     # df_majority = df_pd[df_pd.emotion == 1]
     # df_minority = df_pd[df_pd.emotion == -1]
