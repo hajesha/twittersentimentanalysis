@@ -20,13 +20,14 @@ if __name__ == '__main__':
     plt.show()
     df_majority = df_pd[df_pd.emotion == 1]
     df_minority = df_pd[df_pd.emotion == -1]
-    df_majority_resampled = resample(df_majority,
-                                     replace=False,     # sample with replacement
-                                     n_samples=10000,    # to match majority class
-                                     random_state=123)
-    df_upsampled = pd.concat([df_majority_resampled, df_minority])
-
-    df_upsampled.to_csv('resultsupscaled.csv', encoding='utf-8')
+    # df_majority_resampled = resample(df_majority,
+    #                                  replace=False,     # sample with replacement
+    #                                  n_samples=8000,    # to match majority class
+    #                                  random_state=123)
+    # df_upsampled = pd.concat([df_majority_resampled, df_minority])
+    df_upsampled = resample(df_pd, n_samples=20000, random_state=123)
+    # df_upsampled.to_csv('resultsupscaled.csv', encoding='utf-8')
+    df_upsampled.to_csv('resultsupscaledHK.csv', encoding='utf-8')
     plt.pie(df_upsampled.emotion.value_counts(),  labels=["positive","negative"], autopct='%1.1f%%')
     print(df_upsampled.emotion.value_counts())
     plt.show()
