@@ -3,19 +3,15 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
-from sklearn.naive_bayes import MultinomialNB, GaussianNB, BernoulliNB, ComplementNB, CategoricalNB
-from sklearn.preprocessing import LabelEncoder
-from sklearn import metrics, preprocessing
+from sklearn.naive_bayes import BernoulliNB
+from sklearn import preprocessing
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
-
-# REFERENCES FOR ME
-# https://stackoverflow.com/questions/3473612/ways-to-improve-the-accuracy-of-a-naive-bayes-classifier
-from sklearn.tree import DecisionTreeClassifier
+from ast import literal_eval
 
 if __name__ == '__main__':
     # read the data
-    data = pd.read_csv('./resultsupscaledHK.csv')
+    data = pd.read_csv('./resultsPOG.csv')
     features = data.text
     labels = data.emotion
 
@@ -33,30 +29,40 @@ if __name__ == '__main__':
     print(confusion_matrix(y_test, predictions))
     print(classification_report(y_test, predictions))
 
-    # # TF IDF using random Naive Bayes Bernolli
-    text_classifier = BernoulliNB()
-    text_classifier.fit(X_train, y_train)
-
-    predictions = text_classifier.predict(X_test)
-    print(accuracy_score(y_test, predictions))
-    print(confusion_matrix(y_test, predictions))
-    print(classification_report(y_test, predictions))
-
+    # # # TF IDF using random Naive Bayes Bernolli
+    # text_classifier = BernoulliNB()
+    # text_classifier.fit(X_train, y_train)
+    #
+    # predictions = text_classifier.predict(X_test)
+    # print(accuracy_score(y_test, predictions))
+    # print(confusion_matrix(y_test, predictions))
+    # print(classification_report(y_test, predictions))
+    #
     # Regular Naive Bayes
-    le = preprocessing.LabelBinarizer()
-    features = np.apply_along_axis(le.fit_transform, 0, features)
-    X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=0)
-    text_classifier = BernoulliNB()
-    text_classifier.fit(X_train, y_train)
+    # le = preprocessing.MultiLabelBinarizer()
+    # features = le.fit_transform(features.apply(literal_eval))
+    # features = np.apply_along_axis(le.fit_transform, 0, features)
+    # X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=0)
+    # text_classifier = BernoulliNB()
+    # text_classifier.fit(X_train, y_train)
+    #
+    # predictions = text_classifier.predict(X_test)
+    # print(confusion_matrix(y_test, predictions))
+    # print(classification_report(y_test, predictions))
+    # print(accuracy_score(y_test, predictions))
 
-    predictions = text_classifier.predict(X_test)
-    print(confusion_matrix(y_test, predictions))
-    print(classification_report(y_test, predictions))
-    print(accuracy_score(y_test, predictions))
-
-    classifier = AdaBoostClassifier()
-    classifier.fit(X_train, y_train)
-    pred = classifier.predict(X_test)
-    print(confusion_matrix(y_test, pred))
-    print(classification_report(y_test, pred))
-    print(accuracy_score(y_test, pred))
+    # # #Adaboost
+    # classifier = AdaBoostClassifier()
+    # classifier.fit(X_train, y_train)
+    # pred = classifier.predict(X_test)
+    # print(confusion_matrix(y_test, pred))
+    # print(classification_report(y_test, pred))
+    # print(accuracy_score(y_test, pred))
+    #
+    # text_classifier = RandomForestClassifier(n_estimators=100, random_state=0)
+    # text_classifier.fit(X_train, y_train)
+    #
+    # predictions = text_classifier.predict(X_test)
+    # print(accuracy_score(y_test, predictions))
+    # print(confusion_matrix(y_test, predictions))
+    # print(classification_report(y_test, predictions))

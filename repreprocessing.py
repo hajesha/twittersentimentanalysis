@@ -54,15 +54,15 @@ if __name__ == '__main__':
     seg_tw = Segmenter(corpus="twitter")
     df_pd['hashtags'] = df_pd['tweet_text'].apply(lambda x: re.findall(r"#(\w+)", x))
 
-    # decompound hashtags
-    seghash = df_pd['hashtags'].apply(lambda x: splitUpTweets(x, seg_tw))
-    seghash.reset_index(drop=True, inplace=True)
-    # Remove stop words in segmented tweet
-    for i in range(len(seghash)):
-        if seghash[i] is not None:
-            seghash[i] = list(
-                filter(lambda a: ((a not in stop_words) & (a != "_")), seghash[i]))
-    output_df['hashtags'] = seghash
+    # # decompound hashtags
+    # seghash = df_pd['hashtags'].apply(lambda x: splitUpTweets(x, seg_tw))
+    # seghash.reset_index(drop=True, inplace=True)
+    # # Remove stop words in segmented tweet
+    # for i in range(len(seghash)):
+    #     if seghash[i] is not None:
+    #         seghash[i] = list(
+    #             filter(lambda a: ((a not in stop_words) & (a != "_")), seghash[i]))
+    # output_df['hashtags'] = seghash
 
     # lemamatization and tokenization
     lematizer = nltk.stem.WordNetLemmatizer()
@@ -99,14 +99,14 @@ if __name__ == '__main__':
     newpanda = newpanda[newpanda.emotion != '1']
     newpanda['emotion'] = newpanda['emotion'].replace({2.0: 1, 0.0: -1})
 
-    newpanda['hashtags'] = newpanda['text'].apply(lambda x: re.findall(r"#(\w+)", x))
-    seghash = newpanda['hashtags'].apply(lambda x: splitUpTweets(x, seg_tw))
-    seghash.reset_index(drop=True, inplace=True)
-    # Remove stop words in segmented tweet
-    for i in range(len(seghash)):
-        if seghash[i] is not None:
-            seghash[i] = list(
-                filter(lambda a: ((a not in stop_words) & (a != "_")), seghash[i]))
+    # newpanda['hashtags'] = newpanda['text'].apply(lambda x: re.findall(r"#(\w+)", x))
+    # seghash = newpanda['hashtags'].apply(lambda x: splitUpTweets(x, seg_tw))
+    # seghash.reset_index(drop=True, inplace=True)
+    # # Remove stop words in segmented tweet
+    # for i in range(len(seghash)):
+    #     if seghash[i] is not None:
+    #         seghash[i] = list(
+    #             filter(lambda a: ((a not in stop_words) & (a != "_")), seghash[i]))
 
     # lemamatization and tokenization
     newpanda['text'] = newpanda['text'].apply(
