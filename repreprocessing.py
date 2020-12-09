@@ -5,6 +5,8 @@ import preprocessor as p    #If this doesnt work then please manually import " t
 from nltk.corpus import stopwords
 from nltk.tokenize import TweetTokenizer
 from ekphrasis.classes.segmenter import Segmenter
+from sklearn.model_selection import train_test_split
+
 nltk.download('stopwords')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt')
@@ -56,7 +58,7 @@ def tokenizeAndLem(dataset):
 
     return dataset
 
-def cleanUpText(name, newname, extractHashtag = False, tokenAndLem = True):
+def cleanUpText(name, newname, extractHashtag = False, tokenAndLem = True, test_split = 0.2, createValSet = True):
     # Initialize all the dataframes
     df_pd = readfile(name + ".csv")
 
@@ -74,7 +76,22 @@ def cleanUpText(name, newname, extractHashtag = False, tokenAndLem = True):
     df_pd = df_pd.dropna(subset=['text'])
     df_pd.reset_index(drop=True, inplace=True)
 
-    df_pd[['text','emotion']].to_csv(newname + '.csv', encoding='utf-8')
+    X_train, X_testval, y_train, y_testval = train_test_split(df_pd.text, df_pd.emotion, test_size=test_split, random_state=123)
+    trainingset = pd.DataFrame({'text': X_train.values, 'emotion': y_train.values}, columns=["text", "emotion"])
+    trainingset.to_csv(newname + 'training.csv', encoding='utf-8')
+
+    if createValSet:
+        testandval = pd.DataFrame({'text': X_testval.values, 'emotion': y_testval.values}, columns=["text", "emotion"])
+        X_test, X_val, y_test, y_val = train_test_split(testandval.text, testandval.emotion, test_size=0.5, random_state=123)
+    
+        testSet = pd.DataFrame({'text': X_test.values, 'emotion': y_test.values}, columns=["text", "emotion"])
+        testSet.to_csv(newname + 'test.csv', encoding='utf-8')
+    
+        valSet = pd.DataFrame({'text': X_val.values, 'emotion': y_val.values}, columns=["text", "emotion"])
+        valSet.to_csv(newname + 'val.csv', encoding='utf-8')
+    else:
+        testSet = pd.DataFrame({'text': X_testval.values, 'emotion': y_testval.values}, columns=["text", "emotion"])
+        testSet.to_csv(newname + 'test.csv', encoding='utf-8')
 
 if __name__ == '__main__':
     name = "balancedCombinedResult"
