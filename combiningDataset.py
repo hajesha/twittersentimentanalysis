@@ -77,7 +77,7 @@ def combineDataset(name):
     output_df.reset_index(drop=True, inplace=True)
 
     # save to a csv
-    output_df.to_csv(name + '.csv', encoding='utf-8')
+    output_df[['text','emotion']].to_csv(name + '.csv', encoding='utf-8')
 
 
 def balanceDataset(name):
@@ -89,7 +89,7 @@ def balanceDataset(name):
                                      n_samples=len(df_minority),    # to match minority class
                                      random_state=123)
     equaldataframe = pd.concat([majority_equal, df_minority])
-    equaldataframe.to_csv(name + '.csv', encoding='utf-8')
+    equaldataframe[['text','emotion']].to_csv(name + '.csv', encoding='utf-8')
 
 
 def randomDownsize(name, number):
