@@ -70,6 +70,7 @@ if __name__ == '__main__':
 
     )
 
+
     newpanda.columns = ['original_text', 'emotion']
     #
     # df_pd2 = df_pd2.T
@@ -110,34 +111,34 @@ if __name__ == '__main__':
     output_df.reset_index(drop=True, inplace=True)
 
     # extract and decompound hashtag
-    seg_tw = Segmenter(corpus="twitter")
-    output_df['hashtags'] = output_df['original_text'].apply(
-        lambda x: re.findall(r"#(\w+)", x))
+    # seg_tw = Segmenter(corpus="twitter")
+    # output_df['hashtags'] = output_df['original_text'].apply(
+    #     lambda x: re.findall(r"#(\w+)", x))
 
     # output_df['emotion'] = df_pd['is_there_an_emotion_directed_at_a_brand_or_product'].replace(
     #     {"Positive emotion": 1, "Negative emotion": -1, "No emotion toward brand or product": 0})
 
-    seghash = output_df['hashtags'].apply(lambda x: splitUpTweets(x, seg_tw))
+    # seghash = output_df['hashtags'].apply(lambda x: splitUpTweets(x, seg_tw))
 
-    for i in range(len(seghash)):
-        if seghash[i] is not None:
-            seghash[i] = list(
-                filter(lambda a: ((a not in stop_words) & (a != "_")), seghash[i]))
-
-    output_df['hashtags'] = seghash
+    # for i in range(len(seghash)):
+    #     if seghash[i] is not None:
+    #         seghash[i] = list(
+    #             filter(lambda a: ((a not in stop_words) & (a != "_")), seghash[i]))
+    #
+    # output_df['hashtags'] = seghash
 
     # extract emojis and smileys
-    output_df['emojis'] = output_df['original_text'].apply(
-        lambda x: re.findall(r"([:;=](?:')?(?:-)?[)DPO])", x))
-
-    output_df['exaggerate_punctuation'] = output_df['original_text'].apply(
-        lambda x: re.search("[?!.]{2,}", x) is not None)
+    # output_df['emojis'] = output_df['original_text'].apply(
+    #     lambda x: re.findall(r"([:;=](?:')?(?:-)?[)DPO])", x))
+    #
+    # output_df['exaggerate_punctuation'] = output_df['original_text'].apply(
+    #     lambda x: re.search("[?!.]{2,}", x) is not None)
 
     # remove url, hashtags, mentions, RT and FV words, emojis, smileys
-    for v, i in enumerate(output_df['original_text']):
-        output_df.loc[v, "text"] = p.clean(i)
-        output_df.loc[v, "text"] = p.clean(i.partition("RT")[0])
-        # df_pd.loc[v, "text"] = p.clean(i.partition("FV")[0])
+    # for v, i in enumerate(output_df['original_text']):
+    #     output_df.loc[v, "text"] = p.clean(i)
+    #     output_df.loc[v, "text"] = p.clean(i.partition("RT")[0])
+    #     # df_pd.loc[v, "text"] = p.clean(i.partition("FV")[0])
 
     # lowercase
     lower_case = output_df['original_text'].str.lower()

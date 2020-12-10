@@ -1,57 +1,87 @@
 import pandas as pd
+
+from sklearn.feature_extraction.text import TfidfVectorizer
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
-from sklearn.naive_bayes import MultinomialNB, GaussianNB, BernoulliNB, ComplementNB, CategoricalNB
-from sklearn.preprocessing import LabelEncoder
-from sklearn import metrics
-
-
-# REFERENCES FOR ME
-# https://stackoverflow.com/questions/3473612/ways-to-improve-the-accuracy-of-a-naive-bayes-classifier
+from sklearn.linear_model import LogisticRegression, SGDClassifier
+from sklearn.naive_bayes import BernoulliNB
+from sklearn import preprocessing, model_selection
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
+from ast import literal_eval
 
 if __name__ == '__main__':
     # read the data
-    data = pd.read_csv('./results.csv')
-    # features = data.drop(['original_text','emotion', 'exaggerate_punctuation'], axis=1)
-    features = data[['text', 'hashtags', 'emojis',
-                     'exaggerate_punctuation', 'pos_tag']]
-    # features = data[['text']]
-    features = features.apply(lambda col: LabelEncoder().fit_transform(
-        col.astype(str)), axis=0, result_type='expand')
-    label = data['emotion']
+    data = pd.read_csv('./balancedCombinedProcessedNoValtraining.csv')
+    test = pd.read_csv('./balancedCombinedProcessedNoValtest.csv')
+    features = data.text
+    labels = data.emotion
+    featurestest = test.text
+    labelstest = test.emotion
 
-    # split the data into 75% training and 25% testing
-    msk = np.random.rand(len(features)) < 0.70
-    traindata_x = features[msk]
-    traindata_y = label[msk].values.tolist()
-    testdata_x = features[~msk]
-    testdata_y = label[~msk].values.tolist()
+    tfidfconverter = TfidfVectorizer()
+    features = tfidfconverter.fit_transform(features).toarray()
+    featurestest = tfidfconverter.transform(featurestest).toarray()
+    #
+    # text_classifier = SGDClassifier(random_state=0, max_iter=1000)
+    # text_classifier.fit(features, labels)
+    # predictions = text_classifier.predict(featurestest)
+    # print(accuracy_score(labelstest, predictions))
+    # print(confusion_matrix(labelstest, predictions))
+    # print(classification_report(labelstest, predictions))
 
-    classifier = BernoulliNB()
 
-    # fit the model
-    classifier.fit(traindata_x, traindata_y)
+    # # Logestic regression
+    # text_classifier = LogisticRegression(random_state=0,max_iter=1000)
+    # text_classifier.fit(features, labels)
+    # predictions = text_classifier.predict(featurestest)
+    # print(accuracy_score(labelstest, predictions))
+    # print(confusion_matrix(labelstest, predictions))
+    # print(classification_report(labelstest, predictions))
 
-    # predict
-    pred = classifier.predict(testdata_x)
+    # # TF IDF using random forest classifier
+    # text_classifier = RandomForestClassifier(n_estimators=100, random_state=0)
+    # text_classifier.fit(features, labels)
+    #
+    # predictions = text_classifier.predict(featurestest)
+    # print(accuracy_score(labelstest, predictions))
+    # print(confusion_matrix(labelstest, predictions))
+    # print(classification_report(labelstest, predictions))
 
-    print("Accuracy:", metrics.accuracy_score(testdata_y, pred))
-    print("\nClassification Report:",
-          metrics.classification_report(testdata_y, pred, zero_division=0))
+    # # TF IDF using random Naive Bayes Bernolli
+    # text_classifier = BernoulliNB()
+    # text_classifier.fit(features, labels)
+    #
+    # predictions = text_classifier.predict(featurestest)
+    # print(accuracy_score(labelstest, predictions))
+    # print(confusion_matrix(labelstest, predictions))
+    # print(classification_report(labelstest, predictions))
 
-    clf_4 = AdaBoostClassifier()
-    clf_4.fit(traindata_x, traindata_y)
-    pred2 = clf_4.predict(testdata_x)
+    # Regular Naive Bayes
+    # le = preprocessing.MultiLabelBinarizer()
+    # features = le.fit_transform(features.apply(literal_eval))
+    # features = np.apply_along_axis(le.fit_transform, 0, features)
+    # X_train, X_test, y_train, y_test = train_test_split(features, labels, test_size=0.2, random_state=0)
+    # text_classifier = BernoulliNB()
+    # text_classifier.fit(X_train, y_train)
+    #
+    # predictions = text_classifier.predict(X_test)
+    # print(confusion_matrix(y_test, predictions))
+    # print(classification_report(y_test, predictions))
+    # print(accuracy_score(y_test, predictions))
 
-    print("Accuracy:", metrics.accuracy_score(testdata_y, pred2))
-    print("\nClassification Report:",
-          metrics.classification_report(testdata_y, pred2, zero_division=0))
-
-    clf_4 = RandomForestClassifier()
-    clf_4.fit(traindata_x, traindata_y)
-    pred2 = clf_4.predict(testdata_x)
-
-    print("Accuracy:", metrics.accuracy_score(testdata_y, pred2))
-    print("\nClassification Report:",
-          metrics.classification_report(testdata_y, pred2, zero_division=0))
-# try k-fold tfidf bow
+    # # #Adaboost
+    # classifier = AdaBoostClassifier()
+    # classifier.fit(X_train, y_train)
+    # pred = classifier.predict(X_test)
+    # print(confusion_matrix(y_test, pred))
+    # print(classification_report(y_test, pred))
+    # print(accuracy_score(y_test, pred))
+    #
+    # text_classifier = RandomForestClassifier(n_estimators=100, random_state=0)
+    # text_classifier.fit(X_train, y_train)
+    #
+    # predictions = text_classifier.predict(X_test)
+    # print(accuracy_score(y_test, predictions))
+    # print(confusion_matrix(y_test, predictions))
+    # print(classification_report(y_test, predictions))
