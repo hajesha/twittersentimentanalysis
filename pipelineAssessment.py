@@ -1,3 +1,4 @@
+import numpy
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
@@ -16,28 +17,49 @@ def assess(X, y, models, cv=5, scoring=['precision', 'recall', 'f1', 'roc_auc'])
         results[name] = pd.concat([mean], axis=0)
     return results.sort_index()
 
-def create_baseline_models():
+def create_baseline_modelsRF():
     """Create list of baseline models."""
     models = []
-    models.append(('log', LogisticRegression(random_state=seed)))
-    models.append(('sgd', SGDClassifier(random_state=seed)))
-    models.append(('nb', BernoulliNB()))
-    models.append(('svm', svm.SVC()))
-    models.append(('abc',  AdaBoostClassifier()))
+    # models.append(('log', LogisticRegression(random_state=seed)))
+    # models.append(('sgd', SGDClassifier(random_state=seed))) 
+    # models.append(('nb', BernoulliNB()))
+    # models.append(('svm', svm.SVC()))
+    # models.append(('abc',  AdaBoostClassifier()))
     models.append(('rfc', RandomForestClassifier( random_state=0)))
+    return models
+
+
+def create_baseline_modelsSVM():
+    """Create list of baseline models."""
+    models = []
+    # models.append(('log', LogisticRegression(random_state=seed)))
+    # models.append(('sgd', SGDClassifier(random_state=seed)))
+    # models.append(('nb', BernoulliNB()))
+    models.append(('svm', svm.SVC()))
+    # models.append(('abc',  AdaBoostClassifier()))
+    # models.append(('rfc', RandomForestClassifier( random_state=0)))
     return models
 
 if __name__ == '__main__':
 
-    models = create_baseline_models()
+    # models = create_baseline_modelsRF()
+    # data = pd.read_csv('./combinedDatasetsDownsizedtraining.csv')
+    # test = pd.read_csv('./combinedDatasetsDownsizedtest.csv')
+    #
     data = pd.read_csv('./balancedCombinedProcessedNoValtraining.csv')
-    test = pd.read_csv('./balancedCombinedProcessedNoValtest.csv')
-    features = data.text
+    # # test = pd.read_csv('./balancedCombinedProcessedNoValtest.csv')
+    # features = data.text
     labels = data.emotion
-    featurestest = test[:200].text
-    labelstest = test[:200].emotion
+    # featurestest = test.text
+    # labelstest = test.emotion
 
-    tfidfconverter = TfidfVectorizer()
-    features = tfidfconverter.fit_transform(features).toarray()
-    featurestest = tfidfconverter.transform(featurestest).toarray()
+    # tfidfconverter = TfidfVectorizer()
+    # features = tfidfconverter.fit_transform(features)
+    # featurestest = tfidfconverter.transform(featurestest).toarray()
+    # numpy.savetxt("vectorizedTraining.csv", features, delimiter=",")
+    # pd.DataFrame(features.toarray()).to_csv('vectorizedTraining.csv', encoding='utf-8')
+    features = pd.read_csv('./vectorizedTraining.csv')
+    # print(assess(features, labels, models))
+
+    models = create_baseline_modelsSVM()
     print(assess(features, labels, models))
