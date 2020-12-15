@@ -71,7 +71,7 @@ def cleanUpText(name, newname, extractHashtag = False, tokenAndLem = True, test_
         df_pd = df_pd.dropna(subset=['text'])
 
     # CLean up the text
-    df_pd['text'] = df_pd['text'].apply(cleanupText)
+    # df_pd['text'] = df_pd['text'].apply(cleanupText)
 
     df_pd = df_pd.dropna(subset=['text'])
     df_pd.reset_index(drop=True, inplace=True)
@@ -94,6 +94,6 @@ def cleanUpText(name, newname, extractHashtag = False, tokenAndLem = True, test_
         testSet.to_csv(newname + 'test.csv', encoding='utf-8')
 
 if __name__ == '__main__':
-    name = "balancedData"
-    newname = "balancedDataset"
+    name = "balancedDataMini"
+    newname = "balancedDatasetMiniNoProcess"
     cleanUpText(name, newname)

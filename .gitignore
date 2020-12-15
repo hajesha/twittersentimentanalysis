@@ -1,1 +1,8 @@
 venv/
+balancedDataMini.csv
+balancedDatasetMiniNoProcesstest.csv
+balancedDatasetMiniNoProcesstraining.csv
+balancedDatasetMiniNoProcessval.csv
+balancedDatasetMinitest.csv
+balancedDatasetMinitraining.csv
+balancedDatasetMinival.csv

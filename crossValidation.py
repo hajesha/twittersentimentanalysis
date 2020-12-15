@@ -50,7 +50,7 @@ def encodeTheStuff(models, features, labels, encodeLabel="TFIDF"):
 
 if __name__ == '__main__':
     models = create_baseline_models()
-    data = pd.read_csv('./balancedDatasettest.csv')
+    data = pd.read_csv('./balancedDatasettraining.csv')
     features = data.text
     labels = data.emotion
     encodeTheStuff(models, features, labels, "All")
