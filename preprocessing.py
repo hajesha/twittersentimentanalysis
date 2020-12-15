@@ -111,6 +111,6 @@ def cleanUpText(name, newname, extractHashtag = False, tokenAndLem = True, test_
         testSet.to_csv(newname + 'test.csv', encoding='utf-8')
 
 if __name__ == '__main__':
-    name = "balancedDataMini"
-    newname = "balancedDatasetMiniHashtag"
-    cleanUpText(name, newname, extractHashtag=True)
+    name = "balancedData"
+    newname = "balancedDataset"
+    cleanUpText(name, newname)

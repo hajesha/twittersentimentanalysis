@@ -11,8 +11,10 @@ from sklearn.tree import DecisionTreeClassifier
 def RF_model(traindata_x, traindata_y, testdata_x):
 
     # Create a svm Classifier
-    clf = RandomForestClassifier(criterion='gini', max_depth=274,
-                           max_features='log2', min_samples_leaf=12, min_samples_split=5, n_estimators=267)
+    # clf = RandomForestClassifier(criterion='gini', max_depth=274,
+    #                        max_features='log2', min_samples_leaf=12, min_samples_split=5, n_estimators=267)
+
+    clf = RandomForestClassifier()
 
     # Train the model using the training sets
     clf.fit(traindata_x, traindata_y)
@@ -64,9 +66,10 @@ def printMetrics(predictions, trueLabels, name):
 
 if __name__ == '__main__':
 
+
+# Final Results -----------------------------------------------------------------------------------
     data = pd.read_csv('balancedDatasettraining.csv')
     testing = pd.read_csv('balancedDatasettest.csv')
-
     print("Final Results")
     traindata_y = data.emotion
     traindata_x = data.text
@@ -93,7 +96,7 @@ if __name__ == '__main__':
     # Ada
     svmprediction = Ada_model(traindata_x, traindata_y, testdata_x)
     printMetrics(svmprediction, testdata_y, "ADA")
-
+# No Processing -----------------------------------------------------------------------------------
     print("No Processing")
     data = pd.read_csv('balancedDatasetNoProcesstraining.csv')
     testing = pd.read_csv('balancedDatasetNoProcesstest.csv')
@@ -123,7 +126,7 @@ if __name__ == '__main__':
     # Ada
     svmprediction = Ada_model(traindata_x, traindata_y, testdata_x)
     printMetrics(svmprediction, testdata_y, "ADA")
-
+# Neutral class -----------------------------------------------------------------------------------
     print("Neutral class")
     data = pd.read_csv('balancedDatasetNeutraltraining.csv')
     testing = pd.read_csv('balancedDatasetNeutraltest.csv')
@@ -153,7 +156,7 @@ if __name__ == '__main__':
     # Ada
     svmprediction = Ada_model(traindata_x, traindata_y, testdata_x)
     printMetrics(svmprediction, testdata_y, "ADA")
-
+# Hashtag class -----------------------------------------------------------------------------------
     data = pd.read_csv('balancedDatasetHashtagtraining.csv')
     testing = pd.read_csv('balancedDatasetHashtagtest.csv')
 
@@ -187,3 +190,36 @@ if __name__ == '__main__':
     svmprediction = Ada_model(traindata_x, traindata_y, testdata_x)
     printMetrics(svmprediction, testdata_y, "ADA")
 
+# Unbalanced class -----------------------------------------------------------------------------------
+    data = pd.read_csv('balancedDatasetHashtagtraining.csv')
+    testing = pd.read_csv('balancedDatasetHashtagtest.csv')
+
+    print("Unbalanced")
+    traindata_y = data.emotion
+    traindata_x = data[['text', 'hashtags']]
+
+    testdata_y = testing.emotion
+    testdata_x = testing[['text', 'hashtags']]
+
+    converter = LabelEncoder()
+    traindata_x = traindata_x.apply(lambda col: converter.fit_transform(
+        col.astype(str)), axis=0, result_type='expand')
+
+    testdata_x = testdata_x.apply(lambda col: converter.fit_transform(
+        col.astype(str)), axis=0, result_type='expand')
+
+    # RF
+    svmprediction = RF_model(traindata_x, traindata_y, testdata_x)
+    printMetrics(svmprediction, testdata_y, "RF")
+
+    # NB
+    svmprediction = NaiveBayes_model(traindata_x, traindata_y, testdata_x)
+    printMetrics(svmprediction, testdata_y, "MNB")
+
+    # LR
+    svmprediction = LogisticRegression_model(traindata_x, traindata_y, testdata_x)
+    printMetrics(svmprediction, testdata_y, "LR")
+
+    # Ada
+    svmprediction = Ada_model(traindata_x, traindata_y, testdata_x)
+    printMetrics(svmprediction, testdata_y, "ADA")
