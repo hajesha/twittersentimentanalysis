@@ -37,3 +37,7 @@ To download the data set
     
 - To verify the cross validation data 
     - run crossValidation.py
+    
+- To get the final results of the tuned models 
+    - run models.py
+    
