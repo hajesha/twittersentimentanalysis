@@ -1,9 +1,10 @@
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
-from sklearn.feature_extraction.text import TfidfVectorizer
+from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 from sklearn.naive_bayes import MultinomialNB
+from sklearn.preprocessing import MultiLabelBinarizer, LabelEncoder
 from sklearn.tree import DecisionTreeClassifier
 
 
@@ -124,8 +125,8 @@ if __name__ == '__main__':
     printMetrics(svmprediction, testdata_y, "ADA")
 
     print("Neutral class")
-    data = pd.read_csv('balancedDatasetMiniNeutraltraining.csv')
-    testing = pd.read_csv('balancedDatasetMiniNeutraltest.csv')
+    data = pd.read_csv('balancedDatasetNeutraltraining.csv')
+    testing = pd.read_csv('balancedDatasetNeutraltest.csv')
 
     traindata_y = data.emotion
     traindata_x = data.text
@@ -136,6 +137,39 @@ if __name__ == '__main__':
     converter = TfidfVectorizer()
     traindata_x = converter.fit_transform(traindata_x)
     testdata_x = converter.transform(testdata_x)
+
+    # RF
+    svmprediction = RF_model(traindata_x, traindata_y, testdata_x)
+    printMetrics(svmprediction, testdata_y, "RF")
+
+    # NB
+    svmprediction = NaiveBayes_model(traindata_x, traindata_y, testdata_x)
+    printMetrics(svmprediction, testdata_y, "MNB")
+
+    # LR
+    svmprediction = LogisticRegression_model(traindata_x, traindata_y, testdata_x)
+    printMetrics(svmprediction, testdata_y, "LR")
+
+    # Ada
+    svmprediction = Ada_model(traindata_x, traindata_y, testdata_x)
+    printMetrics(svmprediction, testdata_y, "ADA")
+
+    data = pd.read_csv('balancedDatasetHashtagtraining.csv')
+    testing = pd.read_csv('balancedDatasetHashtagtest.csv')
+
+    print("Multiple")
+    traindata_y = data.emotion
+    traindata_x = data[['text', 'hashtags']]
+
+    testdata_y = testing.emotion
+    testdata_x = testing[['text', 'hashtags']]
+
+    converter = LabelEncoder()
+    traindata_x = traindata_x.apply(lambda col: converter.fit_transform(
+        col.astype(str)), axis=0, result_type='expand')
+
+    testdata_x = testdata_x.apply(lambda col: converter.fit_transform(
+        col.astype(str)), axis=0, result_type='expand')
 
     # RF
     svmprediction = RF_model(traindata_x, traindata_y, testdata_x)

@@ -8,6 +8,8 @@ from ekphrasis.classes.segmenter import Segmenter
 from sklearn.model_selection import train_test_split
 from ast import literal_eval
 
+from sklearn.utils import resample
+
 nltk.download('stopwords')
 nltk.download('averaged_perceptron_tagger')
 nltk.download('punkt')
@@ -42,7 +44,8 @@ def splitUpTweets(data, corpus):
 def extractHashtags(dataset):
     seg_tw = Segmenter(corpus="twitter")
     stop_words = set(stopwords.words('english'))
-    dataset['hashtags'] = dataset['text'].apply(lambda x: re.findall(r"#(\w+)", x)).apply(lambda x: splitUpTweets(x, seg_tw))
+    dataset['hashtags'] = dataset['text'].apply(lambda x: re.findall(r"#(\w+)", x))
+    dataset['hashtags'] = dataset['hashtags'].apply(lambda x: splitUpTweets(x, seg_tw))
 
     # # Remove stop words in segmented tweet
     # for i in range(len(dataset['hashtags'])):
@@ -73,6 +76,7 @@ def tokenizeAndLem(dataset):
 def cleanUpText(name, newname, extractHashtag = False, tokenAndLem = True, test_split = 0.2, createValSet = True, posFlag = False):
     # Initialize all the dataframes
     df_pd = readfile(name + ".csv")
+    df_pd =  resample(df_pd,replace=False,n_samples=15000)
     col = ["text", "emotion"]
     # Extracting and parsing the hashtags
     if extractHashtag:
@@ -93,24 +97,13 @@ def cleanUpText(name, newname, extractHashtag = False, tokenAndLem = True, test_
     df_pd = df_pd.dropna(subset=['text'])
     df_pd.reset_index(drop=True, inplace=True)
 
-    X_train, X_testval, y_train, y_testval = train_test_split(df_pd.text, df_pd.emotion, test_size=test_split, random_state=123)
-    trainingset = pd.DataFrame({'text': X_train.values, 'emotion': y_train.values}, columns=col)
+    X_train, X_testval, y_train, y_testval = train_test_split(df_pd[['text', 'hashtags']], df_pd.emotion, test_size=test_split, random_state=123)
+    trainingset = pd.DataFrame({'text': X_train.text.values, 'hashtags': X_train.hashtags.values, 'emotion': y_train.values}, columns=col)
     trainingset.to_csv(newname + 'training.csv', encoding='utf-8')
-
-    if createValSet:
-        testandval = pd.DataFrame({'text': X_testval.values, 'emotion': y_testval.values}, columns=col)
-        X_test, X_val, y_test, y_val = train_test_split(testandval.text, testandval.emotion, test_size=0.5, random_state=123)
-    
-        testSet = pd.DataFrame({'text': X_test.values, 'emotion': y_test.values}, columns=col)
-        testSet.to_csv(newname + 'test.csv', encoding='utf-8')
-    
-        valSet = pd.DataFrame({'text': X_val.values, 'emotion': y_val.values}, columns=col)
-        valSet.to_csv(newname + 'val.csv', encoding='utf-8')
-    else:
-        testSet = pd.DataFrame({'text': X_testval.values, 'emotion': y_testval.values}, columns=col)
-        testSet.to_csv(newname + 'test.csv', encoding='utf-8')
+    testSet = pd.DataFrame({'text': X_testval.text.values, 'hashtags': X_testval.hashtags.values,'emotion': y_testval.values}, columns=col)
+    testSet.to_csv(newname + 'test.csv', encoding='utf-8')
 
 if __name__ == '__main__':
-    name = "balancedDataMini"
-    newname = "balancedDatasetMiniHashtag"
+    name = "balancedData"
+    newname = "balancedDatasetHashtag"
     cleanUpText(name, newname, extractHashtag=True)
