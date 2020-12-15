@@ -34,3 +34,6 @@ To download the data set
 - To Pre-Process text
     - pip install tweet-preprocessor
     - run preprocessing.py
+    
+- To verify the cross validation data 
+    - run crossValidation.py
