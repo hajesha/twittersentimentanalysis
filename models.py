@@ -122,3 +122,34 @@ if __name__ == '__main__':
     # Ada
     svmprediction = Ada_model(traindata_x, traindata_y, testdata_x)
     printMetrics(svmprediction, testdata_y, "ADA")
+
+    print("Neutral class")
+    data = pd.read_csv('balancedDatasetMiniNeutraltraining.csv')
+    testing = pd.read_csv('balancedDatasetMiniNeutraltest.csv')
+
+    traindata_y = data.emotion
+    traindata_x = data.text
+
+    testdata_y = testing.emotion
+    testdata_x = testing.text
+
+    converter = TfidfVectorizer()
+    traindata_x = converter.fit_transform(traindata_x)
+    testdata_x = converter.transform(testdata_x)
+
+    # RF
+    svmprediction = RF_model(traindata_x, traindata_y, testdata_x)
+    printMetrics(svmprediction, testdata_y, "RF")
+
+    # NB
+    svmprediction = NaiveBayes_model(traindata_x, traindata_y, testdata_x)
+    printMetrics(svmprediction, testdata_y, "MNB")
+
+    # LR
+    svmprediction = LogisticRegression_model(traindata_x, traindata_y, testdata_x)
+    printMetrics(svmprediction, testdata_y, "LR")
+
+    # Ada
+    svmprediction = Ada_model(traindata_x, traindata_y, testdata_x)
+    printMetrics(svmprediction, testdata_y, "ADA")
+
