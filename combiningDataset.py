@@ -9,7 +9,7 @@ def readfile(filepath):
 def combineDataset(name):
     # first set
     df_pd = readfile(
-        "crowdflower-brands-and-product-emotions/data/judge_1377884607_tweet_product_company.csv")
+        "dataset/judge_1377884607_tweet_product_company.csv")
 
     # second set
     filelist = ['dataset/train_text.txt', 'dataset/train_labels.txt']
@@ -86,15 +86,14 @@ def balanceDataset(name):
     df_minority = unbalancedSet[unbalancedSet.emotion == -1]
     majority_equal = resample(df_majority,
                                      replace=False,     # sample with replacement
-                                     n_samples=len(df_minority),    # to match minority class
-                                     random_state=123)
+                                     n_samples=len(df_minority))
     equaldataframe = pd.concat([majority_equal, df_minority])
     equaldataframe[['text','emotion']].to_csv(name + '.csv', encoding='utf-8')
 
 
 def randomDownsize(name, number):
     dataframe = readfile(name + '.csv')
-    downsizeddataframe = resample(dataframe, n_samples=number, random_state=123)
+    downsizeddataframe = resample(dataframe, n_samples=number)
     downsizeddataframe.to_csv(name + '.csv', encoding='utf-8')
 
 
@@ -106,9 +105,10 @@ def plot(name):
 
 
 if __name__ == '__main__':
-    name = "balancedCombinedResult"
+    name = "balancedDataMini"
     combineDataset(name)
     balanceDataset(name)
+    randomDownsize(name, 200)
     plot(name)
 
 

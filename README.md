@@ -1,3 +1,5 @@
+Please use Python 3.8
+
 To download the data set 
 - Dataset 1: 
     - download dataset from this link https://data.world/crowdflower/brands-and-product-emotions
@@ -23,4 +25,12 @@ To download the data set
             -> train_text.txt
             -> val_labels.txt
             -> val_text.txt
+  
+  
+- To Combine the datasets
+    - make sure that all datasets are properly downloaded
+    - run combineDataset.py  
     
+- To Pre-Process text
+    - pip install tweet-preprocessor
+    - run preprocessing.py
