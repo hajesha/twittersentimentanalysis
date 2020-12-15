@@ -1,18 +1,10 @@
+import pandas as pd
+from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, confusion_matrix, classification_report
+from sklearn.metrics import accuracy_score, classification_report
 from sklearn.naive_bayes import MultinomialNB
-
-from sklearn.preprocessing import LabelEncoder, MaxAbsScaler
-from sklearn import svm
-from sklearn import metrics
-from sklearn.preprocessing import MinMaxScaler
-from sklearn.model_selection import GridSearchCV
-import pandas as pd
-import numpy as np
-from sklearn.ensemble import RandomForestClassifier, AdaBoostClassifier
 from sklearn.tree import DecisionTreeClassifier
-from tpot import TPOTClassifier
 
 
 def RF_model(traindata_x, traindata_y, testdata_x):
