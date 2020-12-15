@@ -34,7 +34,7 @@ if __name__ == '__main__':
                                          'sklearn.ensemble.RandomForestClassifier': parameters},
                                      cv=4, scoring='accuracy')
 
-    data = pd.read_csv('./results.csv')
+    data = pd.read_csv('results.csv')
     RandomForestClassifier(criterion='gini', max_depth=274,
                            max_features='log2', min_samples_leaf=12, min_samples_split=5, n_estimators=267)
 

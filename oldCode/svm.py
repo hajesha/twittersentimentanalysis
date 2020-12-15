@@ -19,7 +19,7 @@ from tpot import TPOTClassifier
 
 if __name__ == '__main__':
 
-    data = pd.read_csv('./results.csv')
+    data = pd.read_csv('results.csv')
 
     # Create a svm Classifier
     clf = svm.SVC(kernel='rbf',  gamma='auto', C=0.01, degree=3)
