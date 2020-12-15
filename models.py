@@ -11,10 +11,8 @@ from sklearn.tree import DecisionTreeClassifier
 def RF_model(traindata_x, traindata_y, testdata_x):
 
     # Create a svm Classifier
-    # clf = RandomForestClassifier(criterion='gini', max_depth=274,
-    #                        max_features='log2', min_samples_leaf=12, min_samples_split=5, n_estimators=267)
-
-    clf = RandomForestClassifier()
+    clf = RandomForestClassifier(criterion='gini', max_depth=274,
+                           max_features='log2', min_samples_leaf=12, min_samples_split=5, n_estimators=267)
 
     # Train the model using the training sets
     clf.fit(traindata_x, traindata_y)

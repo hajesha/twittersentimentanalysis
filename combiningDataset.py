@@ -105,10 +105,10 @@ def plot(name):
 
 
 if __name__ == '__main__':
-    name = "balancedDataMini"
+    name = "balancedData"
     combineDataset(name)
     balanceDataset(name)
-    randomDownsize(name, 200)
+    # randomDownsize(name, 200)
     plot(name)
 
 
